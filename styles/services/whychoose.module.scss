@@ -1,0 +1,291 @@
+.whychooseSection {
+    font-family: "Poppins", sans-serif;
+    .whyBox {
+        .whyItem {
+            box-shadow: 3px 8px 22px rgb(0 0 0 / 6%);
+            background: #fff;
+            padding: 40px 25px;
+            margin-bottom: 30px;
+            border-radius: 18px;
+            transition: background 0.3s ease, box-shadow 0.3s ease;
+
+            .whyTitle {
+                display: flex;
+                margin-bottom: 20px;
+                justify-content: center;
+                align-items: center;
+
+                .whyIcon {
+                    flex: 0 0 40px;
+
+                    svg {
+                        height: 38px;
+                        width: auto;
+                        margin-right: 15px;
+                        transition: transform 0.3s ease;
+
+                        path {
+                            fill: #9098A1;
+                            transition: fill 0.3s ease;
+                        }
+                    }
+                }
+
+                .whyHeading {
+                    flex: 0 0 calc(100% - 40px);
+                    font-size: 20px;
+                    color: #000000;
+                    line-height: 28px;
+                    font-weight: 600;
+                    transition: color 0.3s ease;
+                }
+            }
+
+            p {
+                color: #707780;
+                margin-bottom: 0px;
+                transition: color 0.3s ease;
+            }
+
+            &:hover {
+                background: #4D77EE;
+                box-shadow: 3px 8px 22px rgb(0 0 0 / 16%);
+
+                .whyTitle {
+                    .whyIcon {
+                        svg {
+                            transform: scale(1.1);
+
+                            path {
+                                fill: #fff;
+                            }
+                        }
+                    }
+
+                    .whyHeading {
+                        color: #fff;
+                    }
+                }
+
+                p {
+                    color: #fff;
+                }
+            }
+        }
+    }
+
+    .whyBoxMargin {
+        margin-top: 150px;
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .whychooseSection {
+        .whyBox {
+            .whyItem {
+                padding: 35px 25px;
+                margin-bottom: 25px;
+
+                .whyTitle {
+                    margin-bottom: 15px;
+
+                    .whyIcon {
+                        flex: 0 0 40px;
+
+                        svg {
+                            height: 33px;
+                            margin-right: 15px;
+                        }
+                    }
+
+                    .whyHeading {
+                        flex: 0 0 calc(100% - 40px);
+                        font-size: 18px;
+                        line-height: 26px;
+                    }
+                }
+            }
+        }
+
+        .whyBoxMargin {
+            margin-top: 150px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .whychooseSection {
+        .whyBox {
+            .whyItem {
+                padding: 30px 20px;
+                margin-bottom: 20px;
+
+                .whyTitle {
+                    margin-bottom: 12px;
+
+                    .whyIcon {
+                        flex: 0 0 40px;
+
+                        svg {
+                            height: 30px;
+                            margin-right: 15px;
+                        }
+                    }
+
+                    .whyHeading {
+                        flex: 0 0 calc(100% - 40px);
+                        font-size: 18px;
+                        line-height: 26px;
+                    }
+                }
+            }
+        }
+
+        .whyBoxMargin {
+            margin-top: 150px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .whychooseSection {
+        .whyBox {
+            .whyItem {
+                padding: 30px 20px;
+                margin-bottom: 20px;
+
+                .whyTitle {
+                    margin-bottom: 12px;
+
+                    .whyIcon {
+                        flex: 0 0 40px;
+
+                        svg {
+                            height: 30px;
+                            margin-right: 15px;
+                        }
+                    }
+
+                    .whyHeading {
+                        flex: 0 0 calc(100% - 40px);
+                        font-size: 17px;
+                        line-height: 25px;
+                    }
+                }
+            }
+        }
+
+        .whyBoxMargin {
+            margin-top: 120px;
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .whychooseSection {
+        .whyBox {
+            .whyItem {
+                padding: 20px 20px;
+                margin-bottom: 20px;
+
+                .whyTitle {
+                    margin-bottom: 12px;
+
+                    .whyIcon {
+                        flex: 0 0 40px;
+
+                        svg {
+                            height: 28px;
+                            margin-right: 15px;
+                        }
+                    }
+
+                    .whyHeading {
+                        flex: 0 0 calc(100% - 40px);
+                        font-size: 16px;
+                        line-height: 23px;
+                    }
+                }
+            }
+        }
+
+        .whyBoxMargin {
+            margin-top: 80px;
+        }
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width:899px) {
+    .whychooseSection {
+
+        .whyBox {
+            margin-top: 20px;
+
+
+            .whyItem {
+                padding: 20px 30px;
+                margin-bottom: 20px;
+                min-height: 190px;
+
+                .whyTitle {
+                    margin-bottom: 12px;
+
+                    .whyIcon {
+                        flex: 0 0 40px;
+
+                        svg {
+                            height: 28px;
+                            margin-right: 15px;
+                        }
+                    }
+
+                    .whyHeading {
+                        flex: 0 0 calc(100% - 40px);
+                        font-size: 16px;
+                        line-height: 23px;
+                    }
+                }
+            }
+        }
+
+        .whyBoxMargin {
+            margin-top: 0px;
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 599px) {
+    .whychooseSection {
+
+        .whyBox {
+
+            .whyItem {
+                padding: 30px 40px;
+                margin-bottom: 10px;
+
+                .whyTitle {
+                    margin-bottom: 12px;
+
+                    .whyIcon {
+                        flex: 0 0 40px;
+
+                        svg {
+                            height: 28px;
+                            margin-right: 15px;
+                        }
+                    }
+
+                    .whyHeading {
+                        flex: 0 0 calc(100% - 40px);
+                        font-size: 16px;
+                        line-height: 23px;
+                    }
+                }
+            }
+        }
+
+        .whyBoxMargin {
+            margin-top: 0px;
+        }
+    }
+}

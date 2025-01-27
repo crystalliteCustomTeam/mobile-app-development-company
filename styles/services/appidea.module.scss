@@ -1,0 +1,182 @@
+.appideaSection {
+    font-family: "Poppins", sans-serif;
+    background: #000;
+    position: relative;
+    height: 710px;
+
+    h2 {
+        color: #fff;
+    }
+
+    p {
+        color: #fff;
+        margin-bottom: 40px;
+    }
+
+    .imgBox {
+        position: absolute;
+        bottom: -80px;
+
+        img {
+            height: 740px;
+            width: auto;
+        }
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .appideaSection {
+        height: auto;
+
+        h2 {
+            color: #fff;
+        }
+
+        p {
+            color: #fff;
+            margin-bottom: 40px;
+        }
+
+        .imgBox {
+            position: absolute;
+            bottom: -60px;
+
+            img {
+                height: 650px;
+                width: auto;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .appideaSection {
+        height: auto;
+
+        h2 {
+            color: #fff;
+        }
+
+        p {
+            color: #fff;
+            margin-bottom: 30px;
+        }
+
+        .imgBox {
+            position: absolute;
+            bottom: -50px;
+            left: 100px;
+
+            img {
+                height: 550px;
+                width: auto;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .appideaSection {
+        height: auto;
+
+        h2 {
+            color: #fff;
+        }
+
+        p {
+            color: #fff;
+            margin-bottom: 20px;
+        }
+
+        .imgBox {
+            position: absolute;
+            bottom: -50px;
+            left: 130px;
+
+            img {
+                height: 500px;
+                width: auto;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .appideaSection {
+        height: auto;
+
+        h2 {
+            color: #fff;
+        }
+
+        p {
+            color: #fff;
+            margin-bottom: 20px;
+        }
+
+        .imgBox {
+            position: absolute;
+            bottom: -50px;
+            left: 30px;
+
+            img {
+                height: 460px;
+                width: auto;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width:899px) {
+    .appideaSection {
+        height: auto;
+
+        h2 {
+            color: #fff;
+        }
+
+        p {
+            color: #fff;
+            margin-bottom: 20px;
+        }
+
+        .imgBox {
+            position: absolute;
+            bottom: 50px;
+            left: 20px;
+
+            img {
+                height: 400px;
+                width: auto;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 599px) {
+    .appideaSection {
+        height: auto;
+
+        h2 {
+            color: #fff;
+        }
+
+        p {
+            color: #fff;
+            margin-bottom: 20px;
+        }
+
+        .imgBox {
+            position: unset;
+            margin: 20px auto 0px;
+
+            img {
+                height: 250px;
+                width: auto;
+                margin: auto;
+                display: block;
+
+            }
+        }
+    }
+}

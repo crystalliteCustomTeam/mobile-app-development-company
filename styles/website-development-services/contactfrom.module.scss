@@ -1,0 +1,1039 @@
+.commonFrom {
+  .fieldBox {
+    margin-bottom: 15px;
+
+    input {
+      height: 45px;
+      width: 100%;
+      border-radius: 6px;
+      font-size: 13px;
+      color: #2e2e2e;
+      outline: none;
+      padding-left: 10px;
+      border: 0px;
+
+      &[type="checkbox"] {
+        height: 18px;
+        width: 18px;
+        margin-right: 10px;
+        border: 0px;
+      }
+    }
+
+    .checkTxt {
+      color: #fff;
+      font-size: 15px;
+      position: relative;
+      top: -3px;
+      font-weight: 500;
+      cursor: pointer;
+    }
+
+    textarea {
+      height: 105px;
+      width: 100%;
+      border-radius: 6px;
+      font-size: 13px;
+      color: #2e2e2e;
+      outline: none;
+      padding: 10px 10px 0px;
+      border: 0px;
+    }
+  }
+
+  .buttonBox {
+    button {
+      height: 50px;
+      min-width: 150px;
+      padding: 0px 30px;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      transition: 0.3s linear;
+      border-radius: 50px;
+      background: #000;
+      font-size: 16px;
+      border: 0px;
+      color: #fff;
+      font-weight: 700;
+    }
+  }
+
+  &.ideaFrom {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .fieldBox {
+      margin-bottom: 15px;
+
+      &:first-child,
+      &:nth-child(2) {
+        flex: 0 0 calc(50% - 8px);
+      }
+
+      &:nth-child(3),
+      &:nth-child(4) {
+        flex: 0 0 calc(100% - 0px);
+      }
+
+      input {
+        background: #f9f9f9;
+        color: #000;
+        height: 60px;
+
+        &[type="checkbox"] {
+          display: none;
+        }
+      }
+
+      &.checkBox {
+        margin: 0px;
+        display: none;
+      }
+
+      .checkTxt {
+        color: #fff;
+        font-size: 15px;
+        position: relative;
+        top: -3px;
+        font-weight: 500;
+        cursor: pointer;
+        display: none;
+      }
+
+      textarea {
+        height: 160px;
+        background: #f9f9f9;
+        color: #000;
+      }
+    }
+
+    .buttonBox {
+      button {
+        // background: #4D77EE;
+        background: linear-gradient(
+          91.47deg,
+          #f32f56 -78.17%,
+          #f32faf 18.3%,
+          #4a78ef 110.98%
+        );
+      }
+    }
+  }
+
+  &.discussionFrom {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 15px;
+
+    .fieldBox {
+      margin-bottom: 15px;
+      flex: 0 0 calc(28% - 16px);
+
+      input {
+        width: 100%;
+        border: 1px solid #c6cdd1;
+      }
+    }
+
+    .buttonBox {
+      flex: 0 0 calc(15%);
+
+      button {
+        height: 45px;
+        font-size: 15px;
+        font-weight: 500;
+        min-width: 100%;
+        width: 100%;
+        background: linear-gradient(
+          91.47deg,
+          #f32f56 -78.17%,
+          #f32faf 18.3%,
+          #4a78ef 110.98%
+        );
+      }
+    }
+  }
+
+  &.appideaFrom {
+    display: flex;
+    max-width: 450px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .fieldBox {
+      margin-bottom: 15px;
+      flex: 0 0 100%;
+
+      input {
+        background: #f2f4f9;
+        color: #9aa2a7;
+
+        &[type="checkbox"] {
+          display: none;
+        }
+      }
+
+      &.checkBox {
+        margin: 0px;
+        display: none;
+      }
+
+      .checkTxt {
+        color: #fff;
+        font-size: 15px;
+        position: relative;
+        top: -3px;
+        font-weight: 500;
+        cursor: pointer;
+        display: none;
+      }
+
+      textarea {
+        height: 120px;
+        background: #f2f4f9;
+        color: #9aa2a7;
+      }
+    }
+
+    .buttonBox {
+      button {
+        // background: #4D77EE;
+        background: linear-gradient(
+          91.47deg,
+          #f32f56 -78.17%,
+          #f32faf 18.3%,
+          #4a78ef 110.98%
+        );
+      }
+    }
+  }
+
+  &.popupFrom {
+    display: flex;
+    max-width: 350px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+
+    .fieldBox {
+      margin-bottom: 10px;
+      flex: 0 0 100%;
+
+      input {
+        background: hsl(0deg 0% 85% / 20%);
+        color: #73858f;
+        border-radius: 20px;
+        font-size: 12px;
+        padding: 0px 15px;
+        height: 45px;
+      }
+
+      &.checkBox {
+        margin: 0px;
+        display: none;
+      }
+
+      textarea {
+        height: 120px;
+        background: hsl(0deg 0% 85% / 20%);
+        color: #73858f;
+        border-radius: 20px;
+        font-size: 12px;
+        padding: 10px 15px;
+      }
+    }
+
+    .buttonBox {
+      button {
+        height: 40px;
+        font-weight: 500;
+        background: linear-gradient(
+          91.47deg,
+          #f32f56 -78.17%,
+          #f32faf 18.3%,
+          #4a78ef 110.98%
+        );
+      }
+    }
+  }
+
+  &.lpWebFrom {
+    .fieldBox {
+      margin-bottom: 15px;
+      flex: 0 0 calc(100% - 0px);
+
+      input {
+        background: #f9f9f9;
+        color: #000;
+        height: 45px;
+
+        &[type="checkbox"] {
+          display: none;
+        }
+      }
+
+      &.checkBox {
+        margin: 0px;
+        display: none;
+      }
+
+      textarea {
+        height: 120px;
+        background: #f9f9f9;
+        color: #000;
+      }
+    }
+    .buttonBox {
+        button {
+          background: linear-gradient(
+            91.47deg,
+            #f32f56 -78.17%,
+            #f32faf 18.3%,
+            #4a78ef 110.98%
+          );
+          width: 100%;
+        }
+      }
+  }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .commonFrom {
+    .fieldBox {
+      margin-bottom: 12px;
+
+      input {
+        height: 42px;
+        font-size: 13px;
+        padding-left: 10px;
+
+        &[type="checkbox"] {
+          height: 16px;
+          width: 16px;
+          margin-right: 10px;
+        }
+      }
+
+      .checkTxt {
+        font-size: 14px;
+        top: -3px;
+      }
+
+      textarea {
+        height: 90px;
+        font-size: 13px;
+        padding: 10px 10px 0px;
+      }
+    }
+
+    .buttonBox {
+      button {
+        height: 45px;
+        padding: 0px 25px;
+        font-size: 15px;
+      }
+    }
+
+    &.ideaFrom {
+      .fieldBox {
+        margin-bottom: 15px;
+
+        input {
+          height: 50px;
+        }
+
+        textarea {
+          height: 140px;
+        }
+      }
+    }
+
+    &.appideaFrom {
+      display: flex;
+      max-width: 450px;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      .fieldBox {
+        margin-bottom: 15px;
+        flex: 0 0 100%;
+
+        input {
+          background: #f2f4f9;
+          color: #9aa2a7;
+
+          &[type="checkbox"] {
+            display: none;
+          }
+        }
+
+        &.checkBox {
+          margin: 0px;
+          display: none;
+        }
+
+        .checkTxt {
+          color: #fff;
+          font-size: 15px;
+          position: relative;
+          top: -3px;
+          font-weight: 500;
+          cursor: pointer;
+          display: none;
+        }
+
+        textarea {
+          height: 120px;
+          background: #f2f4f9;
+          color: #9aa2a7;
+        }
+      }
+
+      .buttonBox {
+        button {
+          background: #4d77ee;
+        }
+      }
+    }
+
+    &.popupFrom {
+      max-width: 300px;
+
+      .fieldBox {
+        margin-bottom: 10px;
+
+        input {
+          font-size: 12px;
+          padding: 0px 15px;
+        }
+
+        textarea {
+          height: 120px;
+        }
+      }
+
+      .buttonBox {
+        button {
+          height: 38px;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+  .commonFrom {
+    .fieldBox {
+      margin-bottom: 10px;
+
+      input {
+        height: 40px;
+        font-size: 13px;
+        padding-left: 10px;
+
+        &[type="checkbox"] {
+          height: 15px;
+          width: 15px;
+          margin-right: 10px;
+        }
+      }
+
+      .checkTxt {
+        font-size: 14px;
+        top: -3px;
+      }
+
+      textarea {
+        height: 80px;
+        font-size: 13px;
+        padding: 10px 10px 0px;
+      }
+    }
+
+    .buttonBox {
+      button {
+        height: 40px;
+        padding: 0px 25px;
+        font-size: 14px;
+      }
+    }
+
+    &.ideaFrom {
+      .fieldBox {
+        margin-bottom: 10px;
+
+        input {
+          height: 45px;
+        }
+
+        textarea {
+          height: 120px;
+        }
+      }
+    }
+
+    &.appideaFrom {
+      display: flex;
+      max-width: 450px;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      .fieldBox {
+        margin-bottom: 15px;
+        flex: 0 0 100%;
+
+        input {
+          background: #f2f4f9;
+          color: #9aa2a7;
+
+          &[type="checkbox"] {
+            display: none;
+          }
+        }
+
+        &.checkBox {
+          margin: 0px;
+          display: none;
+        }
+
+        .checkTxt {
+          color: #fff;
+          font-size: 15px;
+          position: relative;
+          top: -3px;
+          font-weight: 500;
+          cursor: pointer;
+          display: none;
+        }
+
+        textarea {
+          height: 120px;
+          background: #f2f4f9;
+          color: #9aa2a7;
+        }
+      }
+
+      .buttonBox {
+        button {
+          background: #4d77ee;
+        }
+      }
+    }
+
+    &.popupFrom {
+      max-width: 300px;
+
+      .fieldBox {
+        margin-bottom: 10px;
+
+        input {
+          font-size: 12px;
+          padding: 0px 15px;
+          height: 40px;
+        }
+
+        textarea {
+          height: 120px;
+        }
+      }
+
+      .buttonBox {
+        button {
+          height: 38px;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+  .commonFrom {
+    .fieldBox {
+      margin-bottom: 10px;
+
+      input {
+        height: 35px;
+        font-size: 12px;
+        padding-left: 10px;
+
+        &[type="checkbox"] {
+          height: 13px;
+          width: 13px;
+          margin-right: 10px;
+        }
+      }
+
+      .checkTxt {
+        font-size: 13px;
+        top: -3px;
+      }
+
+      textarea {
+        height: 70px;
+        font-size: 12px;
+        padding: 10px 10px 0px;
+      }
+    }
+
+    .buttonBox {
+      button {
+        height: 35px;
+        padding: 0px 15px;
+        font-size: 13px;
+        min-width: 120px;
+        font-weight: 500;
+      }
+    }
+
+    &.ideaFrom {
+      .fieldBox {
+        margin-bottom: 10px;
+
+        input {
+          height: 40px;
+        }
+
+        textarea {
+          height: 100px;
+        }
+      }
+    }
+
+    &.appideaFrom {
+      display: flex;
+      max-width: 450px;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      .fieldBox {
+        margin-bottom: 15px;
+        flex: 0 0 100%;
+
+        input {
+          background: #f2f4f9;
+          color: #9aa2a7;
+
+          &[type="checkbox"] {
+            display: none;
+          }
+        }
+
+        &.checkBox {
+          margin: 0px;
+          display: none;
+        }
+
+        .checkTxt {
+          color: #fff;
+          font-size: 15px;
+          position: relative;
+          top: -3px;
+          font-weight: 500;
+          cursor: pointer;
+          display: none;
+        }
+
+        textarea {
+          height: 120px;
+          background: #f2f4f9;
+          color: #9aa2a7;
+        }
+      }
+
+      .buttonBox {
+        button {
+          background: #4d77ee;
+        }
+      }
+    }
+
+    &.popupFrom {
+      .fieldBox {
+        margin-bottom: 10px;
+
+        input {
+          font-size: 12px;
+          padding: 0px 15px;
+          height: 40px;
+        }
+
+        textarea {
+          height: 100px;
+        }
+      }
+
+      .buttonBox {
+        button {
+          height: 35px;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .commonFrom {
+    .fieldBox {
+      margin-bottom: 5px;
+
+      input {
+        height: 30px;
+        font-size: 11px;
+        padding-left: 10px;
+
+        &[type="checkbox"] {
+          height: 12px;
+          width: 12px;
+          margin-right: 5px;
+        }
+      }
+
+      .checkTxt {
+        font-size: 11px;
+        top: -3px;
+      }
+
+      textarea {
+        height: 55px;
+        font-size: 11px;
+        padding: 10px 10px 0px;
+      }
+    }
+
+    .buttonBox {
+      button {
+        height: 30px;
+        padding: 0px 15px;
+        font-size: 12px;
+        min-width: 100px;
+        font-weight: 500;
+      }
+    }
+
+    &.ideaFrom {
+      .fieldBox {
+        margin-bottom: 10px;
+
+        input {
+          height: 40px;
+        }
+
+        textarea {
+          height: 100px;
+        }
+      }
+    }
+
+    &.appideaFrom {
+      display: flex;
+      max-width: 450px;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      .fieldBox {
+        margin-bottom: 15px;
+        flex: 0 0 100%;
+
+        input {
+          background: #f2f4f9;
+          color: #9aa2a7;
+
+          &[type="checkbox"] {
+            display: none;
+          }
+        }
+
+        &.checkBox {
+          margin: 0px;
+          display: none;
+        }
+
+        .checkTxt {
+          color: #fff;
+          font-size: 15px;
+          position: relative;
+          top: -3px;
+          font-weight: 500;
+          cursor: pointer;
+          display: none;
+        }
+
+        textarea {
+          height: 120px;
+          background: #f2f4f9;
+          color: #9aa2a7;
+        }
+      }
+
+      .buttonBox {
+        button {
+          background: #4d77ee;
+        }
+      }
+    }
+
+    &.popupFrom {
+      max-width: 300px;
+
+      .fieldBox {
+        margin-bottom: 10px;
+
+        input {
+          font-size: 12px;
+          padding: 0px 15px;
+          height: 40px;
+        }
+
+        textarea {
+          height: 100px;
+        }
+      }
+
+      .buttonBox {
+        button {
+          height: 35px;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 899px) {
+  .commonFrom {
+    .fieldBox {
+      margin-bottom: 5px;
+
+      input {
+        height: 30px;
+        font-size: 11px;
+        padding-left: 10px;
+
+        &[type="checkbox"] {
+          height: 12px;
+          width: 12px;
+          margin-right: 5px;
+        }
+      }
+
+      .checkTxt {
+        font-size: 11px;
+        top: -3px;
+      }
+
+      textarea {
+        height: 55px;
+        font-size: 11px;
+        padding: 10px 10px 0px;
+      }
+    }
+
+    .buttonBox {
+      button {
+        height: 28px;
+        padding: 0px 10px;
+        font-size: 12px;
+        min-width: 100px;
+        font-weight: 500;
+      }
+    }
+
+    &.ideaFrom {
+      .fieldBox {
+        margin-bottom: 10px;
+
+        input {
+          height: 40px;
+        }
+
+        textarea {
+          height: 100px;
+        }
+      }
+    }
+
+    &.appideaFrom {
+      display: flex;
+      max-width: 450px;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      .fieldBox {
+        margin-bottom: 15px;
+        flex: 0 0 100%;
+
+        input {
+          background: #f2f4f9;
+          color: #9aa2a7;
+
+          &[type="checkbox"] {
+            display: none;
+          }
+        }
+
+        &.checkBox {
+          margin: 0px;
+          display: none;
+        }
+
+        .checkTxt {
+          color: #fff;
+          font-size: 15px;
+          position: relative;
+          top: -3px;
+          font-weight: 500;
+          cursor: pointer;
+          display: none;
+        }
+
+        textarea {
+          height: 120px;
+          background: #f2f4f9;
+          color: #9aa2a7;
+        }
+      }
+
+      .buttonBox {
+        button {
+          background: #4d77ee;
+        }
+      }
+    }
+
+    &.popupFrom {
+      max-width: 300px;
+
+      .fieldBox {
+        margin-bottom: 10px;
+
+        input {
+          font-size: 12px;
+          padding: 0px 15px;
+          height: 40px;
+        }
+
+        textarea {
+          height: 100px;
+        }
+      }
+
+      .buttonBox {
+        button {
+          height: 35px;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 599px) {
+  .commonFrom {
+    .fieldBox {
+      margin-bottom: 5px;
+
+      input {
+        height: 35px;
+        font-size: 12px;
+        padding-left: 10px;
+
+        &[type="checkbox"] {
+          height: 12px;
+          width: 12px;
+          margin-right: 5px;
+        }
+      }
+
+      .checkTxt {
+        font-size: 11px;
+        top: -3px;
+      }
+
+      textarea {
+        height: 60px;
+        font-size: 12px;
+        padding: 10px 10px 0px;
+      }
+    }
+
+    .buttonBox {
+      button {
+        height: 35px;
+        padding: 0px 10px;
+        font-size: 12px;
+        min-width: 100px;
+        font-weight: 500;
+      }
+    }
+
+    &.ideaFrom {
+      .fieldBox {
+        margin-bottom: 10px;
+
+        input {
+          height: 40px;
+        }
+
+        textarea {
+          height: 100px;
+        }
+      }
+    }
+
+    &.discussionFrom {
+      gap: 5px;
+
+      .fieldBox {
+        margin-bottom: 10px;
+        flex: 0 0 calc(100% - 0px);
+
+        input {
+          border: 1px solid #c6cdd1;
+        }
+      }
+
+      .buttonBox {
+        flex: 0 0 calc(100%);
+
+        button {
+          height: 35px;
+          font-size: 14px;
+        }
+      }
+    }
+
+    &.popupFrom {
+      max-width: 300px;
+
+      .fieldBox {
+        margin-bottom: 10px;
+
+        input {
+          font-size: 12px;
+          padding: 0px 15px;
+          height: 40px;
+        }
+
+        textarea {
+          height: 100px;
+          font-size: 12px;
+        }
+      }
+
+      .buttonBox {
+        button {
+          height: 35px;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}

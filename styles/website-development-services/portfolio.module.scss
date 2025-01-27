@@ -1,0 +1,310 @@
+.portfolioSection {
+  // margin: 150px 0px;
+  .subTitle {
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: -0.165px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+
+    &.txtColor {
+      background: linear-gradient(
+        90deg,
+        #f32f56 -78.17%,
+        #f32fae 2%,
+        #4a78ef 19%
+      );
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    &.txtColorCenter {
+      background: linear-gradient(
+        90deg,
+        #f32f56 -40%,
+        #f32faf 40%,
+        #4a78ef 60%
+      );
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+
+  p {
+    margin-bottom: 40px;
+  }
+  .tabName {
+    ul {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: nowrap;
+      margin: 40px 0;
+
+      li {
+        height: 50px;
+        border-radius: 5px;
+        background: #ffffff;
+        border: 1px solid #a9abb1;
+        border-radius: 36px;
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: -0.165px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 70px;
+        color: #a9abb1;
+        cursor: pointer;
+        transition: 0.3s linear;
+
+        &:hover,
+        &.active {
+          background: linear-gradient(
+            91.47deg,
+            #f32f56 -78.17%,
+            #f32faf 18.3%,
+            #4a78ef 110.98%
+          );
+          border: none;
+          color: #ffffff;
+          transition: 0.3s linear;
+        }
+      }
+    }
+  }
+
+  .tabContent {
+    .tabtxtBox {
+      Img {
+        position: relative;
+        margin-bottom: 30px;
+        box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+
+        .ImgOverlay {
+          // position: absolute;
+          // z-index: 3;
+          // background-color: rgb(0, 0, 0, 0.4);
+        }
+      }
+
+      .embla {
+        margin-top: 50px;
+        padding-bottom: 100px;
+
+        .embla__viewport {
+          overflow: visible;
+
+          .embla__container {
+            display: flex;
+            touch-action: pan-y pinch-zoom;
+            margin-left: calc(0px * -1);
+            
+            .embla__slide {
+              transform: translate3d(0, 0, 0);
+              flex: 0 0 400px;
+              min-width: 0;
+              margin-right: 20px;
+
+              
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .portfolioSection {
+    p {
+      margin-bottom: 40px;
+    }
+    .tabName {
+      ul {
+        display: flex;
+        justify-content: space-between;
+
+        li {
+          font-size: 16px;
+          line-height: 26px;
+          padding: 0px 60px;
+        }
+      }
+
+      .tabContent {
+        .tabtxtBox {
+          Img {
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+  .portfolioSection {
+    p {
+      margin-bottom: 40px;
+    }
+    .tabName {
+      ul {
+        display: flex;
+        justify-content: space-between;
+
+        li {
+          font-size: 16px;
+          line-height: 26px;
+          padding: 0px 55px;
+        }
+      }
+
+      .tabContent {
+        .tabtxtBox {
+          Img {
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+  .portfolioSection {
+    p {
+      margin-bottom: 40px;
+    }
+    .tabName {
+      ul {
+        display: flex;
+        justify-content: space-between;
+
+        li {
+          font-size: 16px;
+          line-height: 26px;
+          padding: 0px 50px;
+        }
+      }
+
+      .tabContent {
+        .tabtxtBox {
+          Img {
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .portfolioSection {
+    p {
+      margin-bottom: 10px;
+    }
+    .tabName {
+      ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        li {
+          font-size: 16px;
+          line-height: 16px;
+          padding: 0px 40px;
+          margin-bottom: 20px;
+          margin: 5px;
+          min-width: 180px;
+          height: 45px;
+        }
+      }
+
+      .tabContent {
+        .tabtxtBox {
+          Img {
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 899px) {
+  .portfolioSection {
+    p {
+      margin-bottom: 0px;
+    }
+    .tabName {
+      ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 30px 0;
+
+        li {
+          font-size: 16px;
+          line-height: 26px;
+          padding: 0px 40px;
+          margin-bottom: 20px;
+          margin: 5px;
+          min-width: 170px;
+          height: 45px;
+        }
+      }
+
+      
+    }
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 599px) {
+  .portfolioSection {
+    p {
+      margin-bottom: 40px;
+    }
+    .tabName {
+      ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 0px 0;
+
+        li {
+          font-size: 14px;
+          line-height: 26px;
+          padding: 0px 40px;
+          margin-bottom: 20px;
+          margin: 5px;
+          min-width: 160px;
+          height: 42px;
+        }
+      }
+
+      .tabContent {
+        .tabtxtBox {
+          .embla {
+            margin-top: 50px;
+            padding-bottom: 100px;
+    
+            .embla__viewport {
+    
+              .embla__container {
+                margin-left: calc(0px * -1);
+                
+                .embla__slide {
+                  transform: translate3d(0, 0, 0);
+                  flex: 0 0 340px;
+                  min-width: 0;
+                  margin-right: 20px;
+    
+                  
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

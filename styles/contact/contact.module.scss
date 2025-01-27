@@ -1,0 +1,122 @@
+.contactBanner {
+    padding: 200px 0px 50px;
+    font-family: "Poppins", sans-serif;
+
+    .greenBullet {
+        li {
+            color: #707780;
+            margin-bottom: 10px;
+
+            svg {
+                height: 20px;
+                width: auto;
+                margin-right: 10px;
+            }
+        }
+    }
+
+    .contactForm {
+        background: #F7F8F9;
+        border-radius: 20px;
+        padding: 30px 30px;
+
+        .contactHeading {
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .contactBanner {
+        padding: 200px 0px 50px;
+
+        .greenBullet {
+            li {
+                svg {
+                    height: 18px;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .contactBanner {
+        padding: 190px 0px 50px;
+
+        .greenBullet {
+            li {
+                svg {
+                    height: 18px;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .contactBanner {
+        padding: 180px 0px 50px;
+
+        .greenBullet {
+            li {
+                svg {
+                    height: 16px;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .contactBanner {
+        padding: 160px 0px 50px;
+
+        .greenBullet {
+            li {
+                margin-bottom: 5px;
+
+                svg {
+                    height: 15px;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width:899px) {
+    .contactBanner {
+        padding: 160px 0px 50px;
+
+        .greenBullet {
+            li {
+                margin-bottom: 5px;
+
+                svg {
+                    height: 20px;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 599px) {
+    .contactBanner {
+        padding: 100px 0px 50px;
+
+        .greenBullet {
+            li {
+                svg {
+                    height: 15px;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}

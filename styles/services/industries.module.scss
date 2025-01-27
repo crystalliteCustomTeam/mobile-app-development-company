@@ -1,0 +1,403 @@
+.industrySection {
+    font-family: "Poppins", sans-serif;
+    p {
+        margin-bottom: 50px;
+    }
+
+    .industryBox {
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 0px;
+        border-radius: 10px;
+        border: 1px solid #9AAAB2;
+        height: 300px;
+        padding: 30px;
+        margin-bottom: 25px;
+        position: relative;
+
+        &::before {
+            content: "";
+            background: rgb(0 0 0 / 50%);
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            z-index: 0;
+            opacity: 0;
+            border-radius: 10px;
+        }
+
+        .industryIcon {
+            height: 50px;
+            margin-bottom: 5px;
+            position: relative;
+            z-index: 1;
+
+            svg {
+                height: auto;
+                width: 40px;
+            }
+        }
+
+        .industryTitle {
+            font-size: 25px;
+            line-height: 35px;
+            margin-bottom: 15px;
+            font-weight: 600;
+            color: #000;
+            position: relative;
+            z-index: 1;
+        }
+
+        P {
+            font-size: 14px;
+            line-height: 20px;
+            margin-bottom: 20px;
+            font-weight: 400;
+            color: #5D5D5D;
+            position: relative;
+            z-index: 1;
+        }
+
+        a,
+        .linksBtn {
+            font-size: 15px;
+            line-height: 20px;
+            margin-bottom: 20px;
+            font-weight: 500;
+            color: #000;
+            cursor: pointer;
+            position: relative;
+            z-index: 1;
+
+            svg {
+                width: 15px;
+                height: auto;
+                margin-left: 10px;
+            }
+        }
+
+        &:hover {
+            background-size: cover;
+
+            &::before {
+                opacity: 1;
+            }
+
+            .industryIcon {
+
+                svg {
+                    path {
+                        fill: #fff;
+                    }
+                }
+            }
+
+            .industryTitle {
+                color: #fff;
+            }
+
+            p {
+                color: #fff;
+            }
+
+            a,
+            .linksBtn {
+                color: #fff;
+
+                svg {
+                    path {
+                        fill: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .industrySection {
+        p {
+            margin-bottom: 50px;
+        }
+
+        .industryBox {
+            height: 320px;
+            padding: 25px;
+            margin-bottom: 25px;
+
+            .industryIcon {
+                height: 50px;
+                margin-bottom: 5px;
+
+                svg {
+                    width: 40px;
+                }
+            }
+
+            .industryTitle {
+                font-size: 22px;
+                line-height: 32px;
+                margin-bottom: 15px;
+            }
+
+            P {
+                font-size: 14px;
+                line-height: 20px;
+                margin-bottom: 20px;
+            }
+
+            a,
+            .linksBtn {
+                font-size: 15px;
+                line-height: 20px;
+                margin-bottom: 20px;
+
+                svg {
+                    width: 15px;
+                    height: auto;
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .industrySection {
+        p {
+            margin-bottom: 40px;
+        }
+
+        .industryBox {
+            height: 290px;
+            padding: 20px;
+            margin-bottom: 20px;
+
+            .industryIcon {
+                height: 40px;
+                margin-bottom: 5px;
+
+                svg {
+                    width: 35px;
+                }
+            }
+
+            .industryTitle {
+                font-size: 20px;
+                line-height: 30px;
+                margin-bottom: 10px;
+            }
+
+            P {
+                font-size: 14px;
+                line-height: 20px;
+                margin-bottom: 10px;
+            }
+
+            a,
+            .linksBtn {
+                font-size: 14px;
+                line-height: 20px;
+                margin-bottom: 15px;
+
+                svg {
+                    width: 14px;
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .industrySection {
+        p {
+            margin-bottom: 30px;
+        }
+
+        .industryBox {
+            height: 280px;
+            padding: 20px;
+            margin-bottom: 20px;
+
+            .industryIcon {
+                height: 40px;
+                margin-bottom: 5px;
+
+                svg {
+                    width: 30px;
+                }
+            }
+
+            .industryTitle {
+                font-size: 18px;
+                line-height: 28px;
+                margin-bottom: 10px;
+            }
+
+            P {
+                font-size: 13px;
+                line-height: 20px;
+                margin-bottom: 10px;
+            }
+
+            a,
+            .linksBtn {
+                font-size: 13px;
+                line-height: 20px;
+                margin-bottom: 15px;
+
+                svg {
+                    width: 14px;
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .industrySection {
+        p {
+            margin-bottom: 30px;
+        }
+
+        .industryBox {
+            height: 280px;
+            padding: 15px;
+            margin-bottom: 20px;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+
+            .industryIcon {
+                height: 40px;
+                margin-bottom: 5px;
+
+                svg {
+                    width: 30px;
+                }
+            }
+
+            .industryTitle {
+                font-size: 18px;
+                line-height: 28px;
+                margin-bottom: 10px;
+            }
+
+            P {
+                font-size: 13px;
+                line-height: 20px;
+                margin-bottom: 10px;
+            }
+
+            a,
+            .linksBtn {
+                font-size: 12px;
+                line-height: 20px;
+                margin-bottom: 15px;
+
+                svg {
+                    width: 12px;
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width:899px) {
+    .industrySection {
+        p {
+            margin-bottom: 30px;
+        }
+
+        .industryBox {
+            height: 250px;
+            padding: 30px;
+            margin-bottom: 20px;
+
+            .industryIcon {
+                height: 40px;
+                margin-bottom: 5px;
+
+                svg {
+                    width: 30px;
+                }
+            }
+
+            .industryTitle {
+                font-size: 18px;
+                line-height: 28px;
+                margin-bottom: 10px;
+            }
+
+            P {
+                font-size: 13px;
+                line-height: 20px;
+                margin-bottom: 10px;
+            }
+
+            a,
+            .linksBtn {
+                font-size: 13px;
+                line-height: 20px;
+                margin-bottom: 15px;
+
+                svg {
+                    width: 14px;
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 599px) {
+    .industrySection {
+        p {
+            margin-bottom: 30px;
+        }
+
+        .industryBox {
+            height: auto;
+            padding: 20px;
+            margin-bottom: 20px;
+
+            .industryIcon {
+                height: 40px;
+                margin-bottom: 5px;
+
+                svg {
+                    width: 30px;
+                }
+            }
+
+            .industryTitle {
+                font-size: 18px;
+                line-height: 28px;
+                margin-bottom: 10px;
+            }
+
+            P {
+                font-size: 13px;
+                line-height: 20px;
+                margin-bottom: 10px;
+            }
+
+            a,
+            .linksBtn {
+                font-size: 13px;
+                line-height: 20px;
+                margin-bottom: 15px;
+
+                svg {
+                    width: 14px;
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+}

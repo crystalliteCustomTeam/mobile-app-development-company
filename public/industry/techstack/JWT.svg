@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="224.317" height="200" viewBox="0 0 224.317 200">
+  <g id="JWT_JSON_Web_Tokens_" data-name="JWT (JSON Web Tokens)" transform="translate(-11237.999 -8213.27)">
+    <g id="Group_53814" data-name="Group 53814" transform="translate(11343.083 8213.27)">
+      <path id="Path_85100" data-name="Path 85100" d="M11387.514,8260.1v27.443l26.213-8.192,34.133-47.1-26.487-18.978Z" transform="translate(-11370.612 -8213.27)" fill="#fb015b"/>
+      <path id="Path_85101" data-name="Path 85101" d="M0,46.83V74.272L26.213,66.08l34.133-47.1L33.858,0Z" transform="matrix(0.819, 0.574, -0.574, 0.819, 69.801, 27.358)" fill="#de9cef"/>
+      <path id="Path_85102" data-name="Path 85102" d="M0,46.83V74.272L26.213,66.08l34.133-47.1L33.858,0Z" transform="matrix(0.309, 0.951, -0.951, 0.309, 97.837, 83.483)" fill="#85d2e9"/>
+      <path id="Path_85103" data-name="Path 85103" d="M0,46.83V74.272L26.213,66.08l34.133-47.1L33.858,0Z" transform="translate(88.029 141.992) rotate(106)" fill="#84eae5"/>
+    </g>
+    <g id="Group_53813" data-name="Group 53813" transform="translate(11237.999 8213.27)">
+      <path id="Path_85104" data-name="Path 85104" d="M11447.86,8260.1v27.443l-26.215-8.192-34.132-47.1L11414,8213.27Z" transform="translate(-11345.526 -8213.27)" fill="#84eae5"/>
+      <path id="Path_85105" data-name="Path 85105" d="M0,27.443V0L26.213,8.192l34.134,47.1L33.86,74.272Z" transform="matrix(-0.819, 0.574, -0.574, -0.819, 92.034, 88.197)" fill="#85d2e9"/>
+      <path id="Path_85106" data-name="Path 85106" d="M0,27.443V0L26.213,8.192,60.346,55.3,33.859,74.273Z" transform="matrix(-0.309, 0.951, -0.951, -0.309, 92.034, 106.434)" fill="#de9cef"/>
+      <path id="Path_85107" data-name="Path 85107" d="M0,27.443V0L26.213,8.192,60.346,55.3,33.86,74.273Z" transform="translate(102.601 121.519) rotate(74)" fill="#fb015b"/>
+    </g>
+  </g>
+</svg>

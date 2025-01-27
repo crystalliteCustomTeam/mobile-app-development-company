@@ -1,0 +1,401 @@
+.aboutSection {
+    background-position: 100% -100px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-top: 250px;
+    z-index: 0;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+
+    .keypointsContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .keypointsTitle {
+            flex: 0 0 55%;
+
+            .keypointsListing {
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                flex-direction: column;
+                gap: 50px;
+                position: relative;
+
+                .listingItem {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 46px;
+                    line-height: 55px;
+                    letter-spacing: -0.165px;
+                    color: #969696;
+                    position: relative;
+                    width: 100%;
+                    cursor: pointer;
+                    transition: font-size 0.5s ease, color 0.5s ease, padding-left 0.5s ease;
+
+                    &.active {
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 66px;
+                        line-height: 55px;
+                        letter-spacing: -0.165px;
+                        color: #000000;
+                        padding-left: 70px;
+
+                        &::before {
+                            display: block;
+                        }
+                    }
+
+                    &::before {
+                        content: '';
+                        width: 50px;
+                        height: 4px;
+                        background: linear-gradient(91deg, #F32F56 -78.17%, #F32FAF 18.3%, #4A78EF 110.98%);
+                        position: absolute;
+                        top: 50%;
+                        left: 0px;
+                        display: none;
+                    }
+                }
+
+                .bgTxt {
+                    display: none;
+
+                    &.active {
+                        display: block;
+                        position: absolute;
+                        right: 20px;
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 166px;
+                        line-height: 55px;
+                        letter-spacing: -0.165px;
+                        color: #707780;
+                        opacity: 0.6;
+                        z-index: -1;
+                        bottom: 0px;
+                        animation: slideDown 1s ease-out forwards;
+                    }
+
+                    @keyframes slideDown {
+                        0% {
+                            bottom: 100%;
+                            opacity: 0;
+                        }
+
+                        100% {
+                            bottom: 0;
+                            opacity: 0.1;
+                        }
+                    }
+                }
+            }
+        }
+
+        .keypointsContent {
+            flex: 0 0 45%;
+
+            p {
+                margin-bottom: 10px;
+            }
+
+            li {
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .aboutSection {
+        background-position: 100% -100px;
+        padding-top: 230px;
+
+        .keypointsContainer {
+            .keypointsTitle {
+                flex: 0 0 55%;
+
+                .keypointsListing {
+                    gap: 50px;
+
+                    .listingItem {
+                        font-size: 45px;
+                        line-height: 55px;
+
+                        &.active {
+                            font-size: 60px;
+                            line-height: 55px;
+                            padding-left: 70px;
+
+                        }
+
+                        &::before {
+                            width: 45px;
+                            height: 4px;
+                        }
+                    }
+
+                    .bgTxt {
+
+                        &.active {
+                            font-size: 150px;
+                            line-height: 55px;
+
+                        }
+                    }
+                }
+            }
+
+            .keypointsContent {
+                flex: 0 0 45%;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .aboutSection {
+        background-position: 100% -100px;
+        padding-top: 180px;
+
+        .keypointsContainer {
+            .keypointsTitle {
+                flex: 0 0 55%;
+
+                .keypointsListing {
+                    gap: 50px;
+
+                    .listingItem {
+                        font-size: 42px;
+                        line-height: 52px;
+
+                        &.active {
+                            font-size: 55px;
+                            line-height: 50px;
+                            padding-left: 55px;
+
+                        }
+
+                        &::before {
+                            width: 40px;
+                            height: 4px;
+                        }
+                    }
+
+                    .bgTxt {
+
+                        &.active {
+                            font-size: 140px;
+                            line-height: 55px;
+
+                        }
+                    }
+                }
+            }
+
+            .keypointsContent {
+                flex: 0 0 45%;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .aboutSection {
+        background-position: 100% -100px;
+        padding-top: 180px;
+
+        .keypointsContainer {
+            .keypointsTitle {
+                flex: 0 0 55%;
+
+                .keypointsListing {
+                    gap: 50px;
+
+                    .listingItem {
+                        font-size: 40px;
+                        line-height: 50px;
+
+                        &.active {
+                            font-size: 50px;
+                            line-height: 45px;
+                            padding-left: 50px;
+
+                        }
+
+                        &::before {
+                            width: 38px;
+                            height: 4px;
+                        }
+                    }
+
+                    .bgTxt {
+
+                        &.active {
+                            font-size: 130px;
+                            line-height: 55px;
+
+                        }
+                    }
+                }
+            }
+
+            .keypointsContent {
+                flex: 0 0 45%;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .aboutSection {
+        background-position: 100% -100px;
+        padding-top: 130px;
+
+        .keypointsContainer {
+            .keypointsTitle {
+                flex: 0 0 55%;
+
+                .keypointsListing {
+                    gap: 50px;
+
+                    .listingItem {
+                        font-size: 38px;
+                        line-height: 48px;
+
+                        &.active {
+                            font-size: 48px;
+                            line-height: 42px;
+                            padding-left: 48px;
+
+                        }
+
+                        &::before {
+                            width: 35px;
+                            height: 4px;
+                        }
+                    }
+
+                    .bgTxt {
+
+                        &.active {
+                            font-size: 120px;
+                            line-height: 55px;
+
+                        }
+                    }
+                }
+            }
+
+            .keypointsContent {
+                flex: 0 0 45%;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width:899px) {
+    .aboutSection {
+        background-position: 100% -40px;
+        padding-top: 80px;
+
+        .keypointsContainer {
+            .keypointsTitle {
+                flex: 0 0 50%;
+
+                .keypointsListing {
+                    gap: 40px;
+
+                    .listingItem {
+                        font-size: 30px;
+                        line-height: 35px;
+
+                        &.active {
+                            font-size: 35px;
+                            line-height: 40px;
+                            padding-left: 40px;
+
+                        }
+
+                        &::before {
+                            width: 30px;
+                            height: 3px;
+                        }
+                    }
+
+                    .bgTxt {
+
+                        &.active {
+                            font-size: 80px;
+                            line-height: 55px;
+
+                        }
+                    }
+                }
+            }
+
+            .keypointsContent {
+                flex: 0 0 50%;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 599px) {
+    .aboutSection {
+        background-position: 0px;
+        padding-top: 30px;
+        background-image: none !important;
+
+        .keypointsContainer {
+            flex-direction: column;
+            flex-wrap: wrap;
+
+            .keypointsTitle {
+                flex: 0 0 50%;
+
+                .keypointsListing {
+                    gap: 20px;
+                    flex-direction: row;
+                    margin-bottom: 20px;
+
+                    .listingItem {
+                        font-size: 25px;
+                        line-height: 35px;
+
+                        &.active {
+                            font-size: 30px;
+                            line-height: 32px;
+                            padding-left: 30px;
+
+                        }
+
+                        &::before {
+                            width: 20px;
+                            height: 2px;
+                        }
+                    }
+
+                    .bgTxt {
+
+                        &.active {
+                            font-size: 80px;
+                            line-height: 55px;
+                            right: 50%;
+                            transform: translate(50%, 0px);
+
+                        }
+                    }
+                }
+            }
+
+            .keypointsContent {
+                flex: 0 0 50%;
+            }
+        }
+    }
+}

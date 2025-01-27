@@ -1,0 +1,895 @@
+.industriesSection {
+    font-family: "Poppins", sans-serif;
+    .embla {
+        margin-top: 50px;
+
+        .embla__viewport {
+            overflow: hidden;
+
+            .embla__container {
+                display: flex;
+                touch-action: pan-y pinch-zoom;
+                margin-left: calc(10px * -1);
+
+
+                .embla__slide {
+                    transform: translate3d(0, 0, 0);
+                    flex: 0 0 125px;
+                    min-width: 0;
+                    padding-left: 10px;
+                    height: 480px;
+
+                    .industriesItem {
+                        height: 100%;
+                        border: 1px solid #D9D9D9;
+                        border-radius: 20px;
+                        display: flex;
+                        justify-content: space-between;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        padding: 20px;
+                        overflow: hidden;
+                        transition: all 0.6s ease-in-out;
+
+
+                        .industriesIcon {
+                            transition: transform 0.5s ease-in-out;
+                        }
+
+                        .industriesTxt {
+                            position: relative;
+
+                            h5 {
+                                transform: rotate(-90deg);
+                                position: absolute;
+                                left: -95px;
+                                top: -130px;
+                                height: 30px;
+                                width: 220px;
+                                color: #000;
+                                font-size: 30px;
+                                font-style: normal;
+                                font-weight: 600;
+                                line-height: 30px;
+                                letter-spacing: -0.165px;
+                                transition: all 0.6s ease-in-out;
+
+                            }
+
+                            p {
+                                display: none;
+                            }
+
+                            .viewLinks {
+                                display: none;
+
+                                a {
+                                    .btnBox {
+                                        border-radius: 64px;
+                                        background: #fff;
+                                        height: 45px;
+                                        width: 45px;
+                                        display: inline-flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        transition: all 0.4s ease-in-out;
+
+                                        svg {
+                                            width: 16px;
+                                            height: 16px;
+
+                                            path {
+                                                stroke: #4D77EE;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    &.active {
+                        flex: 0 0 400px;
+
+                        .industriesItem {
+                            justify-content: flex-end;
+                            padding: 30px;
+                            transition: all 0.6s ease-in-out;
+                            background: linear-gradient(91deg, #F32F56 -78.17%, #F32FAF 18.3%, #4A78EF 110.98%);
+                            border-radius: 20px;
+                            overflow: hidden;
+
+                            .industriesIcon {
+                                margin-bottom: 70px;
+                                transition: transform 0.5s ease-in-out;
+
+                                svg {
+                                    path {
+                                        fill: #fff;
+                                    }
+                                }
+                            }
+
+                            .industriesTxt {
+                                position: relative;
+
+                                h5 {
+                                    transform: rotate(0deg);
+                                    left: 0px;
+                                    top: -45px;
+                                    color: #fff;
+                                    margin-bottom: 20px;
+                                }
+
+                                p {
+                                    display: block;
+                                    color: #fff;
+                                    margin-bottom: 20px;
+                                    opacity: 0;
+                                    animation: fadeIn 0.8s forwards 0.3s;
+                                }
+
+                                .viewLinks {
+                                    display: block;
+                                    animation: fadeIn 0.8s forwards 0.6s;
+                                    text-align: right;
+
+                                    a {
+                                        .btnBox {
+                                            background: #fff;
+                                            transition: all 0.4s ease-in-out;
+
+                                            svg {
+                                                width: 16px;
+                                                height: 16px;
+
+                                                path {
+                                                    stroke: #4D77EE;
+                                                }
+                                            }
+
+                                            &:hover {
+                                                transform: scale(1.1);
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .embla_container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 50px 0px 0px;
+            gap: 15px;
+
+            div {
+                cursor: pointer;
+                border-radius: 64px;
+                background-color: transparent;
+                height: 45px;
+                width: 45px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transition: .3s linear;
+                border: 1px solid #D3D7E3;
+
+                svg {
+                    width: 16px;
+                    height: 16px;
+
+                    path {
+                        stroke: #7C7C7C;
+                    }
+                }
+
+                &:hover {
+                    transition: .3s linear;
+                    background: linear-gradient(91deg, #F32F56 -78.17%, #F32FAF 18.3%, #4A78EF 110.98%);
+
+                    svg {
+                        path {
+                            stroke: #fff;
+                        }
+                    }
+                }
+            }
+
+            .embla_prev {
+                transform: rotate(-180deg);
+            }
+        }
+    }
+
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+            transform: translateY(10px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .industriesSection {
+        .embla {
+            margin-top: 45px;
+
+            .embla__viewport {
+
+                .embla__container {
+
+                    .embla__slide {
+                        flex: 0 0 130px;
+                        height: 450px;
+
+                        .industriesItem {
+                            padding: 20px;
+
+                            .industriesIcon {
+                                svg {
+                                    height: 50px;
+                                    width: auto;
+                                }
+                            }
+
+                            .industriesTxt {
+
+                                h5 {
+                                    left: -95px;
+                                    top: -130px;
+                                    height: 30px;
+                                    width: 220px;
+                                    font-size: 28px;
+                                }
+
+                                .viewLinks {
+
+                                    a {
+                                        .btnBox {
+                                            height: 45px;
+                                            width: 45px;
+
+                                            svg {
+                                                width: 16px;
+                                                height: 16px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        &.active {
+                            flex: 0 0 400px;
+
+                            .industriesItem {
+                                padding: 30px;
+
+
+                                .industriesIcon {
+                                    margin-bottom: 70px;
+                                }
+
+                                .industriesTxt {
+                                    h5 {
+                                        left: 0px;
+                                        top: -45px;
+                                        margin-bottom: 20px;
+                                    }
+
+                                    p {
+
+                                        margin-bottom: 20px;
+                                    }
+
+                                    .viewLinks {
+
+                                        a {
+                                            .btnBox {
+
+                                                svg {
+                                                    width: 16px;
+                                                    height: 16px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .embla_container {
+                margin: 50px 0px 0px;
+                gap: 15px;
+
+                div {
+                    height: 45px;
+                    width: 45px;
+
+                    svg {
+                        width: 16px;
+                        height: 16px;
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .industriesSection {
+        .embla {
+            margin-top: 40px;
+
+            .embla__viewport {
+
+                .embla__container {
+
+                    .embla__slide {
+                        flex: 0 0 120px;
+                        height: 420px;
+
+                        .industriesItem {
+                            padding: 20px;
+
+                            .industriesIcon {
+                                svg {
+                                    height: 50px;
+                                    width: auto;
+                                }
+                            }
+
+                            .industriesTxt {
+
+                                h5 {
+                                    left: -95px;
+                                    top: -130px;
+                                    height: 30px;
+                                    width: 220px;
+                                    font-size: 25px;
+                                }
+
+                                .viewLinks {
+
+                                    a {
+                                        .btnBox {
+                                            height: 45px;
+                                            width: 45px;
+
+                                            svg {
+                                                width: 16px;
+                                                height: 16px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        &.active {
+                            flex: 0 0 400px;
+
+                            .industriesItem {
+                                padding: 30px;
+
+
+                                .industriesIcon {
+                                    margin-bottom: 70px;
+                                }
+
+                                .industriesTxt {
+                                    h5 {
+                                        left: 0px;
+                                        top: -45px;
+                                        margin-bottom: 20px;
+                                    }
+
+                                    p {
+
+                                        margin-bottom: 20px;
+                                    }
+
+                                    .viewLinks {
+
+                                        a {
+                                            .btnBox {
+
+                                                svg {
+                                                    width: 16px;
+                                                    height: 16px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .embla_container {
+                margin: 50px 0px 0px;
+                gap: 15px;
+
+                div {
+                    height: 45px;
+                    width: 45px;
+
+                    svg {
+                        width: 16px;
+                        height: 16px;
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .industriesSection {
+        .embla {
+            margin-top: 35px;
+
+            .embla__viewport {
+
+                .embla__container {
+
+                    .embla__slide {
+                        flex: 0 0 100px;
+                        height: 400px;
+
+                        .industriesItem {
+                            padding: 20px;
+
+                            .industriesIcon {
+                                svg {
+                                    height: 45px;
+                                    width: auto;
+                                }
+                            }
+
+                            .industriesTxt {
+                                h5 {
+                                    left: -95px;
+                                    top: -130px;
+                                    height: 30px;
+                                    width: 220px;
+                                    font-size: 22px;
+                                }
+
+                                .viewLinks {
+
+                                    a {
+                                        .btnBox {
+                                            height: 35px;
+                                            width: 35px;
+
+                                            svg {
+                                                width: 15px;
+                                                height: 15px;
+
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        &.active {
+                            flex: 0 0 350px;
+
+                            .industriesItem {
+                                padding: 30px;
+
+
+                                .industriesIcon {
+                                    margin-bottom: 70px;
+                                }
+
+                                .industriesTxt {
+                                    h5 {
+                                        left: 0px;
+                                        top: -45px;
+                                        margin-bottom: 20px;
+                                    }
+
+                                    p {
+
+                                        margin-bottom: 20px;
+                                    }
+
+                                    .viewLinks {
+
+                                        a {
+                                            .btnBox {
+
+                                                svg {
+                                                    width: 15px;
+                                                    height: 15px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .embla_container {
+                margin: 40px 0px 0px;
+                gap: 15px;
+
+                div {
+                    height: 35px;
+                    width: 35px;
+
+                    svg {
+                        width: 15px;
+                        height: 15px;
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .industriesSection {
+        .embla {
+            margin-top: 35px;
+
+            .embla__viewport {
+
+                .embla__container {
+
+                    .embla__slide {
+                        flex: 0 0 90px;
+                        height: 380px;
+
+
+                        .industriesItem {
+                            padding: 20px;
+                            border-radius: 15px;
+
+                            .industriesIcon {
+                                svg {
+                                    height: 40px;
+                                    width: auto;
+                                }
+                            }
+
+                            .industriesTxt {
+                                h5 {
+                                    left: -95px;
+                                    top: -130px;
+                                    height: 30px;
+                                    width: 220px;
+                                    font-size: 22px;
+                                }
+
+                                .viewLinks {
+
+                                    a {
+                                        .btnBox {
+                                            height: 35px;
+                                            width: 35px;
+
+                                            svg {
+                                                width: 15px;
+                                                height: 15px;
+
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        &.active {
+                            flex: 0 0 350px;
+
+                            .industriesItem {
+                                padding: 30px;
+                                border-radius: 15px;
+
+                                .industriesIcon {
+                                    margin-bottom: 70px;
+                                }
+
+                                .industriesTxt {
+                                    border-radius: 15px;
+
+                                    h5 {
+                                        left: 0px;
+                                        top: -45px;
+                                        margin-bottom: 20px;
+                                    }
+
+                                    p {
+
+                                        margin-bottom: 20px;
+                                    }
+
+                                    .viewLinks {
+
+                                        a {
+                                            .btnBox {
+
+                                                svg {
+                                                    width: 15px;
+                                                    height: 15px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .embla_container {
+                margin: 40px 0px 0px;
+                gap: 15px;
+
+                div {
+                    height: 35px;
+                    width: 35px;
+
+                    svg {
+                        width: 15px;
+                        height: 15px;
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width:899px) {
+    .industriesSection {
+        .embla {
+            margin-top: 35px;
+
+            .embla__viewport {
+
+                .embla__container {
+
+                    .embla__slide {
+                        flex: 0 0 80px;
+                        height: 380px;
+
+                        .industriesItem {
+                            padding: 20px 10px;
+                            border-radius: 12px;
+
+                            .industriesIcon {
+                                svg {
+                                    height: 40px;
+                                    width: auto;
+                                }
+                            }
+
+                            .industriesTxt {
+                                h5 {
+                                    left: -95px;
+                                    top: -130px;
+                                    height: 30px;
+                                    width: 220px;
+                                    font-size: 22px;
+                                }
+
+                                .viewLinks {
+
+                                    a {
+                                        .btnBox {
+                                            height: 35px;
+                                            width: 35px;
+
+                                            svg {
+                                                width: 15px;
+                                                height: 15px;
+
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        &.active {
+                            flex: 0 0 320px;
+
+                            .industriesItem {
+                                padding: 20px;
+                                border-radius: 12px;
+
+                                .industriesIcon {
+                                    margin-bottom: 50px;
+                                }
+
+                                .industriesTxt {
+                                    h5 {
+                                        left: 0px;
+                                        top: -35px;
+                                        margin-bottom: 20px;
+                                    }
+
+                                    p {
+
+                                        margin-bottom: 20px;
+                                    }
+
+                                    .viewLinks {
+
+                                        a {
+                                            .btnBox {
+
+                                                svg {
+                                                    width: 15px;
+                                                    height: 15px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .embla_container {
+                margin: 40px 0px 0px;
+                gap: 15px;
+
+                div {
+                    height: 35px;
+                    width: 35px;
+
+                    svg {
+                        width: 15px;
+                        height: 15px;
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 599px) {
+    .industriesSection {
+        .embla {
+            margin-top: 20px;
+
+            .embla__viewport {
+
+                .embla__container {
+
+                    .embla__slide {
+                        flex: 0 0 80px;
+                        height: 350px;
+
+                        .industriesItem {
+                            padding: 20px 10px;
+                            border-radius: 10px;
+
+                            .industriesIcon {
+                                svg {
+                                    height: 35px;
+                                    width: auto;
+                                }
+                            }
+
+                            .industriesTxt {
+                                h5 {
+                                    left: -95px;
+                                    top: -130px;
+                                    height: 30px;
+                                    width: 220px;
+                                    font-size: 22px;
+                                }
+
+                                .viewLinks {
+
+                                    a {
+                                        .btnBox {
+                                            height: 35px;
+                                            width: 35px;
+
+                                            svg {
+                                                width: 15px;
+                                                height: 15px;
+
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        &.active {
+                            flex: 0 0 80%;
+
+                            .industriesItem {
+                                padding: 20px;
+
+
+                                .industriesIcon {
+                                    margin-bottom: 40px;
+                                }
+
+                                .industriesTxt {
+                                    h5 {
+                                        left: 0px;
+                                        top: -30px;
+                                        margin-bottom: 20px;
+                                    }
+
+                                    p {
+
+                                        margin-bottom: 20px;
+                                    }
+
+                                    .viewLinks {
+
+                                        a {
+                                            .btnBox {
+                                                height: 35px;
+                                                width: 35px;
+
+                                                svg {
+                                                    width: 15px;
+                                                    height: 15px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .embla_container {
+                margin: 30px 0px 0px;
+                gap: 15px;
+
+                div {
+                    height: 35px;
+                    width: 35px;
+
+                    svg {
+                        width: 15px;
+                        height: 15px;
+                    }
+                }
+            }
+        }
+
+    }
+}

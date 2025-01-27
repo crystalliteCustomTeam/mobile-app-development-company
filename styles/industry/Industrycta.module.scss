@@ -1,0 +1,129 @@
+.industryCta {
+    font-family: "Poppins", sans-serif;
+    div {
+        z-index: unset;
+    }
+
+    .industrySec {
+        height: 390px;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        padding: 30px 30px;
+        background-repeat: no-repeat;
+        background-position: center right;
+        background-size: contain;
+        position: relative;
+
+        &::before {
+            content: '';
+            background: linear-gradient(-90deg, #F32F56 -78.17%, #F32FAF 18%, #4A78EF 90%);
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            border-radius: 20px;
+            top: 0px;
+            left: 0px;
+            z-index: -1;
+        }
+
+        .industryContent {
+            flex: 0 0 50%;
+
+            h2,
+            p {
+                color: #fff;
+            }
+        }
+
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .industryCta {
+        .industrySec {
+            height: 390px;
+            padding: 30px 30px;
+
+            .industryContent {
+                flex: 0 0 50%;
+            }
+
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .industryCta {
+        .industrySec {
+            height: 390px;
+            padding: 30px 30px;
+
+            .industryContent {
+                flex: 0 0 50%;
+            }
+
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .industryCta {
+        .industrySec {
+            height: 350px;
+            padding: 30px 30px;
+
+            .industryContent {
+                flex: 0 0 50%;
+            }
+
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .industryCta {
+        .industrySec {
+            height: 300px;
+            padding: 30px 30px;
+
+            .industryContent {
+                flex: 0 0 50%;
+            }
+
+        }
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width:899px) {
+    .industryCta {
+        .industrySec {
+            height: 280px;
+            padding: 20px 20px;
+
+            .industryContent {
+                flex: 0 0 50%;
+            }
+
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 599px) {
+    .industryCta {
+        .industrySec {
+            height: auto;
+            padding: 20px 20px;
+            background-image: none !important;
+
+            &::before {
+                border-radius: 10px;
+            }
+
+            .industryContent {
+                flex: 0 0 100%;
+            }
+
+        }
+    }
+}

@@ -1,0 +1,309 @@
+.advantageSection {
+  position: relative;
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+
+  .servicesBox {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+
+    .servicesItemBox {
+      flex: 0 0 calc(50% - 10px);
+      border: 1px solid #cbd3db;
+      padding: 10px 50px;
+      border-radius: 15px;
+      margin-bottom: 20px;
+
+      .servicesItem {
+        height: 350px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        transition: background-position 0.6s ease-in-out;
+        background-size: 100% 0%;
+        background-position: bottom;
+        position: relative;
+        overflow: hidden;
+        background: #fff;
+
+        .servicesItemContent {
+          transition: opacity 0s ease-in-out, transform 0s ease-in-out;
+          transform: translateY(20px);
+          svg {
+            margin-bottom: 30px; // Initial margin
+            transition: margin-bottom 0.4s ease-in-out;
+          }
+
+          h4 {
+            color: #000;
+            margin-bottom: 10px;
+            font-size: 25px;
+            line-height: 35px;
+          }
+
+          p {
+            color: #9098a1;
+            margin-bottom: 10px;
+          }
+        }
+
+        .normalButton {
+          height: 40px;
+          max-width: 130px;
+          padding: 0px 20px;
+          border-radius: 50px;
+          background: linear-gradient(
+            91.47deg,
+            #f32f56 -78.17%,
+            #f32faf 18.3%,
+            #4a78ef 110.98%
+          );
+          border-radius: 64px;
+          display: block;
+          opacity: 0;
+          transition: opacity 0s ease-in-out, transform 0s ease-in-out;
+          transform: translateY(20px);
+
+          a,
+          div.linksBtn {
+            color: #fff;
+            font-size: 14px;
+            line-height: normal;
+            font-weight: 500;
+            width: 100%;
+            height: 100%;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            cursor: pointer;
+          }
+        }
+      }
+      &:hover {
+        box-shadow: 5px 10px 49px 10px rgba(191, 191, 191, 0.2);
+        border: none;
+        background-size: 100% 100%;
+
+        .servicesItem {
+          background: #fff;
+
+          .servicesItemContent {
+            transform: translateY(0);
+            transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
+            svg {
+              margin-bottom: 10px;
+            }
+          }
+
+          .normalButton {
+            height: 40px;
+            opacity: 1;
+            transform: translateY(0);
+            transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .advantageSection {
+    .servicesBox {
+      .servicesItemBox {
+        flex: 0 0 calc(50% - 10px);
+
+        .servicesItem {
+          height: 350px;
+
+          svg {
+            margin-bottom: 30px;
+          }
+
+          h4 {
+            color: #000;
+            margin-bottom: 10px;
+            font-size: 25px;
+            line-height: 35px;
+          }
+
+          p {
+            color: #9098a1;
+            margin-bottom: 10px;
+          }
+
+          .normalButton {
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+  .advantageSection {
+    .servicesBox {
+      .servicesItemBox {
+        flex: 0 0 calc(50% - 10px);
+
+        .servicesItem {
+          height: 330px;
+
+          svg {
+            margin-bottom: 30px;
+          }
+
+          h4 {
+            color: #000;
+            margin-bottom: 10px;
+            font-size: 25px;
+            line-height: 35px;
+          }
+
+          p {
+            color: #9098a1;
+            margin-bottom: 10px;
+          }
+
+          .normalButton {
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+  .advantageSection {
+    .servicesBox {
+      .servicesItemBox {
+        flex: 0 0 calc(50% - 10px);
+
+        .servicesItem {
+          height: 320px;
+
+          svg {
+            margin-bottom: 30px;
+          }
+
+          h4 {
+            color: #000;
+            margin-bottom: 10px;
+            font-size: 25px;
+            line-height: 35px;
+          }
+
+          p {
+            color: #9098a1;
+            margin-bottom: 10px;
+          }
+
+          .normalButton {
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .advantageSection {
+    .servicesBox {
+      .servicesItemBox {
+        flex: 0 0 calc(50% - 10px);
+        padding: 10px 40px;
+        .servicesItem {
+          height: 320px;
+
+          svg {
+            margin-bottom: 30px;
+          }
+
+          h4 {
+            color: #000;
+            margin-bottom: 10px;
+            font-size: 23px;
+            line-height: 35px;
+          }
+
+          p {
+            color: #9098a1;
+            margin-bottom: 10px;
+          }
+
+          .normalButton {
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 899px) {
+  .advantageSection {
+    .servicesBox {
+      .servicesItemBox {
+        flex: 0 0 calc(100% - 10px);
+        padding: 10px 30px;
+        .servicesItem {
+          height: 340px;
+
+          svg {
+            margin-bottom: 30px;
+          }
+
+          h4 {
+            color: #000;
+            margin-bottom: 10px;
+            font-size: 24px;
+            line-height: 35px;
+          }
+
+          p {
+            color: #9098a1;
+            margin-bottom: 10px;
+          }
+
+          .normalButton {
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 599px) {
+  .advantageSection {
+    .servicesBox {
+      .servicesItemBox {
+        flex: 0 0 calc(100% - 10px);
+        padding: 10px 30px;
+        .servicesItem {
+          height: 340px;
+
+          svg {
+            margin-bottom: 30px;
+          }
+
+          h4 {
+            color: #000;
+            margin-bottom: 10px;
+            font-size: 24px;
+            line-height: 35px;
+          }
+
+          p {
+            color: #9098a1;
+            margin-bottom: 10px;
+          }
+
+          .normalButton {
+          }
+        }
+      }
+    }
+  }
+}

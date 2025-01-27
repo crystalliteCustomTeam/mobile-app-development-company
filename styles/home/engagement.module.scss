@@ -1,0 +1,680 @@
+.engagementSolution {
+    background: #F7F8F9;
+    font-family: "Poppins", sans-serif;
+
+    .engagementBox {
+        display: flex;
+        gap: 10px;
+        margin-top: 50px;
+
+        .engagementItem {
+            flex: 0 0 calc(20% - 10px);
+            padding: 20px;
+            border-radius: 20px;
+            background: #FFF;
+            box-shadow: 5px 5px 5px 0px rgba(191, 191, 191, 0.2);
+            transition: background-position 0.6s ease-in-out;
+            background-size: 100% 0%;
+            background-position: bottom;
+            position: relative;
+
+            &:first-child {
+                background: #F7F8F9;
+                box-shadow: none;
+                border-radius: 0px;
+
+                .mainItemList {
+                    div {
+                        color: #000;
+                        font-size: 18px;
+                        font-weight: 600;
+                        line-height: 24px;
+                        letter-spacing: -0.165px;
+                        border: 0px;
+
+                    }
+                }
+
+                .mainButtton {
+                    border: 0px;
+                }
+            }
+
+            .mainTitle {
+                text-align: center;
+                padding: 0px 50px;
+                height: 250px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+
+                svg {
+                    margin-bottom: 30px;
+                }
+
+                h6 {
+                    color: #000;
+                    text-align: center;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 24px;
+                    letter-spacing: -0.165px;
+                    margin-bottom: 30px;
+                }
+            }
+
+            .mainItemList {
+                div {
+                    color: #707780;
+                    text-align: center;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                    letter-spacing: -0.165px;
+                    padding: 12px 5px;
+                    border-top: 1px solid #D9D9D9;
+                    height: 60px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+
+            .mainButtton {
+                border-top: 1px solid #D9D9D9;
+                padding-top: 12px;
+
+                a,
+                div {
+                    display: flex;
+                    height: 50px;
+                    justify-content: center;
+                    align-items: center;
+                    background: linear-gradient(91deg, #F32F56 -78.17%, #F32FAF 18.3%, #4A78EF 110.98%);
+                    color: #fff;
+                    border-radius: 64px;
+                    font-weight: 500;
+                    margin: 10px 0px;
+                    cursor: pointer;
+                }
+            }
+
+            &:hover {
+                background: linear-gradient(91deg, #F32F56 -78.17%, #F32FAF 18.3%, #4A78EF 110.98%);
+                background-size: 100% 100%;
+
+                &:first-child {
+                    background: #F7F8F9;
+                    box-shadow: none;
+                    border-radius: 0px;
+
+                    .mainItemList {
+                        div {
+                            border-top: 0px;
+                            color: #000;
+                        }
+                    }
+
+                    .mainButtton {
+                        border-top: 0px;
+                    }
+                }
+
+                .mainTitle {
+                    svg {
+                        path {
+                            fill: #fff;
+                        }
+                    }
+
+                    h6 {
+                        color: #fff;
+                    }
+                }
+
+                .mainItemList {
+                    div {
+                        color: #fff;
+                        border-top: 1px solid #fff;
+                    }
+                }
+
+                .mainButtton {
+                    border-top: 1px solid #fff;
+                    padding-top: 12px;
+
+                    a,
+                    div {
+                        background: #fff;
+                        color: #4D77EE;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .engagementSolution {
+        .engagementBox {
+            gap: 10px;
+            margin-top: 45px;
+            // overflow-y: auto;
+
+
+                .engagementItem {
+                // flex: 0 0 calc(300px - 10px);
+                padding: 20px;
+                margin-bottom: 50px;
+
+                &:first-child {
+                    // position: sticky;
+                    // left: 0px;
+                    background: #F7F8F9;
+
+                    &::before {
+                        content: '';
+                        background: #F7F8F9;
+                        height: 50px;
+                        width: 260px;
+                        position: absolute;
+                        top: -50px;
+                        left: 0px;
+                    }
+
+                    &::after {
+                        content: '';
+                        background: #F7F8F9;
+                        height: 50px;
+                        width: 260px;
+                        position: absolute;
+                        bottom: -50px;
+                        left: 0px;
+
+                    }
+
+                    .mainItemList {
+                        div {
+                            font-size: 16px;
+                        }
+                    }
+                }
+
+                .mainTitle {
+                    padding: 0px 50px;
+                    height: 230px;
+
+                    svg {
+                        margin-bottom: 25px;
+                    }
+
+                    h6 {
+                        font-size: 16px;
+                        margin-bottom: 25px;
+                    }
+                }
+
+                .mainItemList {
+                    div {
+                        font-size: 15px;
+                        padding: 10px 5px;
+                    }
+                }
+
+                .mainButtton {
+                    padding-top: 10px;
+
+                    a,
+                    div {
+                        height: 48px;
+                        margin: 10px 0px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .engagementSolution {
+        padding-bottom: 0px !important;
+
+        .engagementBox {
+            gap: 10px;
+            margin-top: 45px;
+            // overflow-y: auto;
+
+
+            &::-webkit-scrollbar {
+                width: 0px;
+            }
+
+            .engagementItem {
+                // flex: 0 0 calc(270px - 10px);
+                padding: 20px;
+                margin-bottom: 50px;
+
+                &:first-child {
+                    // position: sticky;
+                    // left: 0px;
+                    background: #F7F8F9;
+
+                    &::before {
+                        content: '';
+                        background: #F7F8F9;
+                        height: 50px;
+                        width: 260px;
+                        position: absolute;
+                        top: -50px;
+                        left: 0px;
+                    }
+
+                    &::after {
+                        content: '';
+                        background: #F7F8F9;
+                        height: 50px;
+                        width: 260px;
+                        position: absolute;
+                        bottom: -50px;
+                        left: 0px;
+
+                    }
+
+                    .mainItemList {
+                        div {
+                            font-size: 16px;
+                        }
+                    }
+                }
+
+                .mainTitle {
+                    padding: 0px 50px;
+                    height: 180px;
+
+                    svg {
+                        margin-bottom: 25px;
+                        height: 60px;
+                        width: auto;
+                    }
+
+                    h6 {
+                        font-size: 16px;
+                        margin-bottom: 25px;
+                    }
+                }
+
+                .mainItemList {
+                    div {
+                        font-size: 14px;
+                        padding: 10px 5px;
+                        height: 50px;
+                    }
+                }
+
+                .mainButtton {
+                    padding-top: 10px;
+
+                    a,
+                    div {
+                        height: 45px;
+                        margin: 10px 0px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .engagementSolution {
+        padding-bottom: 20px !important;
+
+        .engagementBox {
+            gap: 10px;
+            margin-top: 35px;
+            // overflow-y: auto;
+
+
+            &::-webkit-scrollbar {
+                width: 0px;
+            }
+
+            .engagementItem {
+                // flex: 0 0 calc(270px - 10px);
+                padding: 20px;
+                margin-bottom: 40px;
+
+                &:first-child {
+                    // position: sticky;
+                    // left: 0px;
+                    background: #F7F8F9;
+
+                    &::before {
+                        content: '';
+                        background: #F7F8F9;
+                        height: 50px;
+                        width: 260px;
+                        position: absolute;
+                        top: -50px;
+                        left: 0px;
+                    }
+
+                    &::after {
+                        content: '';
+                        background: #F7F8F9;
+                        height: 50px;
+                        width: 260px;
+                        position: absolute;
+                        bottom: -50px;
+                        left: 0px;
+
+                    }
+
+                    .mainItemList {
+                        div {
+                            font-size: 15px;
+                        }
+                    }
+                }
+
+                .mainTitle {
+                    padding: 0px 50px;
+                    height: 190px;
+
+                    svg {
+                        margin-bottom: 25px;
+                        height: 50px;
+                        width: auto;
+                    }
+
+                    h6 {
+                        font-size: 16px;
+                        margin-bottom: 25px;
+                    }
+                }
+
+                .mainItemList {
+                    div {
+                        font-size: 14px;
+                        padding: 10px 5px;
+                        height: 60px;
+                    }
+                }
+
+                .mainButtton {
+                    padding-top: 10px;
+
+                    a,
+                    div {
+                        height: 42px;
+                        margin: 10px 0px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .engagementSolution {
+        padding-bottom: 20px !important;
+
+        .engagementBox {
+            gap: 10px;
+            margin-top: 35px;
+            // overflow-y: auto;
+
+
+            &::-webkit-scrollbar {
+                width: 0px;
+            }
+
+            .engagementItem {
+                // flex: 0 0 calc(270px - 10px);
+                padding: 20px;
+                margin-bottom: 40px;
+
+                &:first-child {
+                    // position: sticky;
+                    // left: 0px;
+                    background: #F7F8F9;
+
+                    &::before {
+                        content: '';
+                        background: #F7F8F9;
+                        height: 50px;
+                        width: 260px;
+                        position: absolute;
+                        top: -50px;
+                        left: 0px;
+                    }
+
+                    &::after {
+                        content: '';
+                        background: #F7F8F9;
+                        height: 50px;
+                        width: 260px;
+                        position: absolute;
+                        bottom: -50px;
+                        left: 0px;
+
+                    }
+
+                    .mainItemList {
+                        div {
+                            font-size: 14px;
+                        }
+                    }
+                }
+
+                .mainTitle {
+                    padding: 0px;
+                    height: 190px;
+                    max-width: 50%;
+                    margin: auto;
+
+                    svg {
+                        margin-bottom: 25px;
+                        height: 50px;
+                        width: auto;
+                    }
+
+                    h6 {
+                        font-size: 16px;
+                        margin-bottom: 25px;
+                    }
+                }
+
+                .mainItemList {
+                    div {
+                        font-size: 13px;
+                        padding: 10px 5px;
+                        height: 55px;
+                    }
+                }
+
+                .mainButtton {
+                    padding-top: 10px;
+
+                    a,
+                    div {
+                        height: 40px;
+                        margin: 10px 0px;
+                        font-size: 13px;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width:899px) {
+    .engagementSolution {
+        padding-bottom: 20px !important;
+
+        .engagementBox {
+            gap: 10px;
+            margin-top: 35px;
+            overflow-y: hidden;
+            overflow-x: auto;
+
+            &::-webkit-scrollbar {
+                width: 2px ;
+                height: 4px;
+            }
+
+
+            .engagementItem {
+                flex: 0 0 calc(200px - 10px);
+                padding: 20px;
+                margin-bottom: 40px;
+
+                &:first-child {
+                    position: sticky;
+                    left: 0px;
+                    background: #F7F8F9;
+
+                    &::before {
+                        content: '';
+                        background: #F7F8F9;
+                        height: 50px;
+                        width: 260px;
+                        position: absolute;
+                        top: -50px;
+                        left: 0px;
+                    }
+
+                    &::after {
+                        content: '';
+                        background: #F7F8F9;
+                        height: 50px;
+                        width: 260px;
+                        position: absolute;
+                        bottom: -50px;
+                        left: 0px;
+
+                    }
+
+                    .mainItemList {
+                        div {
+                            font-size: 15px;
+                        }
+                    }
+                }
+
+                .mainTitle {
+                    padding: 0px;
+                    height: 160px;
+                    max-width: 50%;
+                    margin: auto;
+
+                    svg {
+                        margin-bottom: 20px;
+                        height: 50px;
+                        width: auto;
+                    }
+
+                    h6 {
+                        font-size: 16px;
+                        margin-bottom: 25px;
+                    }
+                }
+
+                .mainItemList {
+                    div {
+                        font-size: 14px;
+                        padding: 10px 5px;
+                        height: 65px;
+                    }
+                }
+
+                .mainButtton {
+                    padding-top: 10px;
+
+                    a,
+                    div {
+                        height: 40px;
+                        margin: 10px 0px;
+                        font-size: 13px;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 599px) {
+    .engagementSolution {
+        padding-bottom: 20px !important;
+
+        .engagementBox {
+            gap: 10px;
+            margin-top: 35px;
+            overflow-y: auto;
+            
+            &::-webkit-scrollbar {
+                width: 2px ;
+                height: 4px;
+            }
+ 
+
+            .engagementItem {
+                flex: 0 0 calc(200px - 10px);
+                padding: 20px;
+                margin-bottom: 30px;
+
+                &:first-child {
+
+                    .mainItemList {
+                        div {
+                            font-size: 15px;
+
+                        }
+                    }
+                }
+
+                .mainTitle {
+                    padding: 0px 20px;
+                    height: 180px;
+
+                    svg {
+                        margin-bottom: 25px;
+                        height: 50px;
+                        width: auto;
+                    }
+
+                    h6 {
+                        font-size: 16px;
+                        margin-bottom: 25px;
+                        line-height: normal;
+                    }
+                }
+
+                .mainItemList {
+                    div {
+                        font-size: 14px;
+                        padding: 10px 5px;
+                        height: 50px;
+                        line-height: 20px;
+                    }
+                }
+
+                .mainButtton {
+                    padding-top: 10px;
+
+                    a {
+                        height: 40px;
+                        margin: 10px 0px;
+                        font-size: 13px;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+    }
+}

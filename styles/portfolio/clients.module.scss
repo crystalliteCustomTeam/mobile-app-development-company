@@ -1,0 +1,148 @@
+.clientsSection {
+    font-family: "Poppins", sans-serif;
+    .clientsBox {
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px 40px;
+
+        .clientsItem {
+            flex: 0 0 calc(25% - 40px);
+            position: relative;
+            width: auto;
+            height: 130px;
+            border: 1px solid #D3D7E3;
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                height: 80px;
+                width: auto;
+            }
+        }
+
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .clientsSection {
+        .clientsBox {
+            margin-top: 40px;
+            gap: 20px 40px;
+
+            .clientsItem {
+                flex: 0 0 calc(25% - 40px);
+                height: 130px;
+
+                img {
+                    height: 70px;
+                    width: auto;
+                }
+            }
+
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .clientsSection {
+        .clientsBox {
+            margin-top: 40px;
+            gap: 20px 30px;
+
+            .clientsItem {
+                flex: 0 0 calc(25% - 30px);
+                height: 130px;
+
+                img {
+                    height: 70px;
+                    width: auto;
+                }
+            }
+
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .clientsSection {
+        .clientsBox {
+            margin-top: 30px;
+            gap: 20px 20px;
+
+            .clientsItem {
+                flex: 0 0 calc(25% - 20px);
+                height: 120px;
+
+                img {
+                    height: 60px;
+                    width: auto;
+                }
+            }
+
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .clientsSection {
+        .clientsBox {
+            margin-top: 30px;
+            gap: 20px 20px;
+
+            .clientsItem {
+                flex: 0 0 calc(25% - 20px);
+                height: 100px;
+
+                img {
+                    height: 50px;
+                    width: auto;
+                }
+            }
+
+        }
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width:899px) {
+    .clientsSection {
+        .clientsBox {
+            margin-top: 30px;
+            gap: 20px 20px;
+
+            .clientsItem {
+                flex: 0 0 calc(33.33% - 20px);
+                height: 120px;
+
+                img {
+                    height: 60px;
+                    width: auto;
+                }
+            }
+
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 599px) {
+    .clientsSection {
+        .clientsBox {
+            margin-top: 30px;
+            gap: 10px;
+            justify-content: center;
+
+            .clientsItem {
+                flex: 0 0 calc(50% - 10px);
+                height: 120px;
+
+                img {
+                    height: 45px;
+                    width: auto;
+                }
+            }
+
+        }
+    }
+}

@@ -1,0 +1,558 @@
+.cuttingedgeSection {
+  font-family: "Poppins", sans-serif;
+
+  p {
+    color: #585858;
+    margin-bottom: 50px;
+    a {
+      color: #585858;
+      transition: 0.3s linear;
+      font-weight: 500;
+
+      &:hover {
+        color: #4d77ee;
+        transition: 0.3s linear;
+      }
+    }
+  }
+
+  .ServicesBox {
+    display: flex;
+    gap: 30px;
+
+    .ServicesContent {
+      flex: 0 0 calc(75% - 30px);
+
+      .ServicesItem {
+        display: flex;
+        background: #fff;
+        padding: 40px 20px;
+        border-bottom: 1px solid #6b6b6b;
+        transition: background 0.3s ease, border-radius 0.3s ease,
+          transform 0.3s ease;
+
+        .titleBox {
+          flex: 0 0 calc(40% - 1%);
+          display: flex;
+          justify-content: center;
+          align-items: flex-start;
+          flex-direction: column;
+
+          h5 {
+            margin-bottom: 0px;
+            transition: color 0.3s ease;
+
+            br {
+              display: block;
+            }
+          }
+
+          .normalButton {
+            height: 40px;
+            min-width: 150px;
+            padding: 0px 20px;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            transition: opacity 0.3s ease;
+            border-radius: 50px;
+            // background: #4D77EE;
+            background: linear-gradient(
+              91.47deg,
+              #f32f56 -78.17%,
+              #f32faf 18.3%,
+              #4a78ef 110.98%
+            );
+            border-radius: 64px;
+            display: none;
+            cursor: pointer;
+
+            a,
+            div.linksBtn {
+              color: #fff;
+              font-size: 14px;
+              line-height: normal;
+              font-weight: 500;
+              width: 100%;
+              height: 100%;
+              justify-content: center;
+              align-items: center;
+              display: flex;
+            }
+
+            &:hover {
+              transition: background 0.3s ease;
+              background: #3a5fcb;
+            }
+          }
+        }
+
+        .contentBox {
+          p {
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 26px;
+            color: #585858;
+            margin-bottom: 0px;
+            a {
+              color: #585858;
+              font-weight: 400;
+            }
+          }
+        }
+
+        &:hover {
+          background: #000;
+          border-radius: 10px;
+          border-bottom: 0px;
+          transform: translateY(-5px);
+
+          .titleBox {
+            h5 {
+              color: #fff;
+              margin-bottom: 10px;
+            }
+
+            .normalButton {
+              display: block;
+              opacity: 1;
+            }
+          }
+
+          .contentBox {
+            p {
+              color: #fff;
+              a {
+                color: #fff;
+
+                &:hover {
+                  transition: 0.3s linear;
+                  color: #4d77ee;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .ServicesSticky {
+      flex: 0 0 25%;
+
+      .stickyBox {
+        // background: #4D77EE;
+        background: linear-gradient(
+          91.47deg,
+          #f32f56 -78.17%,
+          #f32faf 18.3%,
+          #4a78ef 110.98%
+        );
+        border-radius: 16px;
+        text-align: center;
+        padding: 0px 30px 20px;
+        position: sticky;
+        top: 200px;
+        height: 320px;
+        width: 340px;
+
+        img {
+          position: absolute;
+          top: -100px;
+          height: 260px;
+          left: 20px;
+          width: 300px;
+        }
+
+        h5 {
+          padding-top: 170px;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .cuttingedgeSection {
+    .ServicesBox {
+      display: flex;
+      gap: 30px;
+
+      .ServicesContent {
+        flex: 0 0 calc(75% - 30px);
+
+        .ServicesItem {
+          padding: 35px 20px;
+
+          .titleBox {
+            flex: 0 0 calc(40% - 1%);
+
+            .normalButton {
+              height: 35px;
+              min-width: 120px;
+              padding: 0px 20px;
+
+              a,
+              div.linksBtn {
+                font-size: 13px;
+              }
+            }
+          }
+
+          .contentBox {
+            p {
+              font-size: 14px;
+              line-height: 24px;
+            }
+          }
+        }
+      }
+
+      .ServicesSticky {
+        flex: 0 0 25%;
+
+        .stickyBox {
+          padding: 0px 30px 20px;
+          top: 200px;
+          height: 320px;
+          width: 340px;
+
+          img {
+            top: -100px;
+            height: 260px;
+            left: 20px;
+            width: 300px;
+          }
+
+          h5 {
+            padding-top: 170px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+  .cuttingedgeSection {
+    .ServicesBox {
+      display: flex;
+      gap: 30px;
+
+      .ServicesContent {
+        flex: 0 0 calc(75% - 30px);
+
+        .ServicesItem {
+          padding: 30px 20px;
+
+          .titleBox {
+            flex: 0 0 calc(40% - 1%);
+
+            .normalButton {
+              height: 30px;
+              min-width: 120px;
+              padding: 0px 20px;
+
+              a,
+              div.linksBtn {
+                font-size: 12px;
+              }
+            }
+          }
+
+          .contentBox {
+            p {
+              font-size: 13px;
+              line-height: 23px;
+            }
+          }
+        }
+      }
+
+      .ServicesSticky {
+        flex: 0 0 25%;
+
+        .stickyBox {
+          padding: 0px 30px 20px;
+          top: 200px;
+          height: 320px;
+          width: 340px;
+
+          img {
+            top: -100px;
+            height: 260px;
+            left: 20px;
+            width: 300px;
+          }
+
+          h5 {
+            padding-top: 170px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+  .cuttingedgeSection {
+    .ServicesBox {
+      display: flex;
+      gap: 30px;
+
+      .ServicesContent {
+        flex: 0 0 calc(75% - 30px);
+
+        .ServicesItem {
+          padding: 30px 20px;
+
+          .titleBox {
+            flex: 0 0 calc(40% - 1%);
+
+            .normalButton {
+              height: 30px;
+              min-width: 120px;
+              padding: 0px 20px;
+
+              a,
+              div.linksBtn {
+                font-size: 12px;
+              }
+            }
+          }
+
+          .contentBox {
+            p {
+              font-size: 13px;
+              line-height: 23px;
+            }
+          }
+        }
+      }
+
+      .ServicesSticky {
+        flex: 0 0 25%;
+
+        .stickyBox {
+          padding: 0px 30px 20px;
+          top: 200px;
+          height: 270px;
+          width: 300px;
+
+          img {
+            top: -100px;
+            height: auto;
+            left: 10px;
+            width: 280px;
+          }
+
+          h5 {
+            padding-top: 140px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .cuttingedgeSection {
+    .ServicesBox {
+      display: flex;
+      gap: 20px;
+
+      .ServicesContent {
+        flex: 0 0 calc(75% - 20px);
+
+        .ServicesItem {
+          padding: 20px 20px;
+
+          .titleBox {
+            flex: 0 0 calc(40% - 0%);
+
+            .normalButton {
+              height: 30px;
+              min-width: 120px;
+              padding: 0px 20px;
+
+              a,
+              div.linksBtn {
+                font-size: 12px;
+              }
+            }
+          }
+
+          .contentBox {
+            p {
+              font-size: 12px;
+              line-height: 22px;
+            }
+          }
+        }
+      }
+
+      .ServicesSticky {
+        flex: 0 0 24%;
+
+        .stickyBox {
+          padding: 0px 30px 20px;
+          top: 200px;
+          height: 260px;
+          width: 230px;
+
+          img {
+            top: -50px;
+            height: auto;
+            left: 10px;
+            width: 220px;
+          }
+
+          h5 {
+            padding-top: 140px;
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 899px) {
+  .cuttingedgeSection {
+    .ServicesBox {
+      display: flex;
+      gap: 30px;
+
+      .ServicesContent {
+        flex: 0 0 calc(70% - 30px);
+
+        .ServicesItem {
+          padding: 20px 20px;
+          flex-direction: column;
+
+          .titleBox {
+            flex: 0 0 calc(40% - 1%);
+            margin-bottom: 10px;
+            position: relative;
+
+            .normalButton {
+              height: 30px;
+              min-width: 120px;
+              padding: 0px 20px;
+              position: absolute;
+              right: 0px;
+              top: 0px;
+
+              a,
+              div.linksBtn {
+                font-size: 12px;
+              }
+            }
+          }
+
+          .contentBox {
+            p {
+              font-size: 12px;
+              line-height: 22px;
+            }
+          }
+        }
+      }
+
+      .ServicesSticky {
+        flex: 0 0 30%;
+
+        .stickyBox {
+          padding: 0px 30px 20px;
+          top: 200px;
+          height: 260px;
+          min-width: 230px;
+          width: auto;
+
+          img {
+            top: -50px;
+            height: auto;
+            left: 15px;
+            width: 200px;
+          }
+
+          h5 {
+            padding-top: 130px;
+            font-size: 15px;
+            line-height: normal;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 599px) {
+  .cuttingedgeSection {
+    .ServicesBox {
+      display: flex;
+      gap: 0px;
+      flex-direction: column;
+
+      .ServicesContent {
+        flex: 0 0 calc(100% - 0px);
+
+        .ServicesItem {
+          padding: 25px 20px;
+          flex-direction: column;
+
+          .titleBox {
+            flex: 0 0 calc(40% - 1%);
+            margin-bottom: 10px;
+            position: relative;
+
+            .normalButton {
+              height: 30px;
+              min-width: 100px;
+              padding: 0px 10px;
+              position: absolute;
+              right: 0px;
+              top: 0px;
+
+              a,
+              div.linksBtn {
+                font-size: 11px;
+              }
+            }
+          }
+
+          .contentBox {
+            p {
+              font-size: 13px;
+              line-height: 24px;
+            }
+          }
+        }
+      }
+
+      .ServicesSticky {
+        flex: 0 0 100%;
+
+        .stickyBox {
+          padding: 20px 20px 20px;
+          height: auto;
+          width: 280px;
+          margin: 30px auto 0px;
+          position: unset;
+
+          img {
+            height: auto;
+            width: 200px;
+            position: unset;
+          }
+
+          h5 {
+            padding-top: 0px;
+            font-size: 15px;
+            line-height: normal;
+          }
+        }
+      }
+    }
+  }
+}

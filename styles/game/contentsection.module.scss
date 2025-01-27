@@ -1,0 +1,17 @@
+.contentSection {
+    background: #F6F6F6;
+    font-family: "Poppins", sans-serif;
+
+    img {
+        border-radius: 20px;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 599px) {
+    .contentSection {
+
+        img {
+            margin-top: 20px;
+        }
+    }
+}

@@ -1,0 +1,168 @@
+.popupSection {
+    font-family: "Poppins", sans-serif;
+    padding: 30px;
+    position: relative;
+    background: linear-gradient(90deg, hsl(0deg 0% 85% / 20%) 50%, #FFF 50%);
+    border-radius: 30px;
+
+    img {
+        position: absolute;
+        left: -130px;
+        height: 390px;
+        width: auto;
+        top: 68%;
+        transform: translate(0px, -68%);
+        z-index: 0;
+    }
+
+    .closedBtn {
+        position: absolute;
+        top: -10px;
+        right: -10px;
+        cursor: pointer;
+
+        svg {
+            circle {
+                fill: #F32F56;
+            }
+
+            path {
+                fill: #fff;
+            }
+        }
+    }
+
+    .fromPopup {
+        max-width: 350px;
+        margin-left: auto;
+
+        h3 {
+            font-weight: 700;
+        }
+
+        p {
+            color: #70788D;
+            font-size: 14px;
+            line-height: 22px;
+        }
+    }
+}
+
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .popupSection {
+        padding: 30px;
+
+        img {
+            position: absolute;
+            left: -130px;
+            height: 390px;
+            width: auto;
+            top: 68%;
+            transform: translate(0px, -68%);
+            z-index: 0;
+        }
+
+
+        .fromPopup {
+            margin-left: auto;
+
+            h3 {
+                font-weight: 700;
+            }
+
+            p {
+                color: #70788D;
+                font-size: 13px;
+                line-height: 22px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .popupSection {
+        padding: 25px;
+
+        img {
+            left: -100px;
+            height: 300px;
+            top: 68%;
+            transform: translate(0px, -68%);
+        }
+
+
+        .fromPopup {
+            max-width: 300px;
+            margin-left: auto;
+
+            h3 {
+                font-weight: 700;
+            }
+
+            p {
+                color: #70788D;
+                font-size: 13px;
+                line-height: 22px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width:899px) {
+    .popupSection {
+        padding: 25px;
+
+        img {
+            left: -100px;
+            height: 290px;
+            top: 68%;
+            transform: translate(0px, -68%);
+        }
+
+
+        .fromPopup {
+            max-width: 300px;
+            margin-left: auto;
+
+            h3 {
+                font-weight: 700;
+                font-size: 20px;
+            }
+
+            p {
+                color: #70788D;
+                font-size: 12px;
+                line-height: 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 599px) {
+    .popupSection {
+        padding: 25px;
+        background: #fff;
+
+        img {
+            display: none;
+        }
+
+
+        .fromPopup {
+            max-width: 300px;
+            margin-left: auto;
+
+            h3 {
+                font-weight: 700;
+                font-size: 20px;
+            }
+
+            p {
+                color: #70788D;
+                font-size: 12px;
+                line-height: 20px;
+            }
+        }
+    }
+}

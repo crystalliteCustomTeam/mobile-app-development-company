@@ -1,0 +1,880 @@
+.footerSection {
+  font-family: "Poppins", sans-serif;
+
+  .footerMainBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    .linksItem {
+      flex: 0 0 15%;
+
+      &:nth-child(2) {
+        flex: 0 0 35%;
+
+        ul {
+          display: flex;
+          flex-wrap: wrap;
+
+          li {
+            flex: 0 0 50%;
+          }
+        }
+      }
+
+      &:nth-child(1) {
+        flex: 0 0 50%;
+
+        ul {
+          display: flex;
+          flex-wrap: wrap;
+
+          li {
+            flex: 0 0 50%;
+          }
+        }
+      }
+
+      h6 {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 16px;
+        letter-spacing: -0.165px;
+        color: #ffffff;
+        margin-bottom: 20px;
+      }
+
+      ul {
+        padding: 0px;
+        margin: 0px;
+
+        li {
+          margin-bottom: 10px;
+
+          a {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            letter-spacing: -0.165px;
+            color: rgb(255, 255, 255, 0.6);
+            transition: 0.3s linear;
+            text-transform: capitalize;
+
+            &:hover {
+              color: #f32faf;
+              transition: 0.3s linear;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .footerLocationBox {
+    margin-top: 30px;
+    display: flex;
+    align-items: flex-end;
+
+    h6 {
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 16px;
+      letter-spacing: -0.165px;
+      color: #ffffff;
+      margin-bottom: 20px;
+    }
+
+    .footerLocListing {
+      flex: 0 0 75%;
+
+      .linksItem {
+        ul {
+          display: flex;
+          flex-wrap: wrap;
+          padding: 0px;
+          margin: 0px;
+
+          li {
+            flex: 0 0 16.66%;
+            margin-bottom: 10px;
+
+            a {
+              font-weight: 400;
+              font-size: 14px;
+              line-height: 24px;
+              letter-spacing: -0.165px;
+              color: rgb(255, 255, 255, 0.6);
+              transition: 0.3s linear;
+              text-transform: capitalize;
+
+              &:hover {
+                color: #f32faf;
+                transition: 0.3s linear;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .footerSocialListing {
+      flex: 0 0 25%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+
+      .linksItem {
+        height: auto;
+
+        ul {
+          display: flex;
+          justify-content: flex-end;
+          align-items: flex-end;
+          height: 100%;
+          padding: 0px;
+          margin: 0px;
+          gap: 25px;
+
+          li {
+            width: auto;
+            display: flex;
+            justify-content: center;
+            transition: 0.3s linear;
+
+            &:hover {
+              transition: 0.3s linear;
+
+              a {
+                text-transform: capitalize;
+
+                svg {
+                  path {
+                    fill: #f32faf;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .mailContact {
+        display: flex;
+        align-items: flex-end;
+        margin-bottom: 10px;
+
+        a {
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 24px;
+          letter-spacing: -0.165px;
+          color: rgb(255, 255, 255, 0.6);
+          transition: 0.3s linear;
+          border-right: 1px solid rgba(255, 255, 255, 0.2);
+          padding: 0px 10px;
+
+          &:hover {
+            color: #f32faf;
+            transition: 0.3s linear;
+          }
+
+          &:last-child {
+            border: 0px;
+            padding-right: 0px;
+          }
+        }
+      }
+    }
+  }
+  .footerLocationBoxNew {
+    margin-top: 30px;
+    display: flex;
+    align-items: flex-end;
+
+    h6 {
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 16px;
+      letter-spacing: -0.165px;
+      color: #ffffff;
+      margin-bottom: 20px;
+    }
+
+    .footerLocListing {
+      flex: 0 0 75%;
+
+      .linksItem {
+        ul {
+          display: flex;
+          flex-wrap: wrap;
+          padding: 0px;
+          margin: 0px;
+
+          li {
+            flex: 0 0 16.66%;
+            margin-bottom: 10px;
+
+            a {
+              font-weight: 400;
+              font-size: 14px;
+              line-height: 24px;
+              letter-spacing: -0.165px;
+              color: rgb(255, 255, 255, 0.6);
+              transition: 0.3s linear;
+              text-transform: capitalize;
+
+              &:hover {
+                color: #f32faf;
+                transition: 0.3s linear;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .footerSocialListing {
+      flex: 0 0 30%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+
+      .linksItem {
+        height: auto;
+
+        ul {
+          display: flex;
+          justify-content: flex-end;
+          align-items: flex-end;
+          height: 100%;
+          padding: 0px;
+          margin: 0px;
+          gap: 25px;
+
+          li {
+            width: auto;
+            display: flex;
+            justify-content: center;
+            transition: 0.3s linear;
+
+            &:hover {
+              transition: 0.3s linear;
+
+              a {
+                text-transform: capitalize;
+
+                svg {
+                  path {
+                    fill: #f32faf;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .mailContact {
+        display: flex;
+        align-items: flex-end;
+        margin-bottom: 10px;
+
+        a {
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 24px;
+          letter-spacing: -0.165px;
+          color: rgb(255, 255, 255, 0.6);
+          transition: 0.3s linear;
+          border-right: 1px solid rgba(255, 255, 255, 0.2);
+          padding: 0px 10px;
+
+          &:hover {
+            color: #f32faf;
+            transition: 0.3s linear;
+          }
+
+          &:last-child {
+            border: 0px;
+            padding-right: 0px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .footerSection {
+    .footerMainBox {
+      .linksItem {
+        h6 {
+          font-size: 20px;
+          line-height: 16px;
+          margin-bottom: 20px;
+        }
+
+        ul {
+          li {
+            margin-bottom: 10px;
+
+            a {
+              font-size: 14px;
+              line-height: 24px;
+            }
+          }
+        }
+      }
+    }
+
+    .footerLocationBox {
+      margin-top: 30px;
+
+      h6 {
+        font-size: 20px;
+        line-height: 16px;
+        margin-bottom: 20px;
+      }
+
+      .footerLocListing {
+        flex: 0 0 75%;
+
+        .linksItem {
+          ul {
+            li {
+              margin-bottom: 10px;
+
+              a {
+                font-size: 14px;
+                line-height: 24px;
+              }
+            }
+          }
+        }
+      }
+
+      .footerSocialListing {
+        flex: 0 0 25%;
+
+        .linksItem {
+          ul {
+            li {
+              a {
+                svg {
+                  height: 24px;
+                  width: auto;
+                }
+              }
+            }
+          }
+        }
+
+        .mailContact {
+          a {
+            font-size: 14px;
+            line-height: 24px;
+          }
+        }
+      }
+    }
+    .footerLocationBoxNew {
+      margin-top: 30px;
+
+      h6 {
+        font-size: 20px;
+        line-height: 16px;
+        margin-bottom: 20px;
+      }
+
+      .footerLocListing {
+        flex: 0 0 75%;
+
+        .linksItem {
+          ul {
+            li {
+              margin-bottom: 10px;
+
+              a {
+                font-size: 14px;
+                line-height: 24px;
+              }
+            }
+          }
+        }
+      }
+
+      .footerSocialListing {
+        flex: 0 0 20%;
+
+        .linksItem {
+          ul {
+            li {
+              a {
+                svg {
+                  height: 24px;
+                  width: auto;
+                }
+              }
+            }
+          }
+        }
+
+        .mailContact {
+          a {
+            font-size: 14px;
+            line-height: 24px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+  .footerSection {
+    .footerMainBox {
+      .linksItem {
+        h6 {
+          font-size: 18px;
+          line-height: 16px;
+          margin-bottom: 20px;
+        }
+
+        ul {
+          li {
+            margin-bottom: 10px;
+
+            a {
+              font-size: 13px;
+              line-height: 24px;
+            }
+          }
+        }
+      }
+    }
+
+    .footerLocationBox {
+      margin-top: 30px;
+
+      h6 {
+        font-size: 18px;
+        line-height: 16px;
+        margin-bottom: 20px;
+      }
+
+      .footerLocListing {
+        flex: 0 0 75%;
+
+        .linksItem {
+          ul {
+            li {
+              margin-bottom: 10px;
+
+              a {
+                font-size: 13px;
+                line-height: 24px;
+              }
+            }
+          }
+        }
+      }
+
+      .footerSocialListing {
+        flex: 0 0 25%;
+
+        .linksItem {
+          ul {
+            li {
+              a {
+                svg {
+                  height: 22px;
+                  width: auto;
+                }
+              }
+            }
+          }
+        }
+
+        .mailContact {
+          a {
+            font-size: 14px;
+            line-height: 24px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+  .footerSection {
+    .footerMainBox {
+      .linksItem {
+        h6 {
+          font-size: 18px;
+          line-height: 16px;
+          margin-bottom: 20px;
+        }
+
+        ul {
+          li {
+            margin-bottom: 10px;
+
+            a {
+              font-size: 13px;
+              line-height: 24px;
+            }
+          }
+        }
+      }
+    }
+
+    .footerLocationBox {
+      margin-top: 30px;
+
+      h6 {
+        font-size: 18px;
+        line-height: 16px;
+        margin-bottom: 20px;
+      }
+
+      .footerLocListing {
+        flex: 0 0 75%;
+
+        .linksItem {
+          ul {
+            li {
+              margin-bottom: 10px;
+
+              a {
+                font-size: 13px;
+                line-height: 24px;
+              }
+            }
+          }
+        }
+      }
+
+      .footerSocialListing {
+        flex: 0 0 25%;
+
+        .linksItem {
+          ul {
+            li {
+              a {
+                svg {
+                  height: 20px;
+                  width: auto;
+                }
+              }
+            }
+          }
+        }
+
+        .mailContact {
+          a {
+            padding: 0px 8px;
+            font-size: 13px;
+            line-height: 24px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .footerSection {
+    .footerMainBox {
+      .linksItem {
+        h6 {
+          font-size: 18px;
+          line-height: 16px;
+          margin-bottom: 15px;
+        }
+
+        ul {
+          li {
+            margin-bottom: 7px;
+
+            a {
+              font-size: 12px;
+              line-height: 22px;
+            }
+          }
+        }
+      }
+    }
+
+    .footerLocationBox {
+      margin-top: 25px;
+
+      h6 {
+        font-size: 18px;
+        line-height: 16px;
+        margin-bottom: 20px;
+      }
+
+      .footerLocListing {
+        flex: 0 0 75%;
+
+        .linksItem {
+          ul {
+            li {
+              margin-bottom: 7px;
+
+              a {
+                font-size: 12px;
+                line-height: 22px;
+              }
+            }
+          }
+        }
+      }
+
+      .footerSocialListing {
+        flex: 0 0 25%;
+
+        .linksItem {
+          ul {
+            li {
+              a {
+                svg {
+                  height: 18px;
+                  width: auto;
+                }
+              }
+            }
+          }
+        }
+
+        .mailContact {
+          a {
+            padding: 0px 7px;
+            font-size: 13px;
+            line-height: 24px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 899px) {
+  .footerSection {
+    .footerMainBox {
+      flex-wrap: wrap;
+
+      .linksItem {
+        flex: 0 0 100% !important;
+        margin-bottom: 20px;
+
+        h6 {
+          font-size: 18px;
+          line-height: 16px;
+          margin-bottom: 15px;
+        }
+
+        ul {
+          display: flex;
+          flex-wrap: wrap;
+
+          li {
+            flex: 0 0 33.33% !important;
+            margin-bottom: 7px;
+
+            a {
+              font-size: 12px;
+              line-height: 22px;
+            }
+          }
+        }
+      }
+    }
+
+    .footerLocationBox {
+      margin-top: 0px;
+      flex-wrap: wrap;
+
+      h6 {
+        font-size: 18px;
+        line-height: 16px;
+        margin-bottom: 15px;
+      }
+
+      .footerLocListing {
+        flex: 0 0 100%;
+
+        .linksItem {
+          ul {
+            li {
+              margin-bottom: 7px;
+
+              a {
+                font-size: 12px;
+                line-height: 22px;
+              }
+            }
+          }
+        }
+      }
+
+      .footerSocialListing {
+        flex: 0 0 100%;
+        align-items: flex-start;
+
+        .linksItem {
+          ul {
+            li {
+              a {
+                svg {
+                  height: 20px;
+                  width: auto;
+                }
+              }
+            }
+          }
+        }
+
+        .mailContact {
+          margin-top: 30px;
+
+          a {
+            padding: 0px 10px;
+            font-size: 13px;
+            line-height: 24px;
+
+            &:first-child {
+              padding-left: 0px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 599px) {
+  .footerSection {
+    .footerMainBox {
+      flex-wrap: wrap;
+
+      .linksItem {
+        flex: 0 0 100% !important;
+        margin-bottom: 20px;
+
+        h6 {
+          font-size: 18px;
+          line-height: 16px;
+          margin-bottom: 15px;
+        }
+
+        ul {
+          display: flex;
+          flex-wrap: wrap;
+
+          li {
+            flex: 0 0 100% !important;
+            margin-bottom: 5px;
+
+            a {
+              font-size: 12px;
+              line-height: 18px;
+            }
+          }
+        }
+      }
+    }
+
+    .footerLocationBox {
+      margin-top: 0px;
+      flex-wrap: wrap;
+
+      h6 {
+        font-size: 18px;
+        line-height: 16px;
+        margin-bottom: 15px;
+      }
+
+      .footerLocListing {
+        flex: 0 0 100%;
+
+        .linksItem {
+          ul {
+            li {
+              flex: 0 0 100%;
+              margin-bottom: 5px;
+
+              a {
+                font-size: 12px;
+                line-height: 22px;
+              }
+            }
+          }
+        }
+      }
+
+      .footerSocialListing {
+        flex: 0 0 100%;
+        align-items: flex-start;
+
+        .linksItem {
+          ul {
+            li {
+              a {
+                svg {
+                  height: 20px;
+                  width: auto;
+                }
+              }
+            }
+          }
+        }
+
+        .mailContact {
+          margin-top: 20px;
+
+          a {
+            padding: 0px 10px;
+            font-size: 13px;
+            line-height: 24px;
+
+            &:first-child {
+              padding-left: 0px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.locationLinks {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  padding: 0;
+
+  li {
+    margin-bottom: 10px;
+    border-right: 1px solid white;
+    padding: 0 20px 0 0;
+    &:last-child {
+      border-right: none;
+    }
+    a {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 24px;
+      letter-spacing: -0.165px;
+      color: rgb(255, 255, 255, 0.6);
+      transition: 0.3s linear;
+      text-transform: capitalize;
+
+      &:hover {
+        color: #f32faf;
+        transition: 0.3s linear;
+      }
+    }
+  }
+}

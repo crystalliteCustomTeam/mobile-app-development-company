@@ -1,0 +1,54 @@
+.projectSection {
+    font-family: "Poppins", sans-serif;
+    height: 500px;
+    padding-bottom: 50px;
+
+    h1,
+    p {
+        text-align: center;
+    }
+}
+
+
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .projectSection {
+        height: 480px;
+        padding-bottom: 50px;
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .projectSection {
+        height: 430px;
+        padding-bottom: 50px;
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .projectSection {
+        height: 450px;
+        padding-bottom: 50px;
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .projectSection {
+        height: 400px;
+        padding-bottom: 50px;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width:899px) {
+    .projectSection {
+        height: auto;
+        padding: 100px 0px 50px;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 599px) {
+    .projectSection {
+        height: auto;
+        padding: 80px 0px 50px;
+    }
+}

@@ -1,0 +1,456 @@
+.expertiseSec {
+    font-family: "Poppins", sans-serif;
+
+    .expertiseBox {
+        flex-wrap: wrap;
+        display: flex;
+        gap: 12px;
+        margin-top: 40px;
+
+        .expertiseList {
+            flex: 0 0 calc(25% - 12px);
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            flex-direction: column;
+            height: 450px;
+            border: 1px solid #D3D7E3;
+            border-radius: 20px;
+            padding: 30px;
+            position: relative;
+            overflow: hidden;
+            background: #fff;
+            transition: background-position 0.6s ease-in-out;
+            background: linear-gradient(91deg, #F32F56 -78.17%, #F32FAF 18.3%, #4A78EF 110.98%);
+            background-size: 100% 0%;
+            background-position: bottom;
+
+            .expertiseIcon {
+                margin-bottom: 15px;
+                height: auto;
+                transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
+            }
+
+            .expertiseContent {
+                h5 {
+                    color: #000;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 33px;
+                    letter-spacing: -0.165px;
+                    margin-bottom: 10px;
+
+                }
+
+                p {
+                    margin-bottom: 15px;
+                }
+            }
+
+            .viewLinks {
+                line-height: 60px;
+                letter-spacing: -0.165px;
+                text-align: right;
+                display: block;
+                opacity: 0;
+                transition: opacity 0s ease-in-out, transform 0s ease-in-out;
+                transform: translateY(20px);
+                height: 0px;
+                width: 100%;
+
+                a,
+                div {
+                    color: #fff;
+                    font-size: 18px;
+                    font-weight: 500;
+                    cursor: pointer;
+
+                    .btnBox {
+                        border-radius: 64px;
+                        background: #fff;
+                        height: 45px;
+                        width: 45px;
+                        display: inline-flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin-left: 10px;
+
+                        svg {
+                            width: 18px;
+                            height: 18px;
+
+                            path {
+                                stroke: #4D77EE;
+                            }
+                        }
+                    }
+                }
+            }
+
+            &:hover {
+                background-size: 100% 100%;
+
+                .expertiseIcon {
+                    transform: translateY(-20px);
+                    opacity: 0;
+                    height: 0;
+                    transition: transform 0.4s ease-in-out, opacity 0s ease-in-out;
+                }
+
+                .expertiseContent {
+                    h5 {
+                        color: #fff;
+                    }
+
+                    p {
+                        color: #fff;
+                    }
+                }
+
+                .viewLinks {
+                    height: auto;
+                    opacity: 1;
+                    transform: translateY(0);
+                    transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .expertiseSec {
+        .expertiseBox {
+            gap: 12px;
+            margin-top: 40px;
+
+            .expertiseList {
+                flex: 0 0 calc(25% - 12px);
+                height: 420px;
+                padding: 28px;
+
+                .expertiseIcon {
+                    margin-bottom: 12px;
+                }
+
+                .expertiseContent {
+                    h5 {
+                        font-size: 22px;
+                        margin-bottom: 10px;
+
+                    }
+
+                    p {
+                        margin-bottom: 12px;
+                    }
+                }
+
+                .viewLinks {
+                    line-height: 60px;
+
+                    a,
+                    div {
+                        font-size: 17px;
+                        font-weight: 500;
+
+                        .btnBox {
+                            height: 45px;
+                            width: 45px;
+
+                            svg {
+                                width: 16px;
+                                height: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .expertiseSec {
+        .expertiseBox {
+            gap: 10px;
+            margin-top: 35px;
+
+            .expertiseList {
+                flex: 0 0 calc(25% - 10px);
+                height: 420px;
+                padding: 25px;
+
+                .expertiseIcon {
+                    margin-bottom: 10px;
+
+                    svg {
+                        height: 50px;
+                        width: auto;
+                    }
+                }
+
+                .expertiseContent {
+                    h5 {
+                        font-size: 20px;
+                        margin-bottom: 10px;
+                        line-height: 28px;
+
+                    }
+
+                    p {
+                        margin-bottom: 10px;
+                    }
+                }
+
+                .viewLinks {
+                    line-height: 60px;
+
+                    a,
+                    div {
+                        font-size: 16px;
+                        font-weight: 500;
+
+                        .btnBox {
+                            height: 45px;
+                            width: 45px;
+
+                            svg {
+                                width: 16px;
+                                height: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .expertiseSec {
+        .expertiseBox {
+            gap: 10px;
+            margin-top: 30px;
+
+            .expertiseList {
+                flex: 0 0 calc(25% - 10px);
+                height: 370px;
+                padding: 25px;
+
+                .expertiseIcon {
+                    margin-bottom: 10px;
+
+                    svg {
+                        height: 50px;
+                        width: auto;
+                    }
+                }
+
+                .expertiseContent {
+                    h5 {
+                        font-size: 18px;
+                        margin-bottom: 10px;
+                        line-height: 26px;
+
+                    }
+
+                    p {
+                        margin-bottom: 10px;
+                    }
+                }
+
+                .viewLinks {
+                    line-height: 60px;
+
+                    a,
+                    div {
+                        font-size: 15px;
+                        font-weight: 500;
+
+                        .btnBox {
+                            height: 40px;
+                            width: 40px;
+
+                            svg {
+                                width: 16px;
+                                height: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .expertiseSec {
+        .expertiseBox {
+            gap: 12px;
+            margin-top: 30px;
+            justify-content: center;
+
+            .expertiseList {
+                flex: 0 0 calc(33.33% - 12px);
+                height: 340px;
+                padding: 25px;
+
+                .expertiseIcon {
+                    margin-bottom: 10px;
+
+                    svg {
+                        height: 50px;
+                        width: auto;
+                    }
+                }
+
+                .expertiseContent {
+                    h5 {
+                        font-size: 18px;
+                        margin-bottom: 10px;
+                        line-height: 26px;
+
+                    }
+
+                    p {
+                        margin-bottom: 10px;
+                    }
+                }
+
+                .viewLinks {
+                    line-height: 60px;
+
+                    a,
+                    div {
+                        font-size: 14px;
+
+                        .btnBox {
+                            height: 35px;
+                            width: 35px;
+
+                            svg {
+                                width: 15px;
+                                height: 15px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width:899px) {
+    .expertiseSec {
+        .expertiseBox {
+            gap: 12px;
+            margin-top: 30px;
+            justify-content: center;
+
+            .expertiseList {
+                flex: 0 0 calc(50% - 12px);
+                height: 300px;
+                padding: 25px;
+
+                .expertiseIcon {
+                    margin-bottom: 10px;
+
+                    svg {
+                        height: 50px;
+                        width: auto;
+                    }
+                }
+
+                .expertiseContent {
+                    h5 {
+                        font-size: 18px;
+                        margin-bottom: 10px;
+                        line-height: 26px;
+
+                    }
+
+                    p {
+                        margin-bottom: 10px;
+                    }
+                }
+
+                .viewLinks {
+                    line-height: 60px;
+
+                    a,
+                    div {
+                        font-size: 14px;
+
+                        .btnBox {
+                            height: 35px;
+                            width: 35px;
+
+                            svg {
+                                width: 15px;
+                                height: 15px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 599px) {
+    .expertiseSec {
+        .expertiseBox {
+            gap: 12px;
+            margin-top: 30px;
+            justify-content: center;
+
+            .expertiseList {
+                flex: 0 0 calc(100% - 12px);
+                height: 320px;
+                padding: 25px;
+
+                .expertiseIcon {
+                    margin-bottom: 10px;
+
+                    svg {
+                        height: 50px;
+                        width: auto;
+                    }
+                }
+
+                .expertiseContent {
+                    h5 {
+                        font-size: 18px;
+                        margin-bottom: 10px;
+                        line-height: 26px;
+
+                    }
+
+                    p {
+                        margin-bottom: 10px;
+                    }
+                }
+
+                .viewLinks {
+                    line-height: 60px;
+
+                    a,
+                    div {
+                        font-size: 14px;
+
+                        .btnBox {
+                            height: 35px;
+                            width: 35px;
+
+                            svg {
+                                width: 15px;
+                                height: 15px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

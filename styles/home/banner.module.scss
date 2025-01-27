@@ -1,0 +1,166 @@
+.bannerSection {
+    height: 800px;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+
+    &::before {
+        content: "";
+        background: rgb(0 0 0 / 50%);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        z-index: -1;
+    }
+
+    .bannerContent {
+
+        h1 {
+            color: #FFF;
+            font-size: 74px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 90px;
+            letter-spacing: -0.165px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: #FFF;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 32px;
+            letter-spacing: -0.165px;
+        }
+    }
+
+    .bannerVideo {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        left: 0px;
+        top: 0px;
+        z-index: -2;
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .bannerSection {
+        height: 650px;
+
+        .bannerContent {
+            h1 {
+                font-size: 65px;
+                line-height: 85px;
+            }
+
+            p {
+                font-size: 18px;
+                line-height: 30px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .bannerSection {
+        height: 650px;
+
+        .bannerContent {
+            h1 {
+                font-size: 60px;
+                line-height: 80px;
+
+            }
+
+            p {
+                font-size: 18px;
+                line-height: 30px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .bannerSection {
+        height: 550px;
+
+        .bannerContent {
+            padding-top: 50px;
+
+            h1 {
+                font-size: 55px;
+                line-height: 70px;
+
+            }
+
+            p {
+                font-size: 16px;
+                line-height: 28px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .bannerSection {
+        height: 450px;
+
+        .bannerContent {
+            padding-top: 50px;
+
+            h1 {
+                font-size: 45px;
+                line-height: 55px;
+            }
+
+            p {
+                font-size: 15px;
+                line-height: 28px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width:899px) {
+    .bannerSection {
+        height: 450px;
+
+        .bannerContent {
+            padding-top: 50px;
+
+            h1 {
+                font-size: 40px;
+                line-height: 50px;
+            }
+
+            p {
+                font-size: 15px;
+                line-height: 28px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 599px) {
+    .bannerSection {
+        height: 100%;
+
+        .bannerContent {
+            padding: 100px 0px 50px;
+
+            h1 {
+                font-size: 40px;
+                line-height: 50px;
+            }
+
+            p {
+                font-size: 15px;
+                line-height: 28px;
+            }
+        }
+    }
+}

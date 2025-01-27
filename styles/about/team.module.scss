@@ -1,0 +1,377 @@
+.teamSection {
+    font-family: "Poppins", sans-serif;
+    .embla {
+        margin-top: 50px;
+        max-width: 100%;
+        position: relative;
+
+        .embla__viewport {
+            overflow: hidden;
+
+            .embla__container {
+                backface-visibility: hidden;
+                display: flex;
+                touch-action: pan-y pinch-zoom;
+                margin-left: calc(30px * -1);
+
+                .embla__slide {
+                    min-width: 0;
+                    flex: 0 0 auto;
+                    padding-left: 30px;
+
+                    .teamBox {
+                        .teamImage {
+                            height: 300px;
+                            width: 300px;
+                            position: relative;
+
+                            img {
+                                object-fit: contain;
+                                border-radius: 15px;
+                            }
+                        }
+
+                        .teamContent {
+                            margin-top: 10px;
+                            padding-left: 10px;
+
+                            .teamname {
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 20px;
+                                line-height: 30px;
+                                letter-spacing: -0.165px;
+                                color: #000000;
+                                margin-bottom: 0px;
+                            }
+
+                            .teamdesg {
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 24px;
+                                letter-spacing: -0.165px;
+                                color: #7C7C7C;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .embla_container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 30px 0px 20px;
+            gap: 15px;
+
+            div {
+                cursor: pointer;
+                border-radius: 64px;
+                background-color: transparent;
+                height: 45px;
+                width: 45px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transition: .3s linear;
+                border: 1px solid #D3D7E3;
+
+                svg {
+                    width: 16px;
+                    height: 16px;
+
+                    path {
+                        stroke: #7C7C7C;
+                    }
+                }
+
+                &:hover {
+                    transition: .3s linear;
+                    background: linear-gradient(91deg, #F32F56 -78.17%, #F32FAF 18.3%, #4A78EF 110.98%);
+
+                    svg {
+                        path {
+                            stroke: #fff;
+                        }
+                    }
+                }
+            }
+
+            .embla_prev {
+                transform: rotate(-180deg);
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .teamSection {
+        .embla {
+            margin-top: 50px;
+
+            .embla__viewport {
+
+                .embla__container {
+                    margin-left: calc(15px * -1);
+
+                    .embla__slide {
+                        padding-left: 15px;
+
+                        .teamBox {
+                            .teamImage {
+                                height: 300px;
+                                width: 300px;
+
+                                img {
+                                    border-radius: 10px;
+                                }
+                            }
+
+                            .teamContent {
+                                margin-top: 10px;
+                                padding-left: 10px;
+
+                                .teamname {
+                                    font-size: 18px;
+                                    line-height: 28px;
+                                }
+
+                                .teamdesg {
+                                    font-size: 15px;
+                                    line-height: 24px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .teamSection {
+        .embla {
+            margin-top: 40px;
+
+            .embla__viewport {
+
+                .embla__container {
+                    margin-left: calc(15px * -1);
+
+                    .embla__slide {
+                        padding-left: 15px;
+
+                        .teamBox {
+                            .teamImage {
+                                height: 300px;
+                                width: 300px;
+
+                                img {
+                                    border-radius: 10px;
+                                }
+                            }
+
+                            .teamContent {
+                                margin-top: 10px;
+                                padding-left: 10px;
+
+                                .teamname {
+                                    font-size: 16px;
+                                    line-height: 26px;
+                                }
+
+                                .teamdesg {
+                                    font-size: 14px;
+                                    line-height: 22px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .teamSection {
+        .embla {
+            margin-top: 30px;
+
+            .embla__viewport {
+
+                .embla__container {
+                    margin-left: calc(15px * -1);
+
+                    .embla__slide {
+                        padding-left: 15px;
+
+                        .teamBox {
+                            .teamImage {
+                                height: 300px;
+                                width: 300px;
+
+                                img {
+                                    border-radius: 10px;
+                                }
+                            }
+
+                            .teamContent {
+                                margin-top: 10px;
+                                padding-left: 10px;
+
+                                .teamname {
+                                    font-size: 15px;
+                                    line-height: 25px;
+                                }
+
+                                .teamdesg {
+                                    font-size: 12px;
+                                    line-height: 18px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .teamSection {
+        .embla {
+            margin-top: 30px;
+
+            .embla__viewport {
+
+                .embla__container {
+                    margin-left: calc(15px * -1);
+
+                    .embla__slide {
+                        padding-left: 15px;
+
+                        .teamBox {
+                            .teamImage {
+                                height: 300px;
+                                width: 300px;
+
+                                img {
+                                    border-radius: 10px;
+                                }
+                            }
+
+                            .teamContent {
+                                margin-top: 10px;
+                                padding-left: 10px;
+
+                                .teamname {
+                                    font-size: 15px;
+                                    line-height: 25px;
+                                }
+
+                                .teamdesg {
+                                    font-size: 12px;
+                                    line-height: 18px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width:899px) {
+    .teamSection {
+        .embla {
+            margin-top: 30px;
+
+            .embla__viewport {
+
+                .embla__container {
+                    margin-left: calc(15px * -1);
+
+                    .embla__slide {
+                        padding-left: 15px;
+
+                        .teamBox {
+                            .teamImage {
+                                height: 280px;
+                                width: 280px;
+
+                                img {
+                                    border-radius: 10px;
+                                }
+                            }
+
+                            .teamContent {
+                                margin-top: 10px;
+                                padding-left: 10px;
+
+                                .teamname {
+                                    font-size: 15px;
+                                    line-height: 25px;
+                                }
+
+                                .teamdesg {
+                                    font-size: 12px;
+                                    line-height: 18px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 599px) {
+    .teamSection {
+        .embla {
+            margin-top: 30px;
+
+            .embla__viewport {
+
+                .embla__container {
+                    margin-left: calc(15px * -1);
+
+                    .embla__slide {
+                        padding-left: 15px;
+
+                        .teamBox {
+                            .teamImage {
+                                height: 280px;
+                                width: 280px;
+
+                                img {
+                                    border-radius: 10px;
+                                }
+                            }
+
+                            .teamContent {
+                                margin-top: 10px;
+                                padding-left: 10px;
+
+                                .teamname {
+                                    font-size: 15px;
+                                    line-height: 25px;
+                                }
+
+                                .teamdesg {
+                                    font-size: 12px;
+                                    line-height: 18px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

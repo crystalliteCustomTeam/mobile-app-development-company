@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="165.625" height="200" viewBox="0 0 165.625 200">
+  <g id="Amazon_S3" data-name="Amazon S3" transform="translate(-97 -64)">
+    <path id="Path_84713" data-name="Path 84713" d="M194.354,244.021,123,261.208V131l71.354,16.667Z" transform="translate(-12.458 -32.104)" fill="#e05243"/>
+    <path id="Path_84714" data-name="Path 84714" d="M256,244.542l69.271,16.667V131L256,147.667v96.875" transform="translate(-76.188 -32.104)" fill="#8c3123"/>
+    <g id="Group_53739" data-name="Group 53739" transform="translate(179.813 64)">
+      <path id="a" d="M256,64v50.521l30.208,7.292V79.1Zm69.271,34.9V229.1l13.542-6.771V105.146ZM256,139v50.521l30.208-4.167V142.646Zm30.208,67.188L256,213.479V264l30.208-15.1Z" transform="translate(-256 -64)" fill="#e05243"/>
+    </g>
+    <path id="Path_84715" data-name="Path 84715" d="M0,0V50.521l30.208,7.292V15.1ZM69.271,34.9V165.1l13.542-6.771V41.146ZM0,75v50.521l30.208-4.167V78.646Zm30.208,67.188L0,149.479V200l30.208-15.1Z" transform="translate(179.813 264) rotate(180)" fill="#8c3123"/>
+    <path id="Path_84716" data-name="Path 84716" d="M258.417,167.813l-30.208,5.729L198,167.813,228.208,160l30.208,7.813" transform="translate(-48.396 -46)" fill="#5e1f18"/>
+    <path id="Path_84717" data-name="Path 84717" d="M258.417,331.729,228.208,326,198,331.729l30.208,8.333,30.208-8.333" transform="translate(-48.396 -125.542)" fill="#f2b0a9"/>
+  </g>
+</svg>

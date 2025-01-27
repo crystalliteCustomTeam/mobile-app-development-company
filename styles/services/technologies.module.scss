@@ -1,0 +1,249 @@
+.technologiesSection {
+  font-family: "Poppins", sans-serif;
+  background: #f5f5f5;
+
+  p {
+    a {
+      color: #585858;
+      transition: 0.3s linear;
+      font-weight: 500;
+
+      &:hover {
+        transition: 0.3s linear;
+        color: #4d77ee;
+      }
+    }
+  }
+
+  .techSec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 30px 0px;
+
+    .techIcon {
+      flex: 0 0 calc(25% - 8px);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #ebebeb;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      height: 60px;
+      padding: 0px 10px;
+
+      .iconBox {
+        margin-right: 10px;
+
+        img {
+          width: auto;
+          height: 30px;
+        }
+      }
+
+      .iconTitle {
+        font-size: 16px;
+        color: #000;
+        line-height: 28px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .technologiesSection {
+    .techSec {
+      margin: 30px 0px;
+
+      .techIcon {
+        flex: 0 0 calc(25% - 8px);
+        margin-bottom: 10px;
+        height: 60px;
+        padding: 0px 10px;
+
+        .iconBox {
+          margin-right: 10px;
+
+          img {
+            width: auto;
+            height: 30px;
+          }
+        }
+
+        .iconTitle {
+          font-size: 15px;
+          line-height: 26px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+  .technologiesSection {
+    .techSec {
+      margin: 20px 0px;
+
+      .techIcon {
+        flex: 0 0 calc(25% - 8px);
+        margin-bottom: 10px;
+        height: 50px;
+        padding: 0px 10px;
+
+        .iconBox {
+          margin-right: 10px;
+
+          img {
+            width: auto;
+            height: 26px;
+          }
+        }
+
+        .iconTitle {
+          font-size: 14px;
+          line-height: 18px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+  .technologiesSection {
+    .techSec {
+      margin: 20px 0px;
+
+      .techIcon {
+        flex: 0 0 calc(25% - 8px);
+        margin-bottom: 10px;
+        height: 50px;
+        padding: 0px 10px;
+
+        .iconBox {
+          margin-right: 10px;
+
+          img {
+            width: auto;
+            height: 26px;
+          }
+        }
+
+        .iconTitle {
+          font-size: 14px;
+          line-height: 18px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .technologiesSection {
+    .techSec {
+      margin: 20px 0px;
+      justify-content: center;
+      gap: 10px;
+
+      .techIcon {
+        flex: 0 0 calc(33% - 8px);
+        margin-bottom: 10px;
+        height: 45px;
+        padding: 0px 10px;
+
+        .iconBox {
+          margin-right: 10px;
+
+          img {
+            width: auto;
+            height: 26px;
+          }
+        }
+
+        .iconTitle {
+          font-size: 12px;
+          line-height: 18px;
+        }
+      }
+    }
+
+    .ImgPhone {
+      height: 400px;
+      width: auto;
+      margin: auto;
+      display: block;
+    }
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 899px) {
+  .technologiesSection {
+    .techSec {
+      margin: 20px 0px;
+
+      .techIcon {
+        flex: 0 0 calc(25% - 8px);
+        margin-bottom: 10px;
+        height: 45px;
+        padding: 0px 10px;
+
+        .iconBox {
+          margin-right: 10px;
+
+          img {
+            width: auto;
+            height: 26px;
+          }
+        }
+
+        .iconTitle {
+          font-size: 12px;
+          line-height: 18px;
+        }
+      }
+    }
+
+    .ImgPhone {
+      height: 350px;
+      width: auto;
+      margin: auto;
+      display: block;
+    }
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 599px) {
+  .technologiesSection {
+    .techSec {
+      margin: 20px 0px 15px;
+
+      .techIcon {
+        flex: 0 0 calc(50% - 5px);
+        margin-bottom: 10px;
+        height: 45px;
+        padding: 0px 10px;
+
+        .iconBox {
+          margin-right: 10px;
+
+          img {
+            width: auto;
+            height: 26px;
+          }
+        }
+
+        .iconTitle {
+          font-size: 12px;
+          line-height: 18px;
+        }
+      }
+    }
+
+    .ImgPhone {
+      height: 300px;
+      width: auto;
+      margin: 20px auto 0px;
+      display: block;
+    }
+  }
+}

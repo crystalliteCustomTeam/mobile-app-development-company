@@ -1,0 +1,334 @@
+.servicesSection {
+  font-family: "Poppins", sans-serif;
+  .serviceMargin {
+    margin-bottom: 50px;
+  }
+
+  .servicesBox {
+    padding-right: 15px;
+
+    .servicesItem {
+      background: #f1f6f8;
+      border-radius: 26px;
+      margin-bottom: 20px;
+      padding: 20px 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 220px;
+      position: relative;
+      transition: background 0.4s ease, color 0.4s ease;
+
+      &.active {
+        background: linear-gradient(
+          91.47deg,
+          #f32f56 -78.17%,
+          #f32faf 18.3%,
+          #4a78ef 110.98%
+        );
+        transition: background 0.4s ease, color 0.4s ease;
+
+        h5,
+        p {
+          color: #fff;
+          a {
+            color: #fff;
+
+            &:hover {
+              transition: 0.3s linear;
+              color: #4d77ee;
+            }
+          }
+        }
+
+        .arrowBtn {
+          opacity: 1;
+          display: block;
+          transition: opacity 0.4s ease;
+        }
+      }
+
+      h5 {
+        color: #000;
+        margin-bottom: 10px;
+      }
+
+      p {
+        color: #707780;
+        margin-bottom: 0px;
+        a {
+          color: #707780;
+          font-weight: 500;
+        }
+      }
+
+      .arrowBtn {
+        opacity: 0;
+        display: none;
+        position: absolute;
+        right: 20px;
+        bottom: 20px;
+        transition: opacity 0.4s ease;
+
+        svg {
+          height: 25px;
+          width: auto;
+        }
+      }
+
+      &:hover {
+        background: linear-gradient(
+          91.47deg,
+          #f32f56 -78.17%,
+          #f32faf 18.3%,
+          #4a78ef 110.98%
+        );
+
+        h5,
+        p {
+          color: #fff;
+          a {
+            color: #fff;
+
+            &:hover {
+              transition: 0.3s linear;
+              color: #4d77ee;
+            }
+          }
+        }
+
+        .arrowBtn {
+          opacity: 1;
+          display: block;
+        }
+      }
+    }
+  }
+
+  .gameBG {
+    position: sticky;
+    top: 100px;
+    border-radius: 26px;
+    // height: 730px;
+
+    img {
+      border-radius: 26px;
+    }
+  }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .servicesSection {
+    .serviceMargin {
+      margin-bottom: 50px;
+    }
+
+    .servicesBox {
+      padding-right: 15px;
+
+      .servicesItem {
+        margin-bottom: 20px;
+        padding: 20px 30px;
+        height: 220px;
+
+        .arrowBtn {
+          right: 20px;
+          bottom: 20px;
+
+          svg {
+            height: 25px;
+            width: auto;
+          }
+        }
+      }
+    }
+
+    // .gameBG {
+    //     height: 700px;
+    // }
+  }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+  .servicesSection {
+    .serviceMargin {
+      margin-bottom: 40px;
+    }
+
+    .servicesBox {
+      padding-right: 15px;
+
+      .servicesItem {
+        margin-bottom: 20px;
+        padding: 20px 25px;
+        height: 210px;
+
+        .arrowBtn {
+          right: 20px;
+          bottom: 20px;
+
+          svg {
+            height: 22px;
+            width: auto;
+          }
+        }
+      }
+    }
+
+    // .gameBG {
+    //     height: 650px;
+
+    //     img {
+    //         height: auto;
+    //         width: auto;
+    //     }
+    // }
+  }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+  .servicesSection {
+    .serviceMargin {
+      margin-bottom: 30px;
+    }
+
+    .servicesBox {
+      padding-right: 15px;
+
+      .servicesItem {
+        margin-bottom: 20px;
+        padding: 20px 25px;
+        height: 210px;
+
+        .arrowBtn {
+          right: 20px;
+          bottom: 20px;
+
+          svg {
+            height: 20px;
+            width: auto;
+          }
+        }
+      }
+    }
+
+    // .gameBG {
+    //     height: 600px;
+    // }
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .servicesSection {
+    .serviceMargin {
+      margin-bottom: 30px;
+    }
+
+    .servicesBox {
+      padding-right: 15px;
+
+      .servicesItem {
+        margin-bottom: 20px;
+        padding: 20px 25px;
+        height: 190px;
+        border-radius: 15px;
+
+        .arrowBtn {
+          right: 20px;
+          bottom: 20px;
+
+          svg {
+            height: 16px;
+            width: auto;
+          }
+        }
+      }
+    }
+
+    // .gameBG {
+    //     height: 500px;
+
+    //     img {
+    //         height: auto;
+    //         width: auto;
+    //     }
+    // }
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 899px) {
+  .servicesSection {
+    .serviceMargin {
+      margin-bottom: 30px;
+    }
+
+    .servicesBox {
+      padding-right: 0px;
+
+      .servicesItem {
+        margin-bottom: 15px;
+        padding: 20px;
+        height: auto;
+        border-radius: 10px;
+
+        .arrowBtn {
+          right: 10px;
+          bottom: 10px;
+
+          svg {
+            height: 16px;
+            width: auto;
+          }
+        }
+      }
+    }
+
+    // .gameBG {
+    //     height: 400px;
+
+    //     img {
+    //         height: auto;
+    //         width: auto;
+    //     }
+    // }
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 599px) {
+  .servicesSection {
+    padding-bottom: 0px;
+
+    .serviceMargin {
+      margin-bottom: 20px;
+    }
+
+    .servicesBox {
+      padding-right: 0px;
+
+      .servicesItem {
+        margin-bottom: 15px;
+        padding: 20px;
+        height: auto;
+        border-radius: 10px;
+
+        .arrowBtn {
+          right: 10px;
+          bottom: 10px;
+
+          svg {
+            height: 16px;
+            width: auto;
+          }
+        }
+
+        &:last-child {
+          margin-bottom: 0px;
+        }
+      }
+    }
+
+    .gameBG {
+      display: none;
+    }
+  }
+}

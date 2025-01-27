@@ -1,0 +1,260 @@
+.Cta {
+  font-family: "Poppins", sans-serif;
+
+  div {
+    z-index: unset;
+  }
+
+  .Sec {
+    height: 420px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: contain;
+    position: relative;
+
+    &::before {
+      content: "";
+      background: linear-gradient(94.58deg,
+          #f32f56 -50.6%,
+          #f32faf 38.31%,
+          #4a78ef 123.73%);
+      border-radius: 40px;
+
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      z-index: -1;
+    }
+
+    .Content {
+      flex: 0 0 45%;
+      margin: auto;
+
+      h4 {
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 45px;
+
+        span {
+          font-weight: 700;
+          font-size: 40px;
+        }
+      }
+
+      h4,
+      h2,
+      p {
+        color: #fff;
+      }
+    }
+
+    .imgBox {
+      text-align: center;
+      flex: 0 0 45%;
+
+      img {
+        margin-top: -200px;
+        height: auto;
+        width: auto;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .Cta {
+    .Sec {
+      height: 390px;
+      padding: 30px 30px 30px 40px;
+
+      .Content {
+        flex: 0 0 45%;
+
+        h4 {
+          font-weight: 400;
+          font-size: 28px;
+          line-height: 38px;
+        }
+      }
+
+      .imgBox {
+        text-align: center;
+        flex: 0 0 45%;
+
+        img {
+          margin-top: -140px;
+          height: auto;
+          width: auto;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+  .Cta {
+    .Sec {
+      height: 390px;
+      padding: 0px 20px 0px 0px;
+
+      .Content {
+        flex: 0 0 45%;
+
+        h4 {
+          font-weight: 400;
+          font-size: 22px;
+          line-height: 38px;
+        }
+      }
+
+      .imgBox {
+        text-align: center;
+        flex: 0 0 45%;
+
+        img {
+          margin-top: -100px;
+          height: auto;
+          width: auto;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+  .Cta {
+    .Sec {
+      height: 360px;
+      padding: 30px 20px 30px 30px;
+
+      .Content {
+        flex: 0 0 45%;
+
+        h4 {
+          font-weight: 400;
+          font-size: 22px;
+          line-height: 38px;
+        }
+      }
+
+      .imgBox {
+        text-align: center;
+        flex: 0 0 45%;
+
+        img {
+          margin-top: -100px;
+          height: auto;
+          width: auto;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .Cta {
+    .Sec {
+      height: 320px;
+      padding: 30px 20px 30px 30px;
+
+      .Content {
+        flex: 0 0 45%;
+
+        h4 {
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 38px;
+        }
+      }
+
+      .imgBox {
+        text-align: center;
+        flex: 0 0 45%;
+
+        img {
+          margin-top: 0px;
+          height: auto;
+          width: auto;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 899px) {
+  .Cta {
+    .Sec {
+      height: 260px;
+      padding: 30px 20px 30px 30px;
+
+      &::before {
+        border-radius: 25px;
+      }
+
+      .Content {
+        flex: 0 0 100%;
+
+        h4 {
+          font-weight: 400;
+          font-size: 24px;
+          line-height: 38px;
+        }
+      }
+
+      .imgBox {
+        display: none;
+        text-align: center;
+        flex: 0 0 100%;
+
+        img {
+          margin-top: -210px;
+          height: auto;
+          width: auto;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 599px) {
+  .Cta {
+    padding: 0px;
+
+    .Sec {
+      height: 300px;
+      padding: 30px 20px 30px 30px;
+
+      &::before {
+        border-radius: 15px;
+      }
+
+      .Content {
+        flex: 0 0 100%;
+
+        h4 {
+          font-weight: 400;
+          font-size: 19px;
+          line-height: 28px;
+        }
+      }
+
+      .imgBox {
+        display: none;
+        text-align: center;
+        flex: 0 0 45%;
+
+        img {
+          margin-top: -210px;
+          height: auto;
+          width: auto;
+        }
+      }
+    }
+  }
+}

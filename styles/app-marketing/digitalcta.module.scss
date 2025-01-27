@@ -1,0 +1,187 @@
+.digitalSection {
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  background: #141414;
+  height: 550px;
+
+  .bitsWits {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex: 0 0 100%;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    height: 250px;
+    margin: 50px 0;
+
+    .bits,
+    .wits {
+      display: inline-block;
+      transition: transform 0.5s ease;
+      transform: translateX(0px);
+      font-style: normal;
+      font-weight: 700;
+      font-size: 200px;
+      line-height: 55px;
+    }
+
+    .bits {
+      color: #f32faf;
+
+    }
+
+    .wits {
+      color: #4a78ef;
+
+    }
+
+    &:hover {
+      .bits {
+        transform: translateX(-75px);
+      }
+
+      .wits {
+        transform: translateX(75px);
+      }
+    }
+  }
+
+  .DigitalCtaContent {
+    position: relative;
+
+    h2 {
+      color: #fff;
+      margin-bottom: 20px;
+    }
+
+    p {
+      color: #9d9d9d;
+    }
+  }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .digitalSection {
+    .bitsWits {
+      height: 250px;
+      margin: 50px 0;
+
+      .bits,
+      .wits {
+        font-size: 180px;
+        line-height: 55px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+  .digitalSection {
+    height: 500px;
+
+    .bitsWits {
+      height: 210px;
+      margin: 50px 0;
+
+      .bits,
+      .wits {
+        font-size: 160px;
+        line-height: 55px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+  .digitalSection {
+    height: 450px;
+
+    .bitsWits {
+      height: 210px;
+      margin: 50px 0;
+
+      .bits,
+      .wits {
+        font-size: 160px;
+        line-height: 55px;
+      }
+
+    }
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .digitalSection {
+    height: 420px;
+
+    .bitsWits {
+      height: 190px;
+      margin: 50px 0;
+
+      .bits,
+      .wits {
+        font-size: 140px;
+        line-height: 55px;
+      }
+
+
+    }
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 899px) {
+  .digitalSection {
+    height: 350px;
+
+    .bitsWits {
+      height: 160px;
+      margin: 50px 0;
+
+      .bits,
+      .wits {
+        font-size: 120px;
+        line-height: 55px;
+      }
+
+      &:hover {
+        .bits {
+          transform: translateX(-70px);
+        }
+
+        .wits {
+          transform: translateX(45px);
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 599px) {
+  .digitalSection {
+    height: auto;
+    padding: 50px 0px;
+    text-align: center;
+
+    .bitsWits {
+      height: 140px;
+      margin: 20px 0 30px;
+
+      .bits,
+      .wits {
+        font-size: 100px;
+        line-height: 55px;
+      }
+
+      &:hover {
+        .bits {
+          transform: translateX(-60px);
+        }
+
+        .wits {
+          transform: translateX(40px);
+        }
+      }
+    }
+  }
+}

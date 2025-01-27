@@ -1,0 +1,145 @@
+.scrollingSection {
+    font-family: "Poppins", sans-serif;
+    background: #F7F8F9;
+    height: 1020px;
+    overflow: hidden;
+
+    .scrollingImg {
+        height: 4246px;
+        overflow: hidden;
+        position: relative;
+        text-align: center;
+        animation: scrollVertical 50s linear infinite;
+        width: auto;
+
+        @keyframes scrollVertical {
+            0% {
+                top: 0;
+            }
+
+            100% {
+                top: -3226px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .scrollingSection {
+        height: 800px;
+
+        .scrollingImg {
+            height: 4246px;
+
+            @keyframes scrollVertical {
+                0% {
+                    top: 0;
+                }
+
+                100% {
+                    top: -3226px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .scrollingSection {
+        height: 700px;
+
+        .scrollingImg {
+            height: 4246px;
+
+            @keyframes scrollVertical {
+                0% {
+                    top: 0;
+                }
+
+                100% {
+                    top: -3226px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .scrollingSection {
+        height: 650px;
+
+        .scrollingImg {
+            height: 4246px;
+
+            @keyframes scrollVertical {
+                0% {
+                    top: 0;
+                }
+
+                100% {
+                    top: -3226px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .scrollingSection {
+        height: 600px;
+
+        .scrollingImg {
+            height: 4246px;
+
+            @keyframes scrollVertical {
+                0% {
+                    top: 0;
+                }
+
+                100% {
+                    top: -3226px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width:899px) {
+    .scrollingSection {
+        height: 600px;
+
+        .scrollingImg {
+            height: 4246px;
+
+            @keyframes scrollVertical {
+                0% {
+                    top: 0;
+                }
+
+                100% {
+                    top: -3226px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 599px) {
+    .scrollingSection {
+        height: 400px;
+
+        .scrollingImg {
+            height: 4246px;
+
+            @keyframes scrollVertical {
+                0% {
+                    top: 0;
+                }
+
+                100% {
+                    top: -3226px;
+                }
+            }
+        }
+    }
+}

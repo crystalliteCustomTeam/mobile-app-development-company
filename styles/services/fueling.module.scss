@@ -1,0 +1,326 @@
+.fuelingSection {
+  font-family: "Poppins", sans-serif;
+
+  &.industryfueling {
+    .fuelingSickty {
+      p {
+        color: #000;
+        a {
+          color: #000;
+
+          transition: 0.3s linear;
+          &:hover {
+            color: #4d77ee;
+            transition: 0.3s linear;
+          }
+        }
+      }
+      .fuelingImg {
+        margin: 20px auto 20px;
+      }
+    }
+
+    .fuelingSidebar {
+      .sicktyItem {
+        h5 {
+          color: #000;
+        }
+
+        p {
+          color: #000;
+        }
+      }
+    }
+  }
+
+  .fuelingSickty {
+    position: sticky;
+    top: 20px;
+    p {
+      color: rgb(255, 255, 255, 60%);
+
+      a {
+        color: rgb(255, 255, 255, 60%);
+        transition: 0.3s linear;
+        font-weight: 500;
+
+        &:hover {
+          color: rgb(255, 255, 255, 100%);
+          transition: 0.3s linear;
+        }
+      }
+    }
+
+    .fuelingBox {
+      background: #fff;
+      border-radius: 10px;
+      padding: 30px 30px;
+      display: flex;
+      margin: 50px 0px 30px;
+      align-items: center;
+      position: relative;
+
+      .boxContent {
+        flex: 0 0 68%;
+
+        h5 {
+          color: #000;
+        }
+
+        p {
+          color: #000;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 22px;
+          margin-bottom: 0px;
+        }
+      }
+
+      .boxImg {
+        position: absolute;
+        top: -50px;
+        right: -50px;
+
+        img {
+          height: 230px;
+          width: auto;
+        }
+      }
+    }
+  }
+
+  .fuelingSidebar {
+    .sicktyItem {
+      h5 {
+        border-bottom: 2px solid #4d77ee;
+        color: #fff;
+        display: inline-block;
+        padding: 0px 10px 5px 0px;
+        margin-bottom: 15px;
+      }
+
+      p {
+        font-weight: 500;
+        color: #fff;
+        a {
+          color: #fff;
+          transition: 0.3s linear;
+          font-weight: 500;
+
+          &:hover {
+            color: rgb(255, 255, 255, 60%);
+            transition: 0.3s linear;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .fuelingSection {
+    .fuelingSickty {
+      top: 20px;
+
+      .fuelingBox {
+        padding: 30px 30px;
+        margin: 50px 0px 30px;
+
+        .boxContent {
+          flex: 0 0 68%;
+
+          p {
+            font-size: 13px;
+            line-height: 21px;
+          }
+        }
+
+        .boxImg {
+          top: -50px;
+          right: -50px;
+
+          img {
+            height: 230px;
+          }
+        }
+      }
+    }
+
+    .fuelingSidebar {
+      .sicktyItem {
+        h5 {
+          padding: 0px 10px 5px 0px;
+          margin-bottom: 15px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+  .fuelingSection {
+    .fuelingSickty {
+      top: 20px;
+
+      .fuelingBox {
+        padding: 20px 20px;
+        margin: 50px 0px 30px;
+
+        .boxContent {
+          flex: 0 0 58%;
+
+          p {
+            font-size: 12px;
+            line-height: 21px;
+          }
+        }
+
+        .boxImg {
+          top: -50px;
+          right: -50px;
+
+          img {
+            height: 230px;
+          }
+        }
+      }
+    }
+
+    .fuelingSidebar {
+      .sicktyItem {
+        h5 {
+          padding: 0px 10px 5px 0px;
+          margin-bottom: 15px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .fuelingSection {
+    .fuelingSickty {
+      top: 20px;
+
+      .fuelingBox {
+        padding: 20px 20px;
+        margin: 20px 0px 20px;
+
+        .boxContent {
+          flex: 0 0 60%;
+
+          p {
+            font-size: 12px;
+            line-height: 21px;
+          }
+        }
+
+        .boxImg {
+          top: -50px;
+          right: -50px;
+          position: unset;
+
+          img {
+            height: auto;
+          }
+        }
+      }
+    }
+
+    .fuelingSidebar {
+      .sicktyItem {
+        h5 {
+          padding: 0px 10px 5px 0px;
+          margin-bottom: 15px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 899px) {
+  .fuelingSection {
+    .fuelingSickty {
+      top: 20px;
+
+      .fuelingBox {
+        padding: 20px 20px;
+        margin: 20px 0px 20px;
+
+        .boxContent {
+          flex: 0 0 100%;
+
+          p {
+            font-size: 12px;
+            line-height: 21px;
+          }
+        }
+
+        .boxImg {
+          display: none;
+
+          img {
+            height: auto;
+          }
+        }
+      }
+    }
+
+    .fuelingSidebar {
+      .sicktyItem {
+        h5 {
+          padding: 0px 10px 5px 0px;
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 599px) {
+  .fuelingSection {
+    .fuelingSickty {
+      top: 20px;
+
+      .fuelingBox {
+        padding: 20px 20px;
+        margin: 20px 0px 20px;
+
+        .boxContent {
+          flex: 0 0 60%;
+
+          p {
+            font-size: 12px;
+            line-height: 21px;
+          }
+        }
+
+        .boxImg {
+          top: -50px;
+          right: -50px;
+          position: unset;
+
+          img {
+            height: auto;
+            width: auto;
+          }
+        }
+      }
+    }
+
+    .fuelingSidebar {
+      margin-top: 20px;
+
+      .sicktyItem {
+        h5 {
+          padding: 0px 10px 5px 0px;
+          margin-bottom: 10px;
+        }
+
+        p {
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}

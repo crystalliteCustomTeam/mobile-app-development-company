@@ -1,0 +1,158 @@
+.activitySection {
+    font-family: "Poppins", sans-serif;
+    .activityBox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 20px;
+        height: 210px;
+        margin-top: -105px;
+        width: 100%;
+
+        .activityitem {
+            flex: 0 0 25%;
+            border-right: 2px solid #fff;
+            font-size: 55px;
+            line-height: 65px;
+            color: #fff;
+            font-weight: 600;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            span {
+                font-size: 18px;
+                line-height: 24px;
+                display: block;
+            }
+
+            &:last-child {
+                border-right: 0px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .activitySection {
+        height: 180px;
+
+        .activityBox {
+            gap: 10px;
+            margin-top: -90px;
+            height: 180px;
+
+            .activityitem {
+                font-size: 50px;
+                line-height: 60px;
+
+                span {
+                    font-size: 17px;
+                    line-height: 22px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .activitySection {
+        height: 180px;
+
+        .activityBox {
+            gap: 10px;
+            margin-top: -90px;
+            height: 180px;
+
+            .activityitem {
+                font-size: 50px;
+                line-height: 60px;
+
+                span {
+                    font-size: 17px;
+                    line-height: 22px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .activitySection {
+        height: 160px;
+
+        .activityBox {
+            gap: 10px;
+            margin-top: -80px;
+            height: 160px;
+
+            .activityitem {
+                font-size: 40px;
+                line-height: 50px;
+
+                span {
+                    font-size: 15px;
+                    line-height: 22px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width:899px) {
+    .activitySection {
+        height: 140px;
+
+        .activityBox {
+            gap: 10px;
+            margin-top: -70px;
+            height: 140px;
+
+            .activityitem {
+                font-size: 40px;
+                line-height: 50px;
+
+                span {
+                    font-size: 14px;
+                    line-height: 20px;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 599px) {
+    .activitySection {
+        height: 160px;
+
+        .activityBox {
+            gap: 0px;
+            margin-top: -100px;
+            height: 200px;
+            padding: 20px;
+            flex-wrap: wrap;
+
+
+            .activityitem {
+                flex: 0 0 50%;
+                font-size: 40px;
+                line-height: 50px;
+                margin-bottom: 20px;
+                border-right: 1px solid #fff;
+
+                &:nth-child(2) {
+                    border-right: 0px;
+                }
+
+                span {
+                    font-size: 14px;
+                    line-height: 20px;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}

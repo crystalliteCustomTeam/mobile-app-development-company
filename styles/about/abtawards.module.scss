@@ -1,0 +1,214 @@
+.abtAwardSection {
+    font-family: "Poppins", sans-serif;
+    .aboutContainer {
+        background: #F7F8F9;
+        border-radius: 40px;
+        padding: 50px 50px;
+
+        .aboutTxt {
+            max-width: 60%;
+            margin: 0px auto 50px;
+        }
+
+        .aboutAwards {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+
+            .AwardsItem {
+                flex: 0 0 16.66%;
+                position: relative;
+                height: 150px;
+                border-right: 1px solid #D9D9D9;
+                margin-top: 30px;
+
+                &:nth-child(6),
+                &:last-child {
+                    border-right: 0px;
+                }
+
+                img {
+                    object-fit: contain;
+                    padding: 20px 30px;
+                }
+            }
+        }
+    }
+
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .abtAwardSection {
+        .aboutContainer {
+            padding: 45px;
+
+            .aboutTxt {
+                max-width: 60%;
+                margin: 0px auto 50px;
+            }
+
+            .aboutAwards {
+                .AwardsItem {
+                    flex: 0 0 16.66%;
+                    height: 145spx;
+                    margin-top: 30px;
+
+                    img {
+                        padding: 20px 30px;
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .abtAwardSection {
+        .aboutContainer {
+            padding: 45px;
+
+            .aboutTxt {
+                max-width: 60%;
+                margin: 0px auto 50px;
+            }
+
+            .aboutAwards {
+                .AwardsItem {
+                    flex: 0 0 16.66%;
+                    height: 140px;
+                    margin-top: 25px;
+
+                    img {
+                        padding: 20px 25px;
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .abtAwardSection {
+        .aboutContainer {
+            padding: 30px;
+
+            .aboutTxt {
+                max-width: 60%;
+                margin: 0px auto 50px;
+            }
+
+            .aboutAwards {
+                .AwardsItem {
+                    flex: 0 0 16.66%;
+                    height: 120px;
+                    margin-top: 20px;
+
+                    img {
+                        padding: 15px 20px;
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .abtAwardSection {
+        .aboutContainer {
+            padding: 30px;
+            border-radius: 20px;
+
+            .aboutTxt {
+                max-width: 60%;
+                margin: 0px auto 50px;
+            }
+
+            .aboutAwards {
+                .AwardsItem {
+                    flex: 0 0 16.66%;
+                    height: 100px;
+                    margin-top: 20px;
+
+                    img {
+                        padding: 10px 15px;
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width:899px) {
+    .abtAwardSection {
+        .aboutContainer {
+            padding: 30px;
+            border-radius: 20px;
+
+            .aboutTxt {
+                max-width: 60%;
+                margin: 0px auto 30px;
+            }
+
+            .aboutAwards {
+                .AwardsItem {
+                    flex: 0 0 25%;
+                    height: 100px;
+                    margin-top: 20px;
+
+                    &:nth-child(6) {
+                        border-right: 1px solid #D9D9D9;
+                    }
+
+                    &:nth-child(4),
+                    &:nth-child(8),
+                    &:last-child {
+                        border-right: 0px;
+                    }
+
+                    img {
+                        padding: 5px 15px;
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 599px) {
+    .abtAwardSection {
+        .aboutContainer {
+            padding: 25px;
+            border-radius: 10px;
+
+            .aboutTxt {
+                max-width: 100%;
+                margin: 0px auto 20px;
+            }
+
+            .aboutAwards {
+                .AwardsItem {
+                    flex: 0 0 33.33%;
+                    height: 60px;
+                    margin-top: 20px;
+
+                    &:nth-child(3),
+                    &:nth-child(9),
+                    &:last-child {
+                        border-right: 0px;
+                    }
+
+                    img {
+                        padding: 5px 10px;
+                    }
+                }
+            }
+        }
+
+    }
+}

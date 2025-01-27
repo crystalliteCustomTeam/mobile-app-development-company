@@ -1,0 +1,300 @@
+.digitalSection {
+    position: relative;
+    height: 770px;
+    font-family: "Poppins", sans-serif;
+
+    .digitalVideo {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        z-index: -1;
+    }
+
+    .digitalContent {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 160px;
+        line-height: normal;
+        letter-spacing: -0.165px;
+        color: #FFFFFF;
+        position: relative;
+        z-index: 20;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+
+        span {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 60px;
+            line-height: 73px;
+            text-align: center;
+            letter-spacing: -0.165px;
+            color: #FFFFFF;
+            text-align: right;
+            margin-right: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .digitalAnimatedBox {
+        display: flex;
+        align-items: center;
+
+        .digitalAnimatedTxt {
+            position: relative;
+            height: 170px;
+            overflow: hidden;
+            flex: 0 0 70%;
+
+            span {
+                position: absolute;
+                width: 100%;
+                text-align: center;
+                animation: scroll 8s infinite;
+                opacity: 0;
+                display: block;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 160px;
+                line-height: 130px;
+                letter-spacing: -0.165px;
+                color: #F31D63;
+            }
+
+            span:nth-child(1) {
+                animation-delay: 0s;
+                color: #F31D63;
+            }
+
+            span:nth-child(2) {
+                animation-delay: 2s;
+                color: #A224AC;
+            }
+
+            span:nth-child(3) {
+                animation-delay: 4s;
+                color: #B66BF0;
+            }
+
+            span:nth-child(4) {
+                animation-delay: 6s;
+                color: #4D77EE;
+            }
+        }
+
+        @keyframes scroll {
+            0% {
+                transform: translateY(100%);
+                opacity: 0;
+            }
+
+            10% {
+                transform: translateY(0);
+                opacity: 1;
+            }
+
+            25% {
+                transform: translateY(0);
+                opacity: 1;
+            }
+
+            35% {
+                transform: translateY(-100%);
+                opacity: 0;
+            }
+
+            100% {
+                transform: translateY(-100%);
+                opacity: 0;
+            }
+        }
+    }
+
+
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .digitalSection {
+        position: relative;
+        height: 770px;
+
+        .digitalContent {
+            font-size: 160px;
+
+            span {
+                font-size: 55px;
+                line-height: 68px;
+                margin-right: 20px;
+            }
+        }
+
+        .digitalAnimatedBox {
+            .digitalAnimatedTxt {
+                height: 170px;
+                flex: 0 0 70%;
+
+                span {
+                    font-size: 150px;
+                    line-height: 125px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .digitalSection {
+        position: relative;
+        height: 650px;
+
+        .digitalContent {
+            font-size: 150px;
+
+            span {
+                font-size: 50px;
+                line-height: 63px;
+                margin-right: 20px;
+            }
+        }
+
+        .digitalAnimatedBox {
+            .digitalAnimatedTxt {
+                height: 160px;
+                flex: 0 0 70%;
+
+                span {
+                    font-size: 140px;
+                    line-height: 125px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .digitalSection {
+        position: relative;
+        height: 600px;
+
+        .digitalContent {
+            font-size: 140px;
+
+            span {
+                font-size: 45px;
+                line-height: 60px;
+                margin-right: 20px;
+            }
+        }
+
+        .digitalAnimatedBox {
+            .digitalAnimatedTxt {
+                height: 150px;
+                flex: 0 0 70%;
+
+                span {
+                    font-size: 130px;
+                    line-height: 120px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .digitalSection {
+        position: relative;
+        height: 550px;
+
+        .digitalContent {
+            font-size: 140px;
+
+            span {
+                font-size: 45px;
+                line-height: 60px;
+                margin-right: 20px;
+            }
+        }
+
+        .digitalAnimatedBox {
+            .digitalAnimatedTxt {
+                height: 150px;
+                flex: 0 0 70%;
+
+                span {
+                    font-size: 130px;
+                    line-height: 120px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width:899px) {
+    .digitalSection {
+        height: 450px;
+
+        .digitalContent {
+            font-size: 110px;
+
+            span {
+                font-size: 40px;
+                line-height: 50px;
+                margin-right: 15px;
+            }
+        }
+
+        .digitalAnimatedBox {
+            .digitalAnimatedTxt {
+                height: 120px;
+                flex: 0 0 75%;
+
+                span {
+                    font-size: 90px;
+                    line-height: 80px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 599px) {
+    .digitalSection {
+        height: auto;
+
+        .digitalContent {
+            font-size: 90px;
+            flex-wrap: wrap;
+
+            span {
+                font-size: 40px;
+                line-height: 50px;
+                margin-right: 15px;
+
+                br {
+                    display: none;
+                }
+            }
+        }
+
+        .digitalAnimatedBox {
+            flex-wrap: wrap;
+            justify-content: center;
+
+            .digitalAnimatedTxt {
+                height: 100px;
+                flex: 0 0 100%;
+
+                span {
+                    font-size: 70px;
+                    line-height: 60px;
+                }
+            }
+        }
+    }
+}

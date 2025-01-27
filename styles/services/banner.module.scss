@@ -1,0 +1,230 @@
+.bannerSection {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    font-family: "Poppins", sans-serif;
+
+    .subTitle {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 26px;
+        color: #4D77EE;
+        margin-bottom: 10px;
+    }
+
+    .bannerLogos {
+        margin: 0px 0px 20px;
+    }
+
+    .bannerFrom {
+        border-radius: 22px;
+        padding: 40px 30px;
+        background: linear-gradient(0deg, #f32f53, #f32fc2, #4a78ef);
+        margin-left: auto;
+        position: relative;
+        max-width: 450px;
+
+        h4 {
+            color: #fff;
+        }
+
+        p {
+            color: #fff;
+            font-size: 15px;
+            line-height: 22px;
+            font-weight: 400;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .bannerSection {
+        height: 100vh;
+        padding-top: 80px;
+
+        .subTitle {
+            font-size: 18px;
+            line-height: 22px;
+        }
+
+        .bannerLogos {
+            margin: 0px 0px 20px;
+        }
+
+        .bannerFrom {
+            border-radius: 20px;
+            padding: 35px 25px;
+            max-width: 420px;
+            margin: 0px auto;
+
+            p {
+                font-size: 13px;
+                line-height: 19px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .bannerSection {
+        height: 100vh;
+        padding-top: 50px;
+
+        .subTitle {
+            font-size: 16px;
+            line-height: 20px;
+        }
+
+        .bannerLogos {
+            margin: 0px 0px 20px;
+
+            img {
+                height: 45px;
+                width: auto;
+            }
+        }
+
+        .bannerFrom {
+            border-radius: 20px;
+            padding: 25px 25px;
+            max-width: 400px;
+            margin: 0px auto;
+
+            p {
+                font-size: 12px;
+                line-height: 18px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .bannerSection {
+        height: 100vh;
+        padding-top: 50px;
+
+        .subTitle {
+            font-size: 15px;
+            line-height: 20px;
+        }
+
+        .bannerLogos {
+            margin: 0px 0px 20px;
+
+            img {
+                height: 40px;
+                width: auto;
+            }
+        }
+
+        .bannerFrom {
+            border-radius: 15px;
+            padding: 25px 20px;
+            max-width: 350px;
+
+            p {
+                font-size: 12px;
+                line-height: 18px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .bannerSection {
+        height: 100vh;
+        padding-top: 50px;
+
+        .subTitle {
+            font-size: 14px;
+            line-height: 18px;
+        }
+
+        .bannerLogos {
+            margin: 0px 0px 20px;
+
+            img {
+                height: 35px;
+                width: auto;
+            }
+        }
+
+        .bannerFrom {
+            border-radius: 12px;
+            padding: 15px 15px;
+            max-width: 290px;
+            margin: 0px auto;
+
+            p {
+                font-size: 11px;
+                line-height: 16px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width:899px) {
+    .bannerSection {
+        height: 100vh;
+        padding-top: 50px;
+
+        .subTitle {
+            font-size: 14px;
+            line-height: 18px;
+        }
+
+        .bannerLogos {
+            margin: 0px 0px 20px;
+
+            img {
+                height: 30px;
+                width: auto;
+            }
+        }
+
+        .bannerFrom {
+            border-radius: 12px;
+            padding: 15px 15px;
+            max-width: 290px;
+            margin: 0px auto;
+
+            p {
+                font-size: 11px;
+                line-height: 16px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 599px) {
+    .bannerSection {
+        height: 100%;
+        padding: 70px 0px 50px;
+        background-image: none !important;
+
+        .subTitle {
+            font-size: 14px;
+            line-height: 18px;
+        }
+
+        .bannerLogos {
+            margin: 0px 0px 20px;
+
+        }
+
+        .bannerFrom {
+            border-radius: 12px;
+            padding: 20px 20px;
+            max-width: 320px;
+            margin: 20px auto 0px;
+
+            p {
+                font-size: 12px;
+                line-height: 18px;
+            }
+        }
+    }
+}

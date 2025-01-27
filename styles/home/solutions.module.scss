@@ -1,0 +1,263 @@
+.solutionsSection {
+    font-family: "Poppins", sans-serif;
+    .solutoinmainBox {
+        margin-top: 50px;
+
+        .solutoinBox {
+            height: 130px;
+            border: 1px solid #D3D7E3;
+            display: flex;
+            justify-content: space-between;
+            padding: 30px;
+            border-radius: 20px;
+            margin-bottom: 25px;
+            align-items: center;
+            background: #fff;
+            transition: background-position 0.6s ease-in-out;
+            background-size: 100% 0%;
+            background-position: bottom;
+
+
+
+            .title {
+                color: #000;
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 32px;
+                letter-spacing: -0.165px;
+                transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
+            }
+
+            .Link {
+                transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
+                cursor: pointer;
+
+                .btnBox {
+                    svg {
+                        width: 18px;
+                        height: 18px;
+
+                        path {
+                            stroke: #4D77EE;
+                        }
+                    }
+                }
+            }
+
+            &:hover {
+                background: linear-gradient(91deg, #F32F56 -78.17%, #F32FAF 18.3%, #4A78EF 110.98%);
+                background-size: 100% 100%;
+
+                .title {
+                    color: #fff;
+                    transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
+                }
+
+                .Link {
+                    transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
+
+                    .btnBox {
+                        svg {
+                            path {
+                                stroke: #fff;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .solutionsSection {
+        .solutoinmainBox {
+            margin-top: 45px;
+
+            .solutoinBox {
+                height: 130px;
+                padding: 28px;
+                border-radius: 20px;
+                margin-bottom: 25px;
+
+                .title {
+                    font-size: 20px;
+                    line-height: 30px;
+                }
+
+                .Link {
+                    .btnBox {
+                        svg {
+                            width: 17px;
+                            height: 17px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .solutionsSection {
+        .solutoinmainBox {
+            margin-top: 30px;
+
+            .solutoinBox {
+                height: 110px;
+                padding: 25px;
+                border-radius: 20px;
+                margin-bottom: 20px;
+
+                .title {
+                    font-size: 18px;
+                    line-height: 28px;
+                }
+
+                .Link {
+                    .btnBox {
+                        svg {
+                            width: 16px;
+                            height: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .solutionsSection {
+        .solutoinmainBox {
+            margin-top: 30px;
+
+            .solutoinBox {
+                height: 100px;
+                padding: 20px;
+                border-radius: 20px;
+                margin-bottom: 20px;
+
+                .title {
+                    font-size: 17px;
+                    line-height: 27px;
+
+                    br {
+                        display: block;
+                    }
+                }
+
+                .Link {
+
+
+                    .btnBox {
+                        svg {
+                            width: 15px;
+                            height: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .solutionsSection {
+        .solutoinmainBox {
+            margin-top: 30px;
+
+            .solutoinBox {
+                height: 100px;
+                padding: 20px;
+                border-radius: 20px;
+                margin-bottom: 20px;
+
+                .title {
+                    font-size: 16px;
+                    line-height: 26px;
+
+                    br {
+                        display: block;
+                    }
+                }
+
+                .Link {
+                    .btnBox {
+                        svg {
+                            width: 14px;
+                            height: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width:899px) {
+    .solutionsSection {
+        .solutoinmainBox {
+            margin-top: 25px;
+
+            .solutoinBox {
+                height: 100px;
+                padding: 20px;
+                border-radius: 15px;
+                margin-bottom: 20px;
+
+                .title {
+                    font-size: 16px;
+                    line-height: 26px;
+
+                    br {
+                        display: block;
+                    }
+                }
+
+                .Link {
+                    .btnBox {
+                        svg {
+                            width: 14px;
+                            height: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 599px) {
+    .solutionsSection {
+        .solutoinmainBox {
+            margin-top: 20px;
+
+            .solutoinBox {
+                height: 80px;
+                padding: 20px;
+                border-radius: 10px;
+                margin-bottom: 10px;
+
+                .title {
+                    font-size: 16px;
+                    line-height: 26px;
+
+                    br {
+                        display: block;
+                    }
+                }
+
+                .Link {
+                    .btnBox {
+                        svg {
+                            width: 14px;
+                            height: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

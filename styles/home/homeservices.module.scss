@@ -1,0 +1,482 @@
+.homeServices {
+  background: #f7f8f9;
+  font-family: "Poppins", sans-serif;
+
+  .serviceBox {
+    padding: 0px 0px 0px;
+    background: #fff;
+    border-radius: 20px 20px 0px 0px;
+    margin-top: 50px;
+
+    .serviceItem {
+      position: relative;
+      border-bottom: 1px solid rgba(140, 140, 140, 0.3);
+      display: flex;
+      padding: 25px 40px;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      transition: background 0.3s ease-in-out;
+
+      &:first-child {
+        border-radius: 20px 20px 0px 0px;
+      }
+
+      &:before {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.05);
+        z-index: 0;
+        animation: slideIn 0.5s ease-in-out forwards;
+        pointer-events: none;
+      }
+
+      .leftTxt,
+      .rightTxt {
+        position: relative;
+        z-index: 1;
+      }
+
+      .leftTxt {
+        flex: 0 0 80%;
+        transition: opacity 0.3s ease-in-out;
+
+        h4 {
+          margin-bottom: 0px;
+          transition: margin-bottom 0.3s ease-in-out;
+        }
+
+        p {
+          display: none;
+          opacity: 0;
+          transition: opacity 0.3s ease-in-out;
+          margin-bottom: 0px;
+          color: #585858;
+          a {
+            color: #585858;
+            transition: 0.3s linear;
+            font-weight: 500;
+
+            &:hover {
+              transition: 0.3s linear;
+              color: #4d77ee;
+            }
+          }
+        }
+      }
+
+      .rightTxt {
+        flex: 0 0 20%;
+        transition: opacity 0.3s ease-in-out;
+
+        .viewNumber {
+          color: #d9d9d9;
+          text-align: center;
+          font-size: 80px;
+          font-weight: 700;
+          line-height: 80px;
+          letter-spacing: -0.165px;
+          text-align: right;
+        }
+
+        .viewLinks {
+          line-height: 100px;
+          letter-spacing: -0.165px;
+          text-align: right;
+          display: none;
+          opacity: 0;
+          transition: opacity 0.3s ease-in-out;
+
+          a {
+            color: #000;
+            font-size: 20px;
+            font-weight: 500;
+
+            .btnBox {
+              border-radius: 64px;
+              background: linear-gradient(
+                91deg,
+                #f32f56 -78.17%,
+                #f32faf 18.3%,
+                #4a78ef 110.98%
+              );
+              height: 45px;
+              width: 45px;
+              display: inline-flex;
+              justify-content: center;
+              align-items: center;
+              margin-left: 10px;
+
+              svg {
+                width: 16px;
+                height: 16px;
+              }
+            }
+          }
+        }
+      }
+
+      &:hover {
+        background: #fff;
+
+        &:before {
+          animation: slideOut 0.5s ease-in-out forwards;
+        }
+
+        .leftTxt {
+          h4 {
+            margin-bottom: 5px;
+            transition: margin-bottom 0.3s ease-in-out;
+          }
+
+          p {
+            display: block;
+            opacity: 1;
+            transition: opacity 0.3s ease-in-out;
+          }
+        }
+
+        .rightTxt {
+          .viewNumber {
+            display: none;
+            transition: opacity 0.3s ease-in-out;
+          }
+
+          .viewLinks {
+            display: block;
+            opacity: 1;
+            transition: opacity 0.3s ease-in-out;
+          }
+        }
+      }
+    }
+  }
+
+  @keyframes slideOut {
+    0% {
+      top: 0;
+    }
+
+    100% {
+      top: -100%;
+    }
+  }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .homeServices {
+    .serviceBox {
+      border-radius: 20px 20px 0px 0px;
+      margin-top: 45px;
+
+      .serviceItem {
+        padding: 25px 40px;
+
+        &:first-child {
+          border-radius: 20px 20px 0px 0px;
+        }
+
+        .leftTxt {
+          flex: 0 0 80%;
+        }
+
+        .rightTxt {
+          flex: 0 0 20%;
+
+          .viewNumber {
+            font-size: 70px;
+            line-height: 70px;
+          }
+
+          .viewLinks {
+            line-height: 100px;
+
+            a {
+              font-size: 16px;
+
+              .btnBox {
+                height: 45px;
+                width: 45px;
+                margin-left: 10px;
+
+                svg {
+                  width: 16px;
+                  height: 16px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+  .homeServices {
+    .serviceBox {
+      border-radius: 20px 20px 0px 0px;
+      margin-top: 40px;
+
+      .serviceItem {
+        padding: 25px 40px;
+
+        &:first-child {
+          border-radius: 20px 20px 0px 0px;
+        }
+
+        .leftTxt {
+          flex: 0 0 80%;
+        }
+
+        .rightTxt {
+          flex: 0 0 20%;
+
+          .viewNumber {
+            font-size: 60px;
+            line-height: 60px;
+          }
+
+          .viewLinks {
+            line-height: 100px;
+
+            a {
+              font-size: 16px;
+
+              .btnBox {
+                height: 45px;
+                width: 45px;
+                margin-left: 10px;
+
+                svg {
+                  width: 16px;
+                  height: 16px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+  .homeServices {
+    .serviceBox {
+      border-radius: 20px 20px 0px 0px;
+      margin-top: 40px;
+
+      .serviceItem {
+        padding: 25px 40px;
+
+        &:first-child {
+          border-radius: 20px 20px 0px 0px;
+        }
+
+        .leftTxt {
+          flex: 0 0 80%;
+        }
+
+        .rightTxt {
+          flex: 0 0 20%;
+
+          .viewNumber {
+            font-size: 60px;
+            line-height: 60px;
+          }
+
+          .viewLinks {
+            line-height: 100px;
+
+            a {
+              font-size: 16px;
+
+              .btnBox {
+                height: 40px;
+                width: 40px;
+                margin-left: 10px;
+
+                svg {
+                  width: 16px;
+                  height: 16px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .homeServices {
+    .serviceBox {
+      border-radius: 18px 18px 0px 0px;
+      margin-top: 35px;
+
+      .serviceItem {
+        padding: 20px 30px;
+
+        &:first-child {
+          border-radius: 18px 18px 0px 0px;
+        }
+
+        .leftTxt {
+          flex: 0 0 80%;
+        }
+
+        .rightTxt {
+          flex: 0 0 20%;
+
+          .viewNumber {
+            font-size: 50px;
+            line-height: 50px;
+          }
+
+          .viewLinks {
+            line-height: 100px;
+
+            a {
+              font-size: 14px;
+
+              .btnBox {
+                height: 35px;
+                width: 35px;
+                margin-left: 10px;
+
+                svg {
+                  width: 15px;
+                  height: 15px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 899px) {
+  .homeServices {
+    .serviceBox {
+      border-radius: 18px 18px 0px 0px;
+      margin-top: 30px;
+
+      .serviceItem {
+        padding: 20px 30px;
+
+        &:first-child {
+          border-radius: 18px 18px 0px 0px;
+        }
+
+        .leftTxt {
+          flex: 0 0 70%;
+        }
+
+        .rightTxt {
+          flex: 0 0 30%;
+
+          .viewNumber {
+            font-size: 50px;
+            line-height: 50px;
+          }
+
+          .viewLinks {
+            line-height: 100px;
+
+            a {
+              font-size: 14px;
+
+              .btnBox {
+                height: 35px;
+                width: 35px;
+                margin-left: 10px;
+
+                svg {
+                  width: 15px;
+                  height: 15px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 599px) {
+  .homeServices {
+    .serviceBox {
+      border-radius: 15px 15px 0px 0px;
+      margin-top: 20px;
+
+      .serviceItem {
+        padding: 20px 20px;
+
+        &:first-child {
+          border-radius: 15px 15px 0px 0px;
+        }
+
+        .leftTxt {
+          flex: 0 0 70%;
+        }
+
+        .rightTxt {
+          flex: 0 0 30%;
+
+          .viewNumber {
+            font-size: 45px;
+            line-height: 45px;
+          }
+
+          .viewLinks {
+            line-height: 100px;
+
+            a {
+              font-size: 14px;
+
+              .btnBox {
+                height: 30px;
+                width: 30px;
+                margin-left: 10px;
+
+                svg {
+                  width: 15px;
+                  height: 15px;
+                }
+              }
+            }
+          }
+        }
+
+        &:hover {
+          flex-wrap: wrap;
+
+          .leftTxt {
+            flex: 0 0 100%;
+
+            h4 {
+              margin-bottom: 10px;
+            }
+          }
+
+          .rightTxt {
+            flex: 0 0 100%;
+
+            .viewLinks {
+              line-height: normal;
+            }
+          }
+        }
+      }
+    }
+  }
+}

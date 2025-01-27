@@ -1,0 +1,296 @@
+.expertiseSection {
+    font-family: "Poppins", sans-serif;
+    h2 {
+        margin-bottom: 50px;
+    }
+
+    .titSec {
+        padding-right: 30px;
+
+        h4 {
+            color: #fff;
+        }
+    }
+
+
+    .expertisBox {
+        border-bottom: 2px solid #2E2E2E;
+        background: #090909;
+        border-radius: 6px 6px 0px 0px;
+        height: 70px;
+        overflow: hidden;
+        padding: 0px 20px;
+        margin-bottom: 10px;
+
+        .titleBox {
+            height: 70px;
+            font-size: 20px;
+            color: #949494;
+            line-height: normal;
+            display: flex;
+            align-items: center;
+            font-weight: 500;
+            position: relative;
+            padding-right: 30px;
+
+            a, div {
+                position: absolute;
+                right: 0px;
+                height: 20px;
+                width: 20px;
+                display: flex;
+                top: 20px;
+                justify-content: center;
+                align-items: center;
+
+                svg {
+                    height: 18px;
+                    width: 18px;
+                    transform: rotate(0deg);
+
+                    path {
+                        stroke: #FFFFFF;
+                    }
+                }
+            }
+        }
+
+        .txtBox {
+            color: #C8C8C8;
+            margin-bottom: 20px;
+            padding: 0px;
+        }
+
+        &.active {
+            height: auto;
+            overflow: auto;
+            background: #1D1D1D;
+            border-bottom: 2px solid #404040;
+
+            .titleBox {
+                color: #fff;
+
+                a, div {
+                    svg {
+                        transform: rotate(80deg);
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .expertiseSection {
+
+        .titSec {
+            padding-right: 30px;
+        }
+
+
+        .expertisBox {
+            height: 70px;
+            padding: 0px 20px;
+
+            .titleBox {
+                height: 70px;
+                font-size: 18px;
+                padding-right: 25px;
+
+                a, div {
+                    height: 20px;
+                    width: 20px;
+
+                    svg {
+                        height: 18px;
+                        width: 18px;
+                    }
+                }
+            }
+
+            .txtBox {
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .expertiseSection {
+
+        .titSec {
+            padding-right: 25px;
+        }
+
+
+        .expertisBox {
+            height: 60px;
+            padding: 0px 20px;
+
+            .titleBox {
+                height: 60px;
+                font-size: 18px;
+                padding-right: 20px;
+
+                a, div {
+                    height: 18px;
+                    width: 18px;
+
+                    svg {
+                        height: 16px;
+                        width: 16px;
+                    }
+                }
+            }
+
+            .txtBox {
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .expertiseSection {
+
+        .titSec {
+            padding-right: 25px;
+        }
+
+
+        .expertisBox {
+            height: 60px;
+            padding: 0px 20px;
+
+            .titleBox {
+                height: 60px;
+                font-size: 16px;
+                padding-right: 20px;
+
+                a, div {
+                    height: 18px;
+                    width: 18px;
+
+                    svg {
+                        height: 16px;
+                        width: 16px;
+                    }
+                }
+            }
+
+            .txtBox {
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .expertiseSection {
+
+        .titSec {
+            padding-right: 25px;
+        }
+
+        .expertisBox {
+            height: 60px;
+            padding: 0px 20px;
+
+            .titleBox {
+                height: 60px;
+                font-size: 14px;
+                padding-right: 20px;
+
+                a, div {
+                    height: 17px;
+                    width: 17px;
+
+                    svg {
+                        height: 15px;
+                        width: 15px;
+                    }
+                }
+            }
+
+            .txtBox {
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width:899px) {
+    .expertiseSection {
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        .titSec {
+            padding-right: 25px;
+            margin-bottom: 30px;
+        }
+
+        .expertisBox {
+            height: 60px;
+            padding: 0px 20px;
+
+            .titleBox {
+                height: 60px;
+                font-size: 14px;
+                padding-right: 20px;
+
+                a, div {
+                    height: 17px;
+                    width: 17px;
+
+                    svg {
+                        height: 15px;
+                        width: 15px;
+                    }
+                }
+            }
+
+            .txtBox {
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 599px) {
+    .expertiseSection {
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        .titSec {
+            padding-right: 25px;
+            margin-bottom: 30px;
+        }
+
+        .expertisBox {
+            height: 60px;
+            padding: 0px 20px;
+
+            .titleBox {
+                height: 60px;
+                font-size: 14px;
+                padding-right: 20px;
+
+                a, div {
+                    height: 17px;
+                    width: 17px;
+
+                    svg {
+                        height: 15px;
+                        width: 15px;
+                    }
+                }
+            }
+
+            .txtBox {
+                margin-bottom: 20px;
+            }
+        }
+    }
+}

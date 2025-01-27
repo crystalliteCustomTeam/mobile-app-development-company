@@ -1,0 +1,10 @@
+<svg id="VIN_Decoder_APIs" data-name="VIN Decoder APIs" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200.279" height="200" viewBox="0 0 200.279 200">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="-0.146" x2="0.5" y2="0.243" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#77dedd" stop-opacity="0"/>
+      <stop offset="1" stop-color="#77dedd"/>
+    </linearGradient>
+  </defs>
+  <path id="Path_84834" data-name="Path 84834" d="M0,20.8l17.664,8.789v60.7l82.476,41.039,82.476-41.039v-60.7L200.279,20.8v80.354L100.14,150.985,0,101.157Z" transform="translate(0 49.015)" fill-rule="evenodd" fill="url(#linear-gradient)"/>
+  <path id="Path_84835" data-name="Path 84835" d="M100.14,100.14,0,50.07V0L100.14,50.07,200.279,0V50.07Z" transform="translate(0 0)" fill="#27ffa6" fill-rule="evenodd"/>
+</svg>

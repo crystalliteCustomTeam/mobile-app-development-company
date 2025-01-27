@@ -1,0 +1,323 @@
+.appStyles {
+  padding: 80px 0;
+  position: relative;
+  background: #fff;
+  z-index: 99;
+  font-family: "Poppins", sans-serif;
+
+  h2 {
+    margin-bottom: 17px;
+    color: #000000;
+
+    span {
+      color: #f32f53;
+    }
+  }
+
+  p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #000000;
+    a {
+      color: #585858;
+      transition: 0.3s linear;
+      font-weight: 500;
+
+      &:hover {
+        transition: 0.3s linear;
+        color: #4d77ee;
+      }
+    }
+  }
+}
+
+.tabList {
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin: 50px 0;
+
+  .lists {
+    color: #d1d1d1;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #d1d1d1;
+    cursor: pointer;
+  }
+
+  .lists.active {
+    color: #f32f53;
+    border-color: #f32f53;
+  }
+}
+
+.caseRow {
+  background-color: #000000;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.featured {
+  padding: 50px 60px 30px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 85px;
+
+  h3 {
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 0;
+    letter-spacing: 2px;
+  }
+
+  p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    margin: 30px 0 40px;
+  }
+}
+
+.arrows {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  display: flex;
+  align-items: flex-end;
+  gap: 30px;
+}
+
+.btnLeft {
+  background-color: transparent;
+  border: 0;
+
+  img {
+    transform: rotate(180deg);
+  }
+}
+
+.btnRight {
+  background-color: transparent;
+  border: 0;
+}
+
+.blackBtn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  img {
+    width: 40%;
+  }
+
+  a,
+  .linksBtn {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 1px;
+    width: max-content;
+    color: #fff;
+    background: black;
+    transition: all ease-in-out 0.4s;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #f32f53;
+    cursor: pointer;
+  }
+}
+
+.bottomBox {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.counterBox {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+
+.counter {
+  h5 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+
+  p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding: 0;
+    text-align: center;
+  }
+}
+
+.tabsNumber {
+  font-size: 20px;
+  color: #6d6d6d;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.caseImg {
+  position: relative;
+  overflow: hidden;
+  z-index: 10;
+  height: 100%;
+
+  img {
+    z-index: -10;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+@media only screen and (max-width: 1099px) {
+  .appStyles {
+    padding: 50px 0;
+  }
+
+  .featured {
+    padding: 30px;
+    gap: 60px;
+
+    p {
+      font-size: 15px;
+    }
+  }
+
+  .btnLeft {
+    img {
+      width: 100%;
+    }
+  }
+
+  .btnRight {
+    img {
+      width: 100%;
+    }
+  }
+
+  .blackBtn {
+    a {
+      font-size: 14px;
+    }
+  }
+
+  .counterBox {
+    gap: 60px;
+  }
+
+  .counter {
+    h5 {
+      font-size: 20px;
+    }
+
+    p {
+      font-size: 12px;
+    }
+  }
+
+  .tabsNumber {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .appStyles {
+    padding: 40px 0;
+  }
+
+  .tabList {
+    gap: 20px 0;
+    margin: 40px 0;
+    justify-content: center;
+  }
+
+  .featured {
+    p {
+      margin: 30px 0;
+    }
+  }
+
+  .blackBtn {
+    img {
+      width: 50%;
+    }
+  }
+
+  .bottomBox {
+    display: none;
+  }
+
+  .arrows {
+    bottom: 2%;
+    gap: 20px;
+
+    img {
+      width: 25px;
+    }
+  }
+}
+
+@media only screen and (max-width: 567px) {
+  .appStyles {
+    padding: 50px 0;
+  }
+
+  .tabList {
+    display: none;
+  }
+
+  .caseRow {
+    margin: 0 5px;
+  }
+
+  .featured {
+    padding: 20px;
+    gap: 40px;
+
+    p {
+      margin: 20px 0 30px;
+    }
+  }
+
+  .bottomBox {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .counter {
+    p {
+      margin: 0;
+    }
+  }
+
+  .tabsNumber {
+    justify-content: flex-end;
+    width: 100%;
+  }
+
+  .caseImg {
+    img {
+      position: unset !important;
+    }
+  }
+
+  .arrows {
+    bottom: 5%;
+  }
+}

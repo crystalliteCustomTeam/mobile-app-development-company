@@ -1,0 +1,106 @@
+.abtctaSection {
+    height: 450px;
+    font-family: "Poppins", sans-serif;
+
+    h2 {
+        color: #fff;
+
+        .extraFonts {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 96px;
+            line-height: 100px;
+            text-align: center;
+            letter-spacing: -0.165px;
+            color: #FFFFFF;
+            margin-top: 10px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .abtctaSection {
+        height: 450px;
+
+        h2 {
+            .extraFonts {
+                font-size: 90px;
+                line-height: 100px;
+                margin-top: 10px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .abtctaSection {
+        height: 420px;
+
+        h2 {
+            .extraFonts {
+                font-size: 80px;
+                line-height: 90px;
+                margin-top: 10px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .abtctaSection {
+        height: 380px;
+
+        h2 {
+            .extraFonts {
+                font-size: 70px;
+                line-height: 90px;
+                margin-top: 10px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .abtctaSection {
+        height: 350px;
+
+        h2 {
+            .extraFonts {
+                font-size: 65px;
+                line-height: 85px;
+                margin-top: 10px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width:899px) {
+    .abtctaSection {
+        height: 300px;
+
+        h2 {
+            .extraFonts {
+                font-size: 65px;
+                line-height: 85px;
+                margin-top: 10px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 599px) {
+    .abtctaSection {
+        height: 300px;
+
+        h2 {
+            margin-bottom: 20px;
+
+            .extraFonts {
+                font-size: 50px;
+                line-height: 60px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}

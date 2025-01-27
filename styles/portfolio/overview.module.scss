@@ -1,0 +1,222 @@
+.singleProjectContent {
+    font-family: "Poppins", sans-serif;
+    .mockupImg {
+        img {
+            height: auto;
+            width: auto;
+            margin: auto;
+            display: block;
+        }
+    }
+
+    .storeImg {
+        display: flex;
+        gap: 10px;
+        justify-items: flex-start;
+        align-items: center;
+
+        .storeItem {
+            img {
+                height: 50px;
+                width: auto;
+            }
+        }
+    }
+
+    .greenBullet {
+        li {
+            color: #707780;
+            margin-bottom: 10px;
+
+            svg {
+                height: 20px;
+                width: auto;
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .singleProjectContent {
+        .mockupImg {
+            img {
+                height: 600px;
+                width: auto;
+                margin: auto;
+                display: block;
+            }
+        }
+
+        .storeImg {
+            gap: 10px;
+
+            .storeItem {
+                img {
+                    height: 45px;
+                }
+            }
+        }
+
+        .greenBullet {
+            li {
+                svg {
+                    height: 18px;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .singleProjectContent {
+        .mockupImg {
+            img {
+                height: 550px;
+                width: auto;
+                margin: auto;
+                display: block;
+            }
+        }
+
+        .storeImg {
+            gap: 10px;
+
+            .storeItem {
+                img {
+                    height: 40px;
+                }
+            }
+        }
+
+        .greenBullet {
+            li {
+                svg {
+                    height: 18px;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .singleProjectContent {
+        .mockupImg {
+            img {
+                height: 520px;
+                width: auto;
+                margin: auto;
+                display: block;
+            }
+        }
+
+        .storeImg {
+            gap: 10px;
+
+            .storeItem {
+                img {
+                    height: 40px;
+                }
+            }
+        }
+
+        .greenBullet {
+            li {
+                svg {
+                    height: 16px;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .singleProjectContent {
+        .mockupImg {
+            img {
+                height: 450px;
+                width: auto;
+                margin: auto;
+                display: block;
+            }
+        }
+
+        .storeImg {
+            gap: 10px;
+
+            .storeItem {
+                img {
+                    height: 40px;
+                }
+            }
+        }
+
+        .greenBullet {
+            li {
+                svg {
+                    height: 15px;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width:899px) {
+    .singleProjectContent {
+        .storeImg {
+            gap: 10px;
+
+
+            .storeItem {
+                img {
+                    height: 30px;
+                }
+            }
+        }
+
+        .greenBullet {
+            li {
+                svg {
+                    height: 16px;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 599px) {
+    .singleProjectContent {
+        .mockupImg {
+            margin-top: 20px;
+
+            img {
+                height: 320px;
+            }
+        }
+
+        .storeImg {
+            gap: 10px;
+            margin-bottom: 20px;
+
+            .storeItem {
+                img {
+                    height: 30px;
+                }
+            }
+        }
+
+        .greenBullet {
+            li {
+                svg {
+                    height: 15px;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
