@@ -63,8 +63,8 @@ const EcommercePLatform = () => {
                                                 <Image src={RightArrow} alt='right-arrow' className='ms-2' />
                                             </Link> */}
                                         <div className={`d-flex align-items-center pt-2 gap-2 ${styles.btns}`}>
-                                            <a href="tel:8335006007" className={styles.btn1}>
-                                                Call Now: +1 833 500 6007
+                                            <a href="tel:3022173745" className={styles.btn1}>
+                                                Call Now: +1 302 217 3745
                                             </a>
                                             <a href='javascript:window.replaceChat();' className={styles.btn1}>
                                                 Start Live Chat
@@ -80,8 +80,8 @@ const EcommercePLatform = () => {
                                                 <Image src={RightArrow} alt='right-arrow' className='ms-2' />
                                             </Link> */}
                                         <div className={`d-flex align-items-center pt-2 gap-2 ${styles.btns}`}>
-                                            <a href="tel:8335006007" className={styles.btn1}>
-                                                Call Now: +1 833 500 6007
+                                            <a href="tel:3022173745" className={styles.btn1}>
+                                                Call Now: +1 302 217 3745
                                             </a>
                                             <a href='javascript:window.replaceChat();' className={styles.btn1}>
                                                 Start Live Chat
@@ -97,8 +97,8 @@ const EcommercePLatform = () => {
                                                 <Image src={RightArrow} alt='right-arrow' className='ms-2' />
                                             </Link> */}
                                         <div className={`d-flex align-items-center pt-2 gap-2 ${styles.btns}`}>
-                                            <a href="tel:8335006007" className={styles.btn1}>
-                                                Call Now: +1 833 500 6007
+                                            <a href="tel:3022173745" className={styles.btn1}>
+                                                Call Now: +1 302 217 3745
                                             </a>
                                             <a href='javascript:window.replaceChat();' className={styles.btn1}>
                                                 Start Live Chat
@@ -114,8 +114,8 @@ const EcommercePLatform = () => {
                                                 <Image src={RightArrow} alt='right-arrow' className='ms-2' />
                                             </Link> */}
                                         <div className={`d-flex align-items-center pt-2 gap-2 ${styles.btns}`}>
-                                            <a href="tel:8335006007" className={styles.btn1}>
-                                                Call Now: +1 833 500 6007
+                                            <a href="tel:3022173745" className={styles.btn1}>
+                                                Call Now: +1 302 217 3745
                                             </a>
                                             <a href='javascript:window.replaceChat();' className={styles.btn1}>
                                                 Start Live Chat
@@ -131,8 +131,8 @@ const EcommercePLatform = () => {
                                                 <Image src={RightArrow} alt='right-arrow' className='ms-2' />
                                             </Link> */}
                                         <div className={`d-flex align-items-center pt-2 gap-2 ${styles.btns}`}>
-                                            <a href="tel:8335006007" className={styles.btn1}>
-                                                Call Now: +1 833 500 6007
+                                            <a href="tel:3022173745" className={styles.btn1}>
+                                                Call Now: +1 302 217 3745
                                             </a>
                                             <a href='javascript:window.replaceChat();' className={styles.btn1}>
                                                 Start Live Chat
@@ -148,8 +148,8 @@ const EcommercePLatform = () => {
                                                 <Image src={RightArrow} alt='right-arrow' className='ms-2' />
                                             </Link> */}
                                         <div className={`d-flex align-items-center pt-2 gap-2 ${styles.btns}`}>
-                                            <a href="tel:8335006007" className={styles.btn1}>
-                                                Call Now: +1 833 500 6007
+                                            <a href="tel:3022173745" className={styles.btn1}>
+                                                Call Now: +1 302 217 3745
                                             </a>
                                             <a href='javascript:window.replaceChat();' className={styles.btn1}>
                                                 Start Live Chat
@@ -169,8 +169,8 @@ const EcommercePLatform = () => {
                                             <Image src={RightArrow} alt='right-arrow' className='ms-2' />
                                         </Link> */}
                                         <div className={`d-flex align-items-center pt-2 gap-2 ${styles.btns}`}>
-                                            <a href="tel:8335006007" className={styles.btn1}>
-                                                Call Now: +1 833 500 6007
+                                            <a href="tel:3022173745" className={styles.btn1}>
+                                                Call Now: +1 302 217 3745
                                             </a>
                                             <a href='javascript:window.replaceChat();' className={styles.btn1}>
                                                 Start Live Chat
@@ -186,8 +186,8 @@ const EcommercePLatform = () => {
                                             <Image src={RightArrow} alt='right-arrow' className='ms-2' />
                                         </Link> */}
                                         <div className={`d-flex align-items-center pt-2 gap-2 ${styles.btns}`}>
-                                            <a href="tel:8335006007" className={styles.btn1}>
-                                                Call Now: +1 833 500 6007
+                                            <a href="tel:3022173745" className={styles.btn1}>
+                                                Call Now: +1 302 217 3745
                                             </a>
                                             <a href='javascript:window.replaceChat();' className={styles.btn1}>
                                                 Start Live Chat
@@ -203,8 +203,8 @@ const EcommercePLatform = () => {
                                             <Image src={RightArrow} alt='right-arrow' className='ms-2' />
                                         </Link> */}
                                         <div className={`d-flex align-items-center pt-2 gap-2 ${styles.btns}`}>
-                                            <a href="tel:8335006007" className={styles.btn1}>
-                                                Call Now: +1 833 500 6007
+                                            <a href="tel:3022173745" className={styles.btn1}>
+                                                Call Now: +1 302 217 3745
                                             </a>
                                             <a href='javascript:window.replaceChat();' className={styles.btn1}>
                                                 Start Live Chat
@@ -220,8 +220,8 @@ const EcommercePLatform = () => {
                                             <Image src={RightArrow} alt='right-arrow' className='ms-2' />
                                         </Link> */}
                                         <div className={`d-flex align-items-center pt-2 gap-2 ${styles.btns}`}>
-                                            <a href="tel:8335006007" className={styles.btn1}>
-                                                Call Now: +1 833 500 6007
+                                            <a href="tel:3022173745" className={styles.btn1}>
+                                                Call Now: +1 302 217 3745
                                             </a>
                                             <a href='javascript:window.replaceChat();' className={styles.btn1}>
                                                 Start Live Chat
@@ -237,8 +237,8 @@ const EcommercePLatform = () => {
                                             <Image src={RightArrow} alt='right-arrow' className='ms-2' />
                                         </Link> */}
                                         <div className={`d-flex align-items-center pt-2 gap-2 ${styles.btns}`}>
-                                            <a href="tel:8335006007" className={styles.btn1}>
-                                                Call Now: +1 833 500 6007
+                                            <a href="tel:3022173745" className={styles.btn1}>
+                                                Call Now: +1 302 217 3745
                                             </a>
                                             <a href='javascript:window.replaceChat();' className={styles.btn1}>
                                                 Start Live Chat
@@ -254,8 +254,8 @@ const EcommercePLatform = () => {
                                             <Image src={RightArrow} alt='right-arrow' className='ms-2' />
                                         </Link> */}
                                         <div className={`d-flex align-items-center pt-2 gap-2 ${styles.btns}`}>
-                                            <a href="tel:8335006007" className={styles.btn1}>
-                                                Call Now: +1 833 500 6007
+                                            <a href="tel:3022173745" className={styles.btn1}>
+                                                Call Now: +1 302 217 3745
                                             </a>
                                             <a href='javascript:window.replaceChat();' className={styles.btn1}>
                                                 Start Live Chat

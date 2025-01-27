@@ -49,8 +49,8 @@ const HomeLocationlp = () => {
                                                             8 The Green STE 300, Dover DE 19901.
                                                         </p>
                                                         <a className="f-16 f-500 white"
-                                                            href="tel:8335006007">
-                                                            +1 833 500 6007
+                                                            href="tel:3022173745">
+                                                            +1 302 217 3745
                                                         </a><br />
                                                         <a className="f-16 f-500 white"
                                                             href="tel:3123795987">
@@ -135,8 +135,8 @@ const HomeLocationlp = () => {
                                                                 8 The Green STE 300, Dover DE 19901.
                                                             </p>
                                                             <a className="f-16 f-500 white"
-                                                                href="tel:8335006007">
-                                                                +1 833 500 6007
+                                                                href="tel:3022173745">
+                                                                +1 302 217 3745
                                                             </a><br />
                                                             <a className="f-16 f-500 white"
                                                                 href="tel:3123795987">

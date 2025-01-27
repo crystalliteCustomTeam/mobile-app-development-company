@@ -30,7 +30,7 @@ const LocationList = [
     {
         state: "Houston",
         add: "2800 Post Oak Blvd STE 4100, Houston, TX 77056, United States",
-        phone: "+1 833 500 6007",
+        phone: "+1 302 217 3745",
         email: "info@bitswits.co",
         img: Houston.src,
         pin: "https://maps.app.goo.gl/onTtH6csSWJu2gAb7"
@@ -38,7 +38,7 @@ const LocationList = [
     // {
     //     state: "Chicago",
     //     add: "141 W Jackson Blvd STE 300 A, Chicago, IL 60604, United States",
-    //     phone: "+1 833 500 6007",
+    //     phone: "+1 302 217 3745",
     //     email: "info@bitswits.co",
     //     img: Chicago.src,
     //     pin: "https://maps.app.goo.gl/VH6Dkp1J2wtNvLBC6"
@@ -62,7 +62,7 @@ const LocationList = [
     {
         state: "Houston",
         add: "2800 Post Oak Blvd STE 4100, Houston, TX 77056, United States",
-        phone: "+1 833 500 6007",
+        phone: "+1 302 217 3745",
         email: "info@bitswits.co",
         img: Houston.src,
         pin: "https://maps.app.goo.gl/onTtH6csSWJu2gAb7"
@@ -86,7 +86,7 @@ const LocationList = [
     // {
     //     state: "Los Angeles",
     //     add: "1425 Flower St, Los Angeles, CA 90015, United States",
-    //     phone: "+1 833 500 6007",
+    //     phone: "+1 302 217 3745",
     //     email: "info@bitswits.co",
     //     img: LosAngeles.src,
     //     pin: "https://maps.app.goo.gl/ot7knKM1rXFFjpKMA"
@@ -94,7 +94,7 @@ const LocationList = [
     // {
     //     state: "Miami",
     //     add: "601 Brickell Key Dr #700, Miami, FL 33131, United States",
-    //     phone: "+1 833 500 6007",
+    //     phone: "+1 302 217 3745",
     //     email: "info@bitswits.co",
     //     img: Miami.src,
     //     pin: "https://maps.app.goo.gl/sZDSxoSewEBHY1z27"
@@ -102,7 +102,7 @@ const LocationList = [
     // {
     //     state: "New York",
     //     add: "26 Broadway Suite 934, New York, NY 10004, United States",
-    //     phone: "+1 833 500 6007",
+    //     phone: "+1 302 217 3745",
     //     email: "info@bitswits.co",
     //     img: NewYork.src,
     //     pin: "https://maps.app.goo.gl/CPdXRcRzGxGRAuNU8"
@@ -110,7 +110,7 @@ const LocationList = [
     // {
     //     state: "San Francisco",
     //     add: "488 Folsom St, San Francisco, CA 94105, United States",
-    //     phone: "+1 833 500 6007",
+    //     phone: "+1 302 217 3745",
     //     email: "info@bitswits.co",
     //     img: SanFrancisco.src,
     //     pin: "https://maps.app.goo.gl/SzwvHzAKoLgiwWPm7"
@@ -118,7 +118,7 @@ const LocationList = [
     // {
     //     state: "Toronto",
     //     add: "512 Wellington St W, Toronto, ON M5V 1E3, Canada",
-    //     phone: "+1 833 500 6007",
+    //     phone: "+1 302 217 3745",
     //     email: "info@bitswits.co",
     //     img: Toronto.src,
     //     pin: "https://maps.app.goo.gl/dhULjcCFCiZ9fNyQ7"
@@ -126,7 +126,7 @@ const LocationList = [
     // {
     //     state: "Dallas",
     //     add: "1341 W Mockingbird Ln, Dallas, TX 75247, United States",
-    //     phone: "+1 833 500 6007",
+    //     phone: "+1 302 217 3745",
     //     email: "info@bitswits.co",
     //     img: Dallas.src,
     //     pin: "https://maps.app.goo.gl/i76RsaokYHwn47vU9"
@@ -150,7 +150,7 @@ const LocationList = [
     // {
     //     state: "Pierre",
     //     add: "124 W Dakota Ave, Pierre, SD 57501, United States",
-    //     phone: "+1 833 500 6007",
+    //     phone: "+1 302 217 3745",
     //     email: "info@bitswits.co",
     //     img: Pierre.src,
     //     pin: "https://maps.app.goo.gl/YEEuBJKd9GvXuMk18"

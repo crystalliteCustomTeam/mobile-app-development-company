@@ -102,7 +102,7 @@ const GlobalPresence = () => {
                                             <div className={`mb-3 ${styles.phone}`}>
                                                 <a href="tel:;" className='text-black d-flex align-items-center'>
                                                     <Image src={Phone} alt='Bitswits' width={18} height={18} className='img-fluid' />
-                                                    <span className='manrope ms-3'>+1 833 500 6007</span>
+                                                    <span className='manrope ms-3'>+1 302 217 3745</span>
                                                 </a>
                                             </div>
                                             <div className={`mb-3 ${styles.email}`}>
@@ -144,7 +144,7 @@ const GlobalPresence = () => {
                                             <div className={`mb-3 ${styles.phone}`}>
                                                 <a href="tel:;" className='text-black d-flex align-items-center'>
                                                     <Image src={Phone} alt='Bitswits' width={18} height={18} className='img-fluid' />
-                                                    <span className='manrope ms-3'>+1 833 500 6007</span>
+                                                    <span className='manrope ms-3'>+1 302 217 3745</span>
                                                 </a>
                                             </div>
                                             <div className={`mb-3 ${styles.email}`}>
@@ -186,7 +186,7 @@ const GlobalPresence = () => {
                                             <div className={`mb-3 ${styles.phone}`}>
                                                 <a href="tel:;" className='text-black d-flex align-items-center'>
                                                     <Image src={Phone} alt='Bitswits' width={18} height={18} className='img-fluid' />
-                                                    <span className='manrope ms-3'>+1 833 500 6007</span>
+                                                    <span className='manrope ms-3'>+1 302 217 3745</span>
                                                 </a>
                                             </div>
                                             <div className={`mb-3 ${styles.email}`}>
@@ -228,7 +228,7 @@ const GlobalPresence = () => {
                                             <div className={`mb-3 ${styles.phone}`}>
                                                 <a href="tel:;" className='text-black d-flex align-items-center'>
                                                     <Image src={Phone} alt='Bitswits' width={18} height={18} className='img-fluid' />
-                                                    <span className='manrope ms-3'>+1 833 500 6007</span>
+                                                    <span className='manrope ms-3'>+1 302 217 3745</span>
                                                 </a>
                                             </div>
                                             <div className={`mb-3 ${styles.email}`}>
@@ -270,7 +270,7 @@ const GlobalPresence = () => {
                                             <div className={`mb-3 ${styles.phone}`}>
                                                 <a href="tel:;" className='text-black d-flex align-items-center'>
                                                     <Image src={Phone} alt='Bitswits' width={18} height={18} className='img-fluid' />
-                                                    <span className='manrope ms-3'>+1 833 500 6007</span>
+                                                    <span className='manrope ms-3'>+1 302 217 3745</span>
                                                 </a>
                                             </div>
                                             <div className={`mb-3 ${styles.email}`}>

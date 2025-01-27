@@ -49,7 +49,7 @@ const Justbuilditlpdubai = (props) => {
                             <h2 className={styles.title}><span>{props.title1}</span> {props.title}</h2>
                             <p className={styles.para}>{props.para}</p>
                             <div className={styles.pont}>
-                                <Link href="tel:8335006007" className={`blueShade ${styles.about1}`}>
+                                <Link href="tel:3022173745" className={`blueShade ${styles.about1}`}>
                                     Call Now
                                 </Link>
                                 <Link href='javascript:window.replaceChat();' className={`pink ${styles.about}`}>

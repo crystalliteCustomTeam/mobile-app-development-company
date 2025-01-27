@@ -16,7 +16,7 @@ const HireBanner = (props) => {
                                 <h1 className='font55home'>{props.title}</h1>
                                 <p>{props.para}</p>
                                 <div className={styles.btns}>
-                                    <a className={`${styles.btn} ${styles.btn1}`} href="tel:8335006007">Book A Call</a>
+                                    <a className={`${styles.btn} ${styles.btn1}`} href="tel:3022173745">Book A Call</a>
                                     <a className={`${styles.btn} ${styles.btn2}`} href='javascript:window.replaceChat();'>Live Chat</a>
                                 </div>
                                 <Image quality={90} src={props.banImg} alt="BitsWits" className={`img-fluid`} />

@@ -685,8 +685,8 @@ const Header = () => {
                                                             <BsFillTelephoneFill size={25} className={styles.email} />
                                                         </div>
                                                         <div>
-                                                            <a className='font15 font-medium white fontf' href="tel:8335006007" onClick={handleMenu}>
-                                                                +1 833 500 6007
+                                                            <a className='font15 font-medium white fontf' href="tel:3022173745" onClick={handleMenu}>
+                                                                +1 302 217 3745
                                                             </a>
                                                         </div>
                                                     </div>
@@ -699,7 +699,7 @@ const Header = () => {
                         </li>
 
                         <li className={`${styles.navList} ${styles.inqBtn}`} >
-                            <a href='tel:8335006007' className={styles.befLink}> <Image src={call} alt='BitsWits' className='img-fluid' /> +1 833 500 6007</a>
+                            <a href='tel:3022173745' className={styles.befLink}> <Image src={call} alt='BitsWits' className='img-fluid' /> +1 302 217 3745</a>
                         </li>
                         <li>
                             <div className={styles.mbInq}>
@@ -729,8 +729,8 @@ const Header = () => {
                                             <BsFillTelephoneFill size={25} className={styles.email} />
                                         </div>
                                         <div>
-                                            <a className='font15 font-medium white fontf' href="tel:8335006007" onClick={handleMenu}>
-                                                +1 833 500 6007
+                                            <a className='font15 font-medium white fontf' href="tel:3022173745" onClick={handleMenu}>
+                                                +1 302 217 3745
                                             </a>
                                         </div>
                                     </div>

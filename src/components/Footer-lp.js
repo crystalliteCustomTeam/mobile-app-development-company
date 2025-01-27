@@ -170,13 +170,13 @@ const Footerlp = () => {
                                         </a>
                                     </li>
                                     <li className="fw-bold">
-                                        <a href="tel:8335006007">
+                                        <a href="tel:3022173745">
                                             <Image alt="BitsWits" className='img-fluid'
                                                 src={call}
 
                                                 loading="lazy"
                                             />
-                                            <span className="number">+1 833 500 6007</span>
+                                            <span className="number">+1 302 217 3745</span>
                                         </a>
                                     </li>
                                 </ul>

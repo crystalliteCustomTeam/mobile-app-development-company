@@ -218,8 +218,8 @@ const NewAddress = (props) => {
                                                 </div>
                                                 <div className={styles.subInner}>
                                                     <p className='font12 font-bold fontf mb-0'>USA</p>
-                                                    <a href="tel:8335006007" className='font12 font-regular fontf white texdocration'>
-                                                        +1 833 500 6007
+                                                    <a href="tel:3022173745" className='font12 font-regular fontf white texdocration'>
+                                                        +1 302 217 3745
                                                     </a>
                                                 </div>
                                             </Col>

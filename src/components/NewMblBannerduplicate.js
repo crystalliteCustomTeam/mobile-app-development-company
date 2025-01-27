@@ -24,7 +24,7 @@ const NewHomeBanner = () => {
                             </h3>
                             <p className={`${styles.just} text-center f-13 font-medium mb-4 mb-lg-0`}>We deliver great results, on time and on budget. Contact us to start talking about your project today!</p>
                             <div className={styles.pont}>
-                                <a className={styles.about} href="tel:8335006007">LET'S CONNECT</a>
+                                <a className={styles.about} href="tel:3022173745">LET'S CONNECT</a>
                             </div>
                             <div className={styles.secImage}>
                                 <Image quality={75} alt='BitsWits' src={BannerImage} className={`img-fluid`} />

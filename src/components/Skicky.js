@@ -198,7 +198,7 @@ const Skicky = () => {
                         <span className="icon">
                             <Image width="30" height="30" alt="bitswits" className="img-fluid" src={call} loading="lazy" />
                             <div className="txtBody">
-                                <a href="tel:8335006007">(833) 500-6007</a>
+                                <a href="tel:3022173745">(833) 500-6007</a>
                             </div>
                         </span>
                     </div>

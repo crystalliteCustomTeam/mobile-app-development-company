@@ -24,7 +24,7 @@ const Location = () => {
                                     <div className={styles.number}>
                                         <FaPhoneAlt className='me-2' size={12} />
                                         <a href="tel:1 833 500 6007">
-                                            +1 833 500 6007
+                                            +1 302 217 3745
                                         </a>
                                     </div>
                                 </div>
@@ -35,7 +35,7 @@ const Location = () => {
                                     <div className={styles.number}>
                                         <FaPhoneAlt className='me-2' size={12} />
                                         <a href="tel:1 833 500 6007">
-                                            +1 833 500 6007
+                                            +1 302 217 3745
                                         </a>
                                     </div>
                                 </div>
@@ -46,7 +46,7 @@ const Location = () => {
                                     <div className={styles.number}>
                                         <FaPhoneAlt className='me-2' size={12} />
                                         <a href="tel:1 833 500 6007">
-                                            +1 833 500 6007
+                                            +1 302 217 3745
                                         </a>
                                     </div>
                                 </div>
@@ -57,7 +57,7 @@ const Location = () => {
                                     <div className={styles.number}>
                                         <FaPhoneAlt className='me-2' size={12} />
                                         <a href="tel:1 833 500 6007">
-                                            +1 833 500 6007
+                                            +1 302 217 3745
                                         </a>
                                     </div>
                                 </div>

@@ -40,7 +40,7 @@ const Justbuildit = (props) => {
                             {props.para}
 
                             <div className={styles.pont}>
-                                <a className={`blueShade ${styles.about1}`} href="tel:8335006007">Book A Call</a>
+                                <a className={`blueShade ${styles.about1}`} href="tel:3022173745">Book A Call</a>
                                 <a className={`pink ${styles.about}`} href='javascript:window.replaceChat();'>Live Chat</a>
                             </div>
                         </Col>

@@ -133,7 +133,7 @@ const HireBenifitsMbl = () => {
                                 <h2>Benefits</h2>
                                 <p>To Hire Mobile Application Developers</p>
                                 <div className={styles.btns}>
-                                    <a className={`${styles.btn} ${styles.btn1}`} href="tel:8335006007">Book A Call</a>
+                                    <a className={`${styles.btn} ${styles.btn1}`} href="tel:3022173745">Book A Call</a>
                                     <a className={`${styles.btn} ${styles.btn2}`} href='javascript:window.replaceChat();'>Live Chat</a>
                                 </div>
                             </div>
@@ -171,7 +171,7 @@ const HireBenifitsMbl = () => {
                                 <h2>Benefits</h2>
                                 <p>To Hire Mobile Application Developers</p>
                                 <div className={styles.btns}>
-                                    <a className={`${styles.btn} ${styles.btn1}`} href="tel:8335006007">Book A Call</a>
+                                    <a className={`${styles.btn} ${styles.btn1}`} href="tel:3022173745">Book A Call</a>
                                     <a className={`${styles.btn} ${styles.btn2}`} href='javascript:window.replaceChat();'>Live Chat</a>
                                 </div>
                             </div>

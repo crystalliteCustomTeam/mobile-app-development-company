@@ -68,7 +68,7 @@ const NewMobileHeader = () => {
                         <li className='d-flex align-items-center justify-content-center me-2'>
                             <a className={`${styles.post} ${styles.quote} blackPulse`} href="tel:1 833 500 6007">
                                 <FaPhoneAlt className='me-2' />
-                                +1 833 500 6007
+                                +1 302 217 3745
                             </a>
                         </li>
                     </ul>

@@ -31,7 +31,7 @@ const Footer = () => {
                                 </li>
                                 <li className={style.IconText}>
                                     <Image quality={75} src={usa} alt="Blockchain" className="img-fluid" />
-                                    <p><a className="d-block mb-1" href="tel:3123795987"> +1 833 500 6007</a>
+                                    <p><a className="d-block mb-1" href="tel:3123795987"> +1 302 217 3745</a>
                                         <a className="d-block" href="tel:3123795987">+1 312 379 5987</a>
                                     </p>
                                 </li>

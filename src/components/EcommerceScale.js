@@ -29,8 +29,8 @@ const EcommerceScale = () => {
                             <h2 className='font36 font-bold text-center text-black mb-3 text-white'>Adapt To Constantly Evolving Digital Trends with A Complimentary 30-Minute App Strategy Session.Claim Your Spot Now & Talk to An App Expert!</h2>
 
                             <div className={`d-flex align-items-center justify-content-center pt-4 gap-2 ${styles.btns}`}>
-                                <a href="tel:8335006007" className="font14">
-                                    Call Now: +1 833 500 6007
+                                <a href="tel:3022173745" className="font14">
+                                    Call Now: +1 302 217 3745
                                 </a>
                                 <a href='javascript:window.replaceChat();' className="font14 font-medium">
                                     Start Live Chat

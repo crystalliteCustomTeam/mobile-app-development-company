@@ -202,7 +202,7 @@ const ContactBox = () => {
                                                     <p className="font13 font-medium white mb-1 text-center">
                                                         8 The Green STE 300, Dover DE 19901.
                                                     </p>
-                                                    <a className='font14 white text-center mb-3' href='tel:8335006007'>+1 833 500 6007</a>
+                                                    <a className='font14 white text-center mb-3' href='tel:3022173745'>+1 302 217 3745</a>
                                                     <div className={`${styles.locImg} ${styles.asiaImg}`}>
                                                         <Image src={delaware} alt='Location' className='img-fluid mb-4' />
                                                     </div>

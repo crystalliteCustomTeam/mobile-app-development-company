@@ -45,7 +45,7 @@ const Justbuildit = (props) => {
               </h3>
 
               <div className={`${styles.pont} mb-4 mb-md-0`}>
-                <a className={styles.about} href="tel:8335006007">
+                <a className={styles.about} href="tel:3022173745">
                   LET'S CONNECT
                 </a>
               </div>

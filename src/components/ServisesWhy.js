@@ -79,7 +79,7 @@ const ServisesWhy = (props) => {
                         </Col>
                         <Col lg={10} className='mx-auto mt-2 mt-lg-5'>
                             <div className={styles.sec_btn}>
-                                <a href="tel:8335006007" className={`${styles.btn2} ${styles.btn} font-extrabold`}>
+                                <a href="tel:3022173745" className={`${styles.btn2} ${styles.btn} font-extrabold`}>
                                     LET'S CONNECT
                                 </a>
                             </div>

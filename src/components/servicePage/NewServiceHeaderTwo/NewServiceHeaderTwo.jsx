@@ -1064,7 +1064,7 @@ const NewServiceHeaderTwo = () => {
                                                 </div>
                                                 <div className={styles.slaes}>
                                                     <p className="pb-0 mb-0">
-                                                        <a href="tel:8335006007">
+                                                        <a href="tel:3022173745">
                                                             <Image
                                                                 alt="bitswits"
                                                                 className="img-fluid"
@@ -1524,7 +1524,7 @@ const NewServiceHeaderTwo = () => {
                                                 </div>
                                                 <div className={styles.slaes}>
                                                     <p className="pb-0 mb-0">
-                                                        <a href="tel:8335006007">
+                                                        <a href="tel:3022173745">
                                                             <Image
                                                                 alt="bitswits"
                                                                 className="img-fluid"

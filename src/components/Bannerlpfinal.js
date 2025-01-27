@@ -172,7 +172,7 @@ const Bannerlpfinal = (props) => {
                                 <h2 className='white font50 f-700'>We Don't Just <span className={styles.corpost}>Create Apps</span>, <br /> We <span className={styles.corpost}>Create Experiences</span> </h2>
                                 <p className='font16 white fw400 mt-4 mb-lg-5'>Transform your idea into a remarkable app with Bitswits Mobile app development services. <br /> Our creative and efficient development process caters to both native and cross-platform needs, <br /> ensuring your app makes a lasting impact.</p>
                                 <div className={styles.careatapp}>
-                                    <a href='tel:8335006007' className={styles.delivernow}>CALL NOW</a>
+                                    <a href='tel:3022173745' className={styles.delivernow}>CALL NOW</a>
                                     <a href='javascript:window.replaceChat();' className={styles.deliver}>LIVE CHAT</a>
                                 </div>
                             </div>

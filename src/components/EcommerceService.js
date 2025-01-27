@@ -60,8 +60,8 @@ const EcommerceService = () => {
                             <p className='text-white font15'>BitsWits is trusted for shopping app design, development, and <br /> integration on ecommerce platforms. Our team transforms your <br /> visionary designs into flawless, standout apps. We go beyond the <br /> ordinary, adding various functionalities that make your app stand out <br /> among competition and provide an enjoyable user experience to your <br /> customers.</p>
                             <p className='text-white font15'>Ready to dominate the app store with our eCommerce app<br /> development? Let's Connect and Make It Happen!</p>
                             <div className={`d-flex align-items-center pt-2 gap-2 pb-4 ${styles.btns}`}>
-                                <a href="tel:8335006007" className="px-4">
-                                    Call Now: +1 833 500 6007
+                                <a href="tel:3022173745" className="px-4">
+                                    Call Now: +1 302 217 3745
                                 </a>
                                 <a href='javascript:window.replaceChat();' className="px-4">
                                     Start Live Chat
