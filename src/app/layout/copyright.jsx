@@ -16,7 +16,7 @@ const CopyRight = () => {
                                 <Image src={DMCA.src} alt="Bitswits Services" width={120} height={60} />
                             </div>
                             <div className={styles.copyrightTxt}>
-                                <p>Copyright © 2024 BitsWits. <br /> Brand Of Infiniti Media Incorporation Company</p>
+                                <p>Copyright © 2025 <br />Sub Brand Of Bitswits.co</p>
                             </div>
                         </div>
                     </Col>

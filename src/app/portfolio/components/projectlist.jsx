@@ -54,7 +54,7 @@ const data = [
         name: "HomePro",
         logo: Logo05.src,
         BgImg: Case05.src,
-        link: "/case-studies/home-pro-connect"
+        link: " "
 
     },
     {
