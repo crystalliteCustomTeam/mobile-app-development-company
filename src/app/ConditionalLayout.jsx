@@ -31,7 +31,7 @@ const styleChange = [
   // "/social-media-app-development-company",
   // "/logistics-software-development",
   // "/fintech-app-development",
-  "/portfolio",
+  // "/portfolio",
   "/case-studies/singles-up",
   "/case-studies/vifty",
   "/case-studies/soul-scribe",
@@ -40,7 +40,7 @@ const styleChange = [
   "/contact-us",
 ]
 const isLightHeader = [
-  "/portfolio",
+  // "/portfolio",
   // "/mobile-game-development-company",
   // "/logistics-software-development",
   // "/healthcare-app-development-services",
@@ -61,6 +61,7 @@ const isLightHeader = [
 ]
 const isDarkHeader = [
   "/",
+  "/portfolio",
   "/about-us",
   // "/flutter-app-development",
   // "/android-app-development-company",

@@ -1,4 +1,4 @@
 User-agent: *
-Disallow: 
+Disallow: /
 
-Sitemap: https://www.bitswits.co/sitemap.xml
+Sitemap: https://www.mobileappdevelopmentcompany.us/sitemap.xml
