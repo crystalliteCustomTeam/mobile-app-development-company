@@ -18,7 +18,7 @@ const Banner = ({ data }) => {
                             <Image src={data.BannerLogos} alt="Bitswits Services" width={528} height={50} />
                         </div>
                         <div className={styles.btnFlex}>
-                            <ButtonCommon txt="Free Consultation" />
+                            <ButtonCommon txt="Connect With Us" />
                         </div>
                     </Col>
                     <Col lg={6} md={6} className="my-auto">

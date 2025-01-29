@@ -71,8 +71,8 @@ const Achieved = () => {
             <Container>
                 <Row>
                     <Col lg={6} md={12}>
-                        <h2>Awards That Validate Our Impactful App Solutions</h2>
-                        <p>We have earned awards and recognition for our quality-first approach, successfully delivering advanced, complex projects with a talented team of developers, designers, and project managers.</p>
+                        <h2>Trusted by Industry Leaders for High-Quality Mobile Applications</h2>
+                        <p>Our dedication to building reliable and innovative mobile applications has earned us industry awards and recognition. We focus on delivering tailored solutions that help businesses achieve their goals efficiently.</p>
                     </Col>
                 </Row>
                 <Row>

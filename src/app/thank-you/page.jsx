@@ -13,16 +13,16 @@ const Page = () => {
     return (
         <>
             {/* Google tag (gtag.js) */}
-            <Script strategy="lazyOnload" src="https://www.googletagmanager.com/gtag/js?id=AW-11114809734"></Script>
+            {/* <Script strategy="lazyOnload" src="https://www.googletagmanager.com/gtag/js?id=AW-11114809734"></Script> */}
             {/* ===== */}
-            <GoogleAnalytics gaId="AW-11114809734" />
+            {/* <GoogleAnalytics gaId="AW-11114809734" /> */}
             {/* Event snippet for Website lead conversion page */}
-            <Script
+            {/* <Script
                 id="gtag-conversion"
                 dangerouslySetInnerHTML={{
                     __html: `gtag('event', 'conversion', {'send_to': 'AW-11114809734/O9snCOO5m5EYEIaT-rMp'});`,
                 }}
-            />
+            /> */}
 
             <section className={`${styles.bannerThanks} `}>
                 <Container className="h-100">
