@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <!-- Homepage -->
+    <url>
+        <loc>https://mobileappdevelopmentcompany.us/</loc>
+        <lastmod>2025-02-17</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- Main Pages -->
+    <url>
+        <loc>https://mobileappdevelopmentcompany.us/about</loc>
+        <lastmod>2025-02-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://mobileappdevelopmentcompany.us/contact</loc>
+        <lastmod>2025-02-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <!-- Blog Section -->
+    <url>
+        <loc>https://mobileappdevelopmentcompany.us/blog</loc>
+        <lastmod>2025-02-17</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+</urlset>
