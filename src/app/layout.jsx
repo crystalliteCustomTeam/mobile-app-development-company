@@ -1,7 +1,6 @@
-import dynamic from "next/dynamic"
 import "bootstrap/dist/css/bootstrap.min.css"
 import ConditionalLayout from "@/src/app/ConditionalLayout"
-const Scripts = dynamic(() => import("@/src/app/Scripts"))
+import { Scripts } from "./Scripts"
 
 //===== Meta Data =====
 export const metadata = {
@@ -30,9 +29,7 @@ export const metadata = {
     other: {
       "google-site-verification": [
         "YmkRUIVaay4g7dLHTx9GqUxWZkAg8A_wRiO5LyevdOA",
-      ],
-      "dmca-site-verification": ["Z05ObW9WMWo4VTlQL0VpdEJuTzU0UT090"],
-      "msvalidate.01": ["A21040CE08685574268E4A1F724E0FFD"],
+      ]
     },
   },
   //===== No-Index =====
